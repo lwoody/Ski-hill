@@ -3,9 +3,9 @@
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
 
-        <item name="android:icon">@drawable/ic_terrain_black_24dp</item>
-        <item name="logo">@drawable/ic_terrain_black_24dp</item>
-        <item name="displayOptions">useLogo|showHome|showTitle</item>
+        <!--<item name="android:icon">@drawable/ic</item>-->
+        <!--<item name="logo">@drawable/ic_terrain_black_24dp</item>-->
+        <!--<item name="displayOptions">useLogo|showHome|showTitle</item>-->
 
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>

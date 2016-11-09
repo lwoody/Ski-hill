@@ -19,8 +19,24 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".EachSkihill"
-            android:label="@string/title_activity_each_skihill"
+            android:name=".SkihillActivity"
+            android:label="@string/title_activity_skihill"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".HotelActivity"
+            android:label="@string/title_activity_hotel"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LocationActivity"
+            android:label="@string/title_activity_location"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LiftActivity"
+            android:label="@string/title_activity_lift"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".OverviewActivity"
+            android:label="@string/title_activity_overview"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

@@ -17,11 +17,17 @@ public class MainActivity extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
+//        shows the icon next to title
+        getSupportActionBar().setIcon(R.mipmap.ic_launcher);
+
+
+
+
 
     }
 
     public void onClickLakeLouise(View v){
-        Intent intent = new Intent(MainActivity.this, EachSkihill.class);
+        Intent intent = new Intent(MainActivity.this, SkihillActivity.class);
         intent.putExtra("title","Lake Louise");
 
         startActivity(intent);
@@ -29,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onClickNorquay(View v){
-        Intent intent = new Intent(MainActivity.this, EachSkihill.class);
+        Intent intent = new Intent(MainActivity.this, SkihillActivity.class);
         intent.putExtra("title","Norquay");
 
         startActivity(intent);
@@ -37,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onClickSunshine(View v){
-        Intent intent = new Intent(MainActivity.this, EachSkihill.class);
+        Intent intent = new Intent(MainActivity.this, SkihillActivity.class);
         intent.putExtra("title","Sunshine Village");
 
         startActivity(intent);
@@ -45,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onClickNakiska(View v){
-        Intent intent = new Intent(MainActivity.this, EachSkihill.class);
+        Intent intent = new Intent(MainActivity.this, SkihillActivity.class);
         intent.putExtra("title","Nakiska");
 
         startActivity(intent);
@@ -53,7 +59,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onClickMarmot(View v){
-        Intent intent = new Intent(MainActivity.this, EachSkihill.class);
+        Intent intent = new Intent(MainActivity.this, SkihillActivity.class);
         intent.putExtra("title","Marmot");
 
         startActivity(intent);
