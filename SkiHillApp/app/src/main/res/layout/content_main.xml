@@ -13,8 +13,69 @@
     tools:context="com.example.lee.skihillapp.MainActivity"
     tools:showIn="@layout/activity_main">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="LEE" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:weightSum="1">
+
+            <Button
+                android:text="Lake Louise"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/button8"
+                android:layout_weight="0.52"
+                android:elevation="0dp"
+                style="@style/Widget.AppCompat.Button"
+                android:onClick="onClickLakeLouise" />
+
+            <Button
+                android:text="Nakiska"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/button9"
+                android:layout_weight="0.48"
+                android:onClick="onClickNakiska" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:weightSum="1">
+
+            <Button
+                android:text="Norquay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/button10"
+                android:layout_weight="0.27"
+                android:onClick="onClickNorquay" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/button11"
+                android:layout_weight="0.49"
+                android:onClick="onClickSunshine"
+                android:text="Sunshine\nVillage" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/button16"
+                android:layout_weight="0.24"
+                android:text="Marmot\n Basin"
+                android:onClick="onClickMarmot" />
+
+        </LinearLayout>
+    </LinearLayout>
 </RelativeLayout>

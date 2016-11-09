@@ -8,10 +8,6 @@
         android:icon="@drawable/ic_translate_black_24dp"
         android:title="Translate"
         app:showAsAction="always"/>
-    <item
-        android:id="@+id/action_phoneCall"
-        android:icon="@drawable/ic_call_end_black_24dp"
-        android:title="PhoneCall"
-        app:showAsAction="always"/>
+
 
 </menu>

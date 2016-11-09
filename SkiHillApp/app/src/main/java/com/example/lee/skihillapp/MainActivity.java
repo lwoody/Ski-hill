@@ -1,10 +1,12 @@
 package com.example.lee.skihillapp;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -17,6 +19,48 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
+
+    public void onClickLakeLouise(View v){
+        Intent intent = new Intent(MainActivity.this, EachSkihill.class);
+        intent.putExtra("title","Lake Louise");
+
+        startActivity(intent);
+
+    }
+
+    public void onClickNorquay(View v){
+        Intent intent = new Intent(MainActivity.this, EachSkihill.class);
+        intent.putExtra("title","Norquay");
+
+        startActivity(intent);
+
+    }
+
+    public void onClickSunshine(View v){
+        Intent intent = new Intent(MainActivity.this, EachSkihill.class);
+        intent.putExtra("title","Sunshine Village");
+
+        startActivity(intent);
+
+    }
+
+    public void onClickNakiska(View v){
+        Intent intent = new Intent(MainActivity.this, EachSkihill.class);
+        intent.putExtra("title","Nakiska");
+
+        startActivity(intent);
+
+    }
+
+    public void onClickMarmot(View v){
+        Intent intent = new Intent(MainActivity.this, EachSkihill.class);
+        intent.putExtra("title","Marmot");
+
+        startActivity(intent);
+
+    }
+
+
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
