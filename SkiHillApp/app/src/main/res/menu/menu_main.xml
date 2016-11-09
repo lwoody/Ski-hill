@@ -2,9 +2,16 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="com.example.lee.skihillapp.MainActivity">
+
     <item
-        android:id="@+id/action_settings"
-        android:orderInCategory="100"
-        android:title="@string/action_settings"
-        app:showAsAction="never" />
+        android:id="@+id/action_translate"
+        android:icon="@drawable/ic_translate_black_24dp"
+        android:title="Translate"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/action_phoneCall"
+        android:icon="@drawable/ic_call_end_black_24dp"
+        android:title="PhoneCall"
+        app:showAsAction="always"/>
+
 </menu>
