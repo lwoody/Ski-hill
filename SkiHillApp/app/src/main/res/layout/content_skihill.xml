@@ -91,7 +91,7 @@
                 tools:text="OPEN LIFTS"
                 android:layout_row="0"
                 android:layout_column="0"
-                android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+                android:textSize="30sp" />
 
             <TextView
                 android:text="5/7"
@@ -99,8 +99,7 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/lift_counter"
                 android:layout_row="1"
-                android:layout_column="0"
-                android:textAppearance="@style/TextAppearance.AppCompat" />
+                android:layout_column="0" />
 
             <TextView
                 android:text="WEATHER"
@@ -109,8 +108,8 @@
                 android:id="@+id/weather"
                 android:layout_row="2"
                 android:layout_column="0"
-                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
-                android:layout_marginTop="20dp" />
+                android:layout_marginTop="20dp"
+                android:textSize="30sp" />
 
             <TextView
                 android:text="5 C"
@@ -118,8 +117,7 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/temperature"
                 android:layout_row="3"
-                android:layout_column="0"
-                android:textAppearance="@style/TextAppearance.AppCompat" />
+                android:layout_column="0" />
 
             <TextView
                 android:text="1 KPH W"
@@ -127,8 +125,7 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/wind_speed"
                 android:layout_row="4"
-                android:layout_column="0"
-                android:textAppearance="@style/TextAppearance.AppCompat" />
+                android:layout_column="0" />
 
             <TextView
                 android:text="SNOW CONDITIONS"
@@ -137,12 +134,12 @@
                 android:id="@+id/snow_conditions"
                 android:layout_row="0"
                 android:layout_column="1"
-                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
                 android:layout_weight="1"
                 android:layout_centerVertical="true"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true"
-                android:layout_marginTop="20dp" />
+                android:layout_marginTop="20dp"
+                android:textSize="30sp" />
 
             <RatingBar
                 android:layout_width="wrap_content"
@@ -167,13 +164,6 @@
                     android:orientation="horizontal"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
-
-                    <ImageView
-                        android:layout_width="50dp"
-                        android:layout_height="50dp"
-                        app:srcCompat="@drawable/ic_terrain_black_24dp"
-                        android:id="@+id/imageView3"
-                        android:layout_weight="0.81" />
 
                     <TextView
                         android:text="REVIEW 1"
@@ -203,13 +193,6 @@
                     android:orientation="horizontal"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
-
-                    <ImageView
-                        android:layout_width="50dp"
-                        android:layout_height="50dp"
-                        app:srcCompat="@drawable/ic_terrain_black_24dp"
-                        android:id="@+id/imageView2"
-                        android:layout_weight="1" />
 
                     <TextView
                         android:text="REVIEW 2"
