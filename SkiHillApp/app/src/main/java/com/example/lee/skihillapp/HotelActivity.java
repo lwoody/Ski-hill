@@ -35,13 +35,22 @@ public class HotelActivity extends AppCompatActivity {
 
         // add first item
         adapter.addItem(ContextCompat.getDrawable(this, R.drawable.ic_home_black_24dp),
-                "Hotel1", "price / distance / link") ;
+                "Hotel1", "\nprice / distance \n\nlink") ;
         // add second item
-        adapter.addItem(ContextCompat.getDrawable(this, R.drawable.ic_hotel_black_24dp),
-                "Hotel2", "\nprice / distance / link") ;
-        // add third item
         adapter.addItem(ContextCompat.getDrawable(this, R.drawable.ic_location_city_black_24dp),
-                "Hotel3", "price / distance / link") ;
+                "Hotel3",  "\nprice / distance \n\nlink") ;
+        // add third item
+        adapter.addItem(ContextCompat.getDrawable(this, R.drawable.ic_home_black_24dp),
+                "Hotel1", "\nprice / distance \n\nlink") ;
+
+        adapter.addItem(ContextCompat.getDrawable(this, R.drawable.ic_location_city_black_24dp),
+                "Hotel3",  "\nprice / distance \n\nlink") ;
+
+        adapter.addItem(ContextCompat.getDrawable(this, R.drawable.ic_home_black_24dp),
+                "Hotel1", "\nprice / distance \n\nlink") ;
+        // add second item
+        adapter.addItem(ContextCompat.getDrawable(this, R.drawable.ic_location_city_black_24dp),
+                "Hotel3",  "\nprice / distance \n\nlink") ;
 
 
     }
