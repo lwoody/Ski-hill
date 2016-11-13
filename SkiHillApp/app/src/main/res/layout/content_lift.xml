@@ -13,216 +13,253 @@
     tools:context="com.example.lee.skihillapp.LiftActivity"
     tools:showIn="@layout/activity_lift">
 
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="34dp"
+        android:layout_marginEnd="34dp"
+        android:layout_marginBottom="34dp"
+        android:id="@+id/textView13" />
 
-        <LinearLayout
-            android:orientation="vertical"
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:text="LIFT TICKETS"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true">
+            android:id="@+id/lift_tickets"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
 
             <TextView
-                android:text="Grizzly Express"
+                android:text="$81"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/grizzly_express"
-                android:textAppearance="@style/TextAppearance.AppCompat.Display2" />
-
-            <LinearLayout
-                android:orientation="horizontal"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:weightSum="1">
-
-                <TextView
-                    android:text="OPEN"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/grizzly_express_status"
-                    android:layout_weight="1"
-                    android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
-
-                <RatingBar
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/ratingBar4"
-                    android:numStars="3"
-                    android:rating="3" />
-            </LinearLayout>
+                android:id="@+id/textView16"
+                android:layout_row="1"
+                android:layout_column="2" />
 
             <TextView
-                android:text="Galcier Express"
-                android:layout_width="match_parent"
+                android:text="Full Day   "
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/glacier_express"
-                android:textAppearance="@style/TextAppearance.AppCompat.Display2" />
-
-            <LinearLayout
-                android:orientation="horizontal"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
-
-                <TextView
-                    android:text="OPEN"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/glacier_express_status"
-                    android:textAppearance="@style/TextAppearance.AppCompat.Display1"
-                    android:layout_weight="0.75" />
-
-                <RatingBar
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/ratingBar5"
-                    android:numStars="3"
-                    android:rating="3" />
-            </LinearLayout>
+                android:id="@+id/full_day"
+                android:layout_row="0"
+                android:layout_column="1" />
 
             <TextView
-                android:text="Top of the World"
-                android:layout_width="match_parent"
+                android:text="Adults (18-64)"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/top_of_the_world_express"
-                android:textAppearance="@style/TextAppearance.AppCompat.Display2" />
-
-            <LinearLayout
-                android:orientation="horizontal"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
-
-                <TextView
-                    android:text="OPEN"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/top_of_the_world_express_status"
-                    android:textAppearance="@style/TextAppearance.AppCompat.Display1"
-                    android:layout_weight="1" />
-
-                <RatingBar
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/ratingBar6"
-                    android:numStars="3"
-                    android:rating="2" />
-            </LinearLayout>
+                android:id="@+id/adult"
+                android:textSize="14sp"
+                android:layout_row="1"
+                android:layout_column="0" />
 
             <TextView
-                android:text="Summit Platter"
-                android:layout_width="match_parent"
+                android:text="$99"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/summt_platter"
-                android:textAppearance="@style/TextAppearance.AppCompat.Display2" />
-
-            <LinearLayout
-                android:orientation="horizontal"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
-
-                <TextView
-                    android:text="CLOSED"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/summit_platter_status"
-                    android:textAppearance="@style/TextAppearance.AppCompat.Display1"
-                    android:layout_weight="1" />
-
-                <RatingBar
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/ratingBar7"
-                    android:numStars="3"
-                    android:rating="0" />
-            </LinearLayout>
+                android:id="@+id/textView9"
+                android:layout_row="1"
+                android:layout_column="1" />
 
             <TextView
-                android:text="Larch Express"
-                android:layout_width="match_parent"
+                android:text="Regular Season Rates   "
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/larch_express"
-                android:textAppearance="@style/TextAppearance.AppCompat.Display2" />
-
-            <LinearLayout
-                android:orientation="horizontal"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
-
-                <TextView
-                    android:text="CLOSED"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/larch_express_status"
-                    android:textAppearance="@style/TextAppearance.AppCompat.Display1"
-                    android:layout_weight="1" />
-
-                <RatingBar
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/ratingBar8"
-                    android:numStars="3"
-                    android:rating="0" />
-            </LinearLayout>
+                android:id="@+id/season_rates"
+                android:layout_row="0"
+                android:layout_column="0" />
 
             <TextView
-                android:text="Ptarmigan"
-                android:layout_width="match_parent"
+                android:text="After 2PM"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/ptarmigan"
-                android:textAppearance="@style/TextAppearance.AppCompat.Display2" />
-
-            <LinearLayout
-                android:orientation="horizontal"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
-
-                <TextView
-                    android:text="OPEN"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/ptarmigan_status"
-                    android:textAppearance="@style/TextAppearance.AppCompat.Display1"
-                    android:layout_weight="1" />
-
-                <RatingBar
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/ratingBar9"
-                    android:numStars="3"
-                    android:rating="1" />
-            </LinearLayout>
+                android:id="@+id/after_2PM"
+                android:layout_row="0"
+                android:layout_column="3" />
 
             <TextView
-                android:text="Paradise"
-                android:layout_width="match_parent"
+                android:text="$50"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/paradise"
-                android:textAppearance="@style/TextAppearance.AppCompat.Display2" />
+                android:id="@+id/textView11"
+                android:layout_row="1"
+                android:layout_column="3" />
 
-            <LinearLayout
-                android:orientation="horizontal"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
+            <TextView
+                android:text="Half Day   "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/half_day"
+                android:layout_row="0"
+                android:layout_column="2" />
 
-                <TextView
-                    android:text="OPEN"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/paradise_status"
-                    android:textAppearance="@style/TextAppearance.AppCompat.Display1"
-                    android:layout_weight="1" />
+            <TextView
+                android:text="Youth (13-17)"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView14"
+                android:layout_row="2"
+                android:layout_column="0" />
 
-                <RatingBar
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/ratingBar10"
-                    android:numStars="3"
-                    android:rating="1" />
-            </LinearLayout>
+            <TextView
+                android:text="$77"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView31"
+                android:layout_row="5"
+                android:layout_column="1" />
 
-        </LinearLayout>
-    </ScrollView>
+            <TextView
+                android:text="$31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView25"
+                android:layout_row="3"
+                android:layout_column="2" />
+
+            <TextView
+                android:text="$19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView17" />
+
+            <TextView
+                android:text="Child (6-12)"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView18"
+                android:layout_row="3"
+                android:layout_column="0" />
+
+            <TextView
+                android:text="$65"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView32"
+                android:layout_row="5"
+                android:layout_column="2" />
+
+            <TextView
+                android:text="$39"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView33"
+                android:layout_row="5"
+                android:layout_column="3" />
+
+            <TextView
+                android:text="Learning Area Only (6+)"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView34"
+                android:layout_row="6"
+                android:layout_column="0" />
+
+            <TextView
+                android:text="$38"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView35"
+                android:layout_row="6"
+                android:layout_column="1" />
+
+            <TextView
+                android:text="FREE"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView28"
+                android:layout_row="4"
+                android:layout_column="1" />
+
+            <TextView
+                android:text="FREE"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView29"
+                android:layout_row="4"
+                android:layout_column="3" />
+
+            <TextView
+                android:text="FREE"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView27"
+                android:layout_row="4"
+                android:layout_column="2" />
+
+            <TextView
+                android:text="Tiger (0-5)"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView26"
+                android:layout_row="4"
+                android:layout_column="0" />
+
+            <TextView
+                android:text="$77"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView15"
+                android:layout_row="2"
+                android:layout_column="1" />
+
+            <TextView
+                android:text="$35"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView36"
+                android:layout_row="6"
+                android:layout_column="2" />
+
+            <TextView
+                android:text="$39"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView24"
+                android:layout_row="2"
+                android:layout_column="3" />
+
+            <TextView
+                android:text="Senior (65+)"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView30"
+                android:layout_row="5"
+                android:layout_column="0" />
+
+            <TextView
+                android:text="$38"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView21"
+                android:layout_row="3"
+                android:layout_column="1" />
+
+            <TextView
+                android:text="$65"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView10"
+                android:layout_row="2"
+                android:layout_column="2" />
+        </GridLayout>
+
+    </LinearLayout>
 
 </RelativeLayout>
