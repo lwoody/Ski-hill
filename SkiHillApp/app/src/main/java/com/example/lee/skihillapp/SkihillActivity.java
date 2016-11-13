@@ -55,6 +55,13 @@ public class SkihillActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void onClickRoute(View v){
+        Intent intent = new Intent(SkihillActivity.this, RouteMakingActivity.class);
+        intent.putExtra("title","Route Making - "+this.getTitle());
+
+        startActivity(intent);
+    }
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.

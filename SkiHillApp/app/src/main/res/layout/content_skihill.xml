@@ -75,6 +75,16 @@
                     android:textStyle="normal|bold"
                     android:drawableTop="@drawable/ic_satellite_black_24dp"
                     android:onClick="onClickOverview" />
+
+                <Button
+                    android:text="Route Making"
+                    android:layout_width="140dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/button1"
+                    android:layout_weight="1"
+                    android:textStyle="normal|bold"
+                    android:drawableTop="@drawable/ic_directions_black_24dp"
+                    android:onClick="onClickRoute" />
             </LinearLayout>
         </HorizontalScrollView>
 
