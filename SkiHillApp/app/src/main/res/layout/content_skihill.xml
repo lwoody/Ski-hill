@@ -168,26 +168,35 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
 
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        app:srcCompat="@drawable/ic_terrain_black_24dp"
+                        android:id="@+id/imageView3"
+                        android:layout_weight="0.81" />
+
                     <TextView
                         android:text="REVIEW 1"
-                        android:layout_width="wrap_content"
+                        android:layout_width="75dp"
                         android:layout_height="wrap_content"
                         android:id="@+id/review_1"
-                        android:layout_weight="1" />
+                        android:layout_weight="0.81" />
 
                     <TextView
                         android:text="Good Review"
-                        android:layout_width="wrap_content"
+                        android:layout_width="80dp"
                         android:layout_height="wrap_content"
                         android:id="@+id/good_review"
-                        android:layout_weight="1" />
+                        android:layout_weight="0.72" />
 
-                    <ImageView
-                        android:layout_width="wrap_content"
+                    <RatingBar
+                        android:layout_width="80dp"
                         android:layout_height="wrap_content"
-                        app:srcCompat="@android:drawable/star_big_on"
-                        android:id="@+id/imageView"
-                        android:layout_weight="1" />
+                        android:id="@+id/ratingBar2"
+                        style="@style/Widget.AppCompat.RatingBar.Small"
+                        android:numStars="5"
+                        android:rating="4" />
+
                 </LinearLayout>
 
                 <LinearLayout
@@ -195,26 +204,35 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
 
-                    <TextView
-                        android:text="REVIEW 2"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:id="@+id/review_2"
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        app:srcCompat="@drawable/ic_terrain_black_24dp"
+                        android:id="@+id/imageView2"
                         android:layout_weight="1" />
 
                     <TextView
+                        android:text="REVIEW 2"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/review_2"
+                        android:layout_weight="1"
+                        android:layout_width="75dp"
+                        android:autoText="false" />
+
+                    <TextView
                         android:text="Bad Review"
-                        android:layout_width="wrap_content"
+                        android:layout_width="80dp"
                         android:layout_height="wrap_content"
                         android:id="@+id/bad_review"
                         android:layout_weight="1" />
 
-                    <ImageView
-                        android:layout_width="wrap_content"
+                    <RatingBar
+                        android:layout_width="80dp"
                         android:layout_height="wrap_content"
-                        app:srcCompat="@android:drawable/star_big_off"
-                        android:id="@+id/imageView2"
-                        android:layout_weight="1" />
+                        android:id="@+id/ratingBar3"
+                        style="@style/Widget.AppCompat.RatingBar.Small"
+                        android:numStars="5"
+                        android:rating="2" />
 
                 </LinearLayout>
 
