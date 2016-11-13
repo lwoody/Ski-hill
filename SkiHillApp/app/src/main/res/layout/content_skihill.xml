@@ -31,7 +31,7 @@
 
             <LinearLayout
                 android:orientation="horizontal"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
                 <Button
@@ -41,20 +41,20 @@
                     android:layout_weight="1"
                     android:elevation="0dp"
                     android:textSize="14sp"
-                    android:layout_width="140dp"
                     android:textStyle="normal|bold"
                     android:drawableTop="@drawable/ic_pin_drop_black_24dp"
-                    android:onClick="onClickLocation" />
+                    android:onClick="onClickLocation"
+                    android:layout_width="140dp" />
 
                 <Button
                     android:text="Lift &amp; Rent"
                     android:layout_height="match_parent"
                     android:id="@+id/button4"
                     android:layout_weight="1"
-                    android:layout_width="140dp"
                     android:textStyle="normal|bold"
                     android:drawableTop="@drawable/ic_local_atm_black_24dp"
-                    android:onClick="onClickLift" />
+                    android:onClick="onClickLift"
+                    android:layout_width="140dp" />
 
                 <Button
                     android:text="Hotel"
