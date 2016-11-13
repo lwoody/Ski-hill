@@ -94,7 +94,7 @@
                 android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
 
             <TextView
-                android:text="7/10"
+                android:text="5/7"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/lift_counter"

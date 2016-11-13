@@ -13,4 +13,216 @@
     tools:context="com.example.lee.skihillapp.LiftActivity"
     tools:showIn="@layout/activity_lift">
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+            <TextView
+                android:text="Grizzly Express"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/grizzly_express"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display2" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="1">
+
+                <TextView
+                    android:text="OPEN"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/grizzly_express_status"
+                    android:layout_weight="1"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+                <RatingBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/ratingBar4"
+                    android:numStars="3"
+                    android:rating="3" />
+            </LinearLayout>
+
+            <TextView
+                android:text="Galcier Express"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/glacier_express"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display2" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:text="OPEN"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/glacier_express_status"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                    android:layout_weight="0.75" />
+
+                <RatingBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/ratingBar5"
+                    android:numStars="3"
+                    android:rating="3" />
+            </LinearLayout>
+
+            <TextView
+                android:text="Top of the World"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/top_of_the_world_express"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display2" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:text="OPEN"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/top_of_the_world_express_status"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                    android:layout_weight="1" />
+
+                <RatingBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/ratingBar6"
+                    android:numStars="3"
+                    android:rating="2" />
+            </LinearLayout>
+
+            <TextView
+                android:text="Summit Platter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/summt_platter"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display2" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:text="CLOSED"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/summit_platter_status"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                    android:layout_weight="1" />
+
+                <RatingBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/ratingBar7"
+                    android:numStars="3"
+                    android:rating="0" />
+            </LinearLayout>
+
+            <TextView
+                android:text="Larch Express"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/larch_express"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display2" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:text="CLOSED"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/larch_express_status"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                    android:layout_weight="1" />
+
+                <RatingBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/ratingBar8"
+                    android:numStars="3"
+                    android:rating="0" />
+            </LinearLayout>
+
+            <TextView
+                android:text="Ptarmigan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ptarmigan"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display2" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:text="OPEN"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/ptarmigan_status"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                    android:layout_weight="1" />
+
+                <RatingBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/ratingBar9"
+                    android:numStars="3"
+                    android:rating="1" />
+            </LinearLayout>
+
+            <TextView
+                android:text="Paradise"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/paradise"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display2" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:text="OPEN"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/paradise_status"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                    android:layout_weight="1" />
+
+                <RatingBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/ratingBar10"
+                    android:numStars="3"
+                    android:rating="1" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
 </RelativeLayout>
