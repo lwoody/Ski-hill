@@ -13,4 +13,59 @@
     tools:context="com.example.lee.skihillapp.LocationActivity"
     tools:showIn="@layout/activity_location">
 
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:text="Location:  111 Lake Louise Drive, Lake Louise,
+            Banff National Park, Alberta T0L 1E0, Canada"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/locationLake"
+            android:layout_weight="0.31" />
+
+        <TextView
+            android:text="Bus Schedule"
+            android:textSize="25sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/busSchedule" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:id="@+id/departure"
+            android:text="Departure" />
+
+        <TextView
+            android:text="@string/LLBusDeparture"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/departureLake"
+            android:layout_weight="0.05" />
+
+        <TextView
+            android:text="Return"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/returnText" />
+
+        <TextView
+            android:text="@string/LLBusArrival"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/returnLake"
+            android:layout_weight="0.05" />
+
+    </LinearLayout>
 </RelativeLayout>

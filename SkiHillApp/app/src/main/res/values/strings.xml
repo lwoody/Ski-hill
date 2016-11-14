@@ -5,4 +5,6 @@
     <string name="title_activity_location">LocationActivity</string>
     <string name="title_activity_lift">LiftActivity</string>
     <string name="title_activity_overview">OverviewActivity</string>
+    <string name="LLBusDeparture">Chinook LRT(parking lot) 6:45\n4 Ave &amp; 3 Street SW 7:05\nMcDonalds(across from COP) 7:25\nCoast Canmore Hotel 8:25\nLake Louise 9:30</string>
+    <string name="LLBusArrival">Lake Louise Departure 16:00\nCoast Canmore Hotel 17:10\nMcDonalds(across from COP) 18:10\n5 Ave &amp; 3 Street SW 18:30\nChinook LRT (1A St. &amp; 61 Ave SW) 18:45</string>
 </resources>
