@@ -13,7 +13,7 @@
     tools:showIn="@layout/activity_route_making"
     android:layout_width="380dp">
 
-<<<<<<< HEAD
+
     <ImageSwitcher
         android:layout_width="match_parent"
         android:layout_height="350dp"
@@ -29,7 +29,7 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:id="@+id/btnNext" />
-=======
+
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
@@ -78,5 +78,5 @@
         </ScrollView>
 
     </LinearLayout>
->>>>>>> 75a6bc0dc2b2c977bfa278ed0068564fed0ec4f1
+
 </RelativeLayout>
