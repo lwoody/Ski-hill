@@ -1,6 +1,7 @@
 package com.example.lee.skihillapp;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
@@ -75,10 +76,17 @@ public class SkihillActivity extends AppCompatActivity {
         // automatically handle clicks on the Home/Up button, so long
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
+        switch (item.getItemId()) {
 
-        //noinspection SimplifiableIfStatement
+            case R.id.buttonPhoneCall:
+                Intent intent = new Intent(Intent.ACTION_DIAL, Uri.parse("tel:403-522-3555"));
+                startActivity(intent);
 
-        return super.onOptionsItemSelected(item);
+                return true;
+            default:
+                // noinspection SimplifiableIfStatement
+                return super.onOptionsItemSelected(item);
+        }
     }
 
 }
