@@ -13,12 +13,19 @@
     tools:context="com.example.lee.skihillapp.RouteMakingActivity"
     tools:showIn="@layout/activity_route_making">
 
-    <ImageView
+    <ImageSwitcher
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        app:srcCompat="@drawable/lakelouise_overview_basic"
+        android:layout_height="350dp"
+        android:id="@+id/imageChanger"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:id="@+id/imageView" />
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="NEXT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/btnNext" />
 </RelativeLayout>
