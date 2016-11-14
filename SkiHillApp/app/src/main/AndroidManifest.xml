@@ -41,7 +41,8 @@
         <activity
             android:name=".RouteMakingActivity"
             android:label="@string/title_activity_route_making"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".PopUpActivity"></activity>
     </application>
 
 </manifest>

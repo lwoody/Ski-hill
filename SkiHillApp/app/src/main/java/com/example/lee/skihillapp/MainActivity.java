@@ -7,9 +7,11 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
+    Boolean english = (Boolean) true;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -19,10 +21,6 @@ public class MainActivity extends AppCompatActivity {
 
 //        shows the icon next to title
         getSupportActionBar().setIcon(R.mipmap.ic_launcher);
-
-
-
-
 
     }
 
@@ -82,8 +80,42 @@ public class MainActivity extends AppCompatActivity {
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
 
-        //noinspection SimplifiableIfStatement
+        switch (item.getItemId()) {
+            case R.id.buttonTranslate:
+                if (english == true){
+                    english = false;
+                    this.setTitle("록키스키힐");
+                    Button p1_button = (Button)findViewById(R.id.button8);
+                    p1_button.setText("레이크 루이스");
+                    Button p2_button = (Button)findViewById(R.id.button9);
+                    p2_button.setText("나키스카");
+                    Button p3_button = (Button)findViewById(R.id.button16);
+                    p3_button.setText("말모트");
+                    Button p4_button = (Button)findViewById(R.id.button10);
+                    p4_button.setText("노르퀘이");
+                    Button p5_button = (Button)findViewById(R.id.button11);
+                    p5_button.setText("선샤인 빌리지");
+                }
+                else{
+                    english = true;
+                    this.setTitle("RockeyHills");
+                    Button p1_button = (Button)findViewById(R.id.button8);
+                    p1_button.setText("Lake Louise");
+                    Button p2_button = (Button)findViewById(R.id.button9);
+                    p2_button.setText("Nakiska");
+                    Button p3_button = (Button)findViewById(R.id.button16);
+                    p3_button.setText("Marmot");
+                    Button p4_button = (Button)findViewById(R.id.button10);
+                    p4_button.setText("Norquay");
+                    Button p5_button = (Button)findViewById(R.id.button11);
+                    p5_button.setText("Sunshine Village");
+                }
 
-        return super.onOptionsItemSelected(item);
+                return true;
+            default:
+        // noinspection SimplifiableIfStatement
+                return super.onOptionsItemSelected(item);
+        }
+
     }
 }
