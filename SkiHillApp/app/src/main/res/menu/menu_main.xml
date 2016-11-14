@@ -4,11 +4,12 @@
     tools:context="com.example.lee.skihillapp.MainActivity">
 
     <item
-        android:id="@+id/action_translate"
+        android:id="@+id/buttonTranslate"
         android:icon="@drawable/ic_translate_black_24dp"
         android:title="Translate"
-        app:showAsAction="always"
-        android:onClick="onClickTranslate"/>
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:showAsAction="always" />
 
 
 </menu>
