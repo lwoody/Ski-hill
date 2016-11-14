@@ -22,6 +22,9 @@ public class LocationActivity extends AppCompatActivity {
         this.setTitle(title);
 
 
+
+
+
     }
 
 }
