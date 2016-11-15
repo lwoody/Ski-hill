@@ -15,7 +15,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SelectLiftActivity"></activity>
+        <activity android:name=".SelectLiftActivity" />
+        <activity android:name=".SelectRouteActivity" />
+        <activity android:name=".RouteShowActivity" />
+        <activity android:name=".MakeReviewActivity" />
+        <activity android:name=".ReviewActivity"></activity>
     </application>
 
 </manifest>
