@@ -18,39 +18,40 @@
         android:background="?android:attr/colorBackground"
         android:id="@+id/MainContent1">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="100dp"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="LAKE LOUISE"
-            android:id="@+id/title"
-            android:textColor="#4259f4"
-            android:textSize="50sp"
-            android:fontFamily="monospace"
-            android:paddingTop="25sp"
-            android:layout_alignParentTop="true"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="35dp" />
-
-        <TextView
-            android:text="Information for Skiers"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/disc_text"
-            android:textAlignment="center"
-            android:textSize="50sp"
-            android:layout_below="@+id/title"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            android:layout_marginTop="20dp" />
-
         <LinearLayout
             android:orientation="vertical"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
+            android:layout_alignParentTop="true"
             android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true">
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="46dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="LAKE LOUISE"
+                android:id="@+id/title"
+                android:textColor="#4259f4"
+                android:textSize="50sp"
+                android:fontFamily="monospace"
+                android:paddingTop="25sp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="35dp" />
+
+            <TextView
+                android:text="Information for Skiers"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/disc_text"
+                android:textAlignment="center"
+                android:textSize="50sp"
+                android:layout_below="@+id/title"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="20dp" />
 
             <Button
                 android:text="Make Route"
@@ -63,7 +64,8 @@
                 android:layout_below="@+id/disc_text"
                 android:layout_centerHorizontal="true"
                 android:layout_width="match_parent"
-                android:layout_marginBottom="20dp"/>
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="50dp" />
 
             <Button
                 android:text="Review"
