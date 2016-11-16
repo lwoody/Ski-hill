@@ -37,7 +37,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/weather_lable"
-            android:textSize="36sp" />
+            android:textSize="36sp"
+            android:layout_marginTop="50dp" />
 
         <TextView
             android:text="Temp: 5 C"
@@ -58,7 +59,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/snow_conditions_lable"
-            android:textSize="36sp" />
+            android:textSize="36sp"
+            android:layout_marginTop="50dp" />
 
         <TextView
             android:text="Snow Base: 120cm"
@@ -75,13 +77,13 @@
             android:textSize="24sp" />
 
         <RatingBar
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/ratingBar"
-            android:numStars="5"
-            android:rating="3.5"
-            android:stepSize="0.5"
-            android:isIndicator="false" />
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ratingBar"
+        android:numStars="5"
+        android:rating="3.5"
+        android:stepSize="0.5"
+        android:isIndicator="false" />
 
     </LinearLayout>
 
