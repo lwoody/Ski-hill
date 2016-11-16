@@ -29,6 +29,53 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:id="@+id/btnNext" />
+<<<<<<< HEAD
+=======
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/button"
+                    android:text="Route 1" />
+
+                <Button
+                    android:text="Route 2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/button6" />
+
+                <Button
+                    android:text="Route 3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/button7" />
+
+                <Button
+                    android:text="route 4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/button12" />
+>>>>>>> 3b6af4e0a8fce1629edb9d27e28bda870f9b5a72
 
 
+<<<<<<< HEAD
+=======
+    </LinearLayout>
+
+>>>>>>> 3b6af4e0a8fce1629edb9d27e28bda870f9b5a72
 </RelativeLayout>
