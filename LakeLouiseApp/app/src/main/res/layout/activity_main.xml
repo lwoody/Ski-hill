@@ -59,7 +59,7 @@
                 android:layout_height="50dp"
                 android:background="#4259f4"
                 style="@style/Widget.AppCompat.Button.Colored"
-                android:onClick="routeMakerButton (MainActivity)"
+                android:onClick="routeMakerButton"
                 android:layout_below="@+id/disc_text"
                 android:layout_centerHorizontal="true"
                 android:layout_width="match_parent"
@@ -79,7 +79,7 @@
                 android:layout_alignStart="@+id/info_button"
                 android:layout_marginBottom="20dp
                 "
-                android:onClick="reviewButton (MainActivity)" />
+                android:onClick="reviewButton" />
 
             <Button
                 android:text="Info"
@@ -90,7 +90,7 @@
                 android:background="#4259f4"
                 style="@style/Widget.AppCompat.Button.Colored"
                 android:elevation="0dp"
-                android:onClick="infoButton (MainActivity)"
+                android:onClick="infoButton"
                 android:layout_marginBottom="20dp"
                 android:layout_above="@+id/review_button"
                 android:layout_centerHorizontal="true" />
