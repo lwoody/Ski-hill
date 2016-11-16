@@ -60,8 +60,15 @@ public class MainActivity extends AppCompatActivity {
         client = new GoogleApiClient.Builder(this).addApi(AppIndex.API).build();
     }
 
+
+
     public void infoButton(View v) {
         Intent intent = new Intent(this, info.class);
+        startActivity(intent);
+    }
+
+    public void reviewButton(View v) {
+        Intent intent = new Intent(this, review.class);
         startActivity(intent);
     }
 
