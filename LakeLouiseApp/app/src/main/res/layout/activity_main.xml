@@ -52,7 +52,8 @@
             android:onClick="routeMakerButton (MainActivity)"
             android:layout_below="@+id/disc_text"
             android:layout_centerHorizontal="true"
-            android:layout_width="200dp" />
+            android:layout_width="200dp"
+            android:layout_marginBottom="20dp"/>
 
         <Button
             android:text="Review"
@@ -67,7 +68,8 @@
             android:layout_alignParentBottom="true"
             android:layout_alignLeft="@+id/info_button"
             android:layout_alignStart="@+id/info_button"
-            android:layout_marginBottom="17dp" />
+            android:layout_marginBottom="20dp
+            " />
 
         <Button
             android:text="Info"
