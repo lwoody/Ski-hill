@@ -28,8 +28,9 @@
             android:textSize="50sp"
             android:fontFamily="monospace"
             android:paddingTop="25sp"
-            android:layout_above="@+id/disc_text"
-            android:layout_centerHorizontal="true" />
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="35dp" />
 
         <TextView
             android:text="Information for Skiers"
@@ -38,52 +39,62 @@
             android:id="@+id/disc_text"
             android:textAlignment="center"
             android:textSize="50sp"
-            android:layout_centerVertical="true"
+            android:layout_below="@+id/title"
             android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true" />
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="20dp" />
 
-        <Button
-            android:text="Make Route"
-            android:id="@+id/make_button"
-            android:textSize="20sp"
-            android:layout_height="50dp"
-            android:background="#4259f4"
-            style="@style/Widget.AppCompat.Button.Colored"
-            android:onClick="routeMakerButton (MainActivity)"
-            android:layout_below="@+id/disc_text"
-            android:layout_centerHorizontal="true"
-            android:layout_width="200dp"
-            android:layout_marginBottom="20dp"/>
-
-        <Button
-            android:text="Review"
-            android:layout_width="100dp"
-            android:layout_height="50dp"
-            android:id="@+id/review_button"
-            android:textSize="20sp"
-            android:textAlignment="center"
-            style="@style/Widget.AppCompat.Button.Colored"
-            android:background="#4259f4"
-            android:onClick="reviewButton"
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
-            android:layout_alignLeft="@+id/info_button"
-            android:layout_alignStart="@+id/info_button"
-            android:layout_marginBottom="20dp
-            " />
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
 
-        <Button
-            android:text="Info"
-            android:id="@+id/info_button"
-            android:textSize="20sp"
-            android:layout_width="100dp"
-            android:layout_height="50dp"
-            android:background="#4259f4"
-            style="@style/Widget.AppCompat.Button.Colored"
-            android:elevation="0dp"
-            android:onClick="infoButton (MainActivity)"
-            android:layout_marginBottom="20dp"
-            android:layout_above="@+id/review_button"
-            android:layout_centerHorizontal="true" />
+            <Button
+                android:text="Make Route"
+                android:id="@+id/make_button"
+                android:textSize="20sp"
+                android:layout_height="50dp"
+                android:background="#4259f4"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:onClick="routeMakerButton (MainActivity)"
+                android:layout_below="@+id/disc_text"
+                android:layout_centerHorizontal="true"
+                android:layout_width="match_parent"
+                android:layout_marginBottom="20dp"/>
+
+            <Button
+                android:text="Review"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/review_button"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:background="#4259f4"
+                android:layout_alignParentBottom="true"
+                android:layout_alignLeft="@+id/info_button"
+                android:layout_alignStart="@+id/info_button"
+                android:layout_marginBottom="20dp
+                "
+                android:onClick="reviewButton (MainActivity)" />
+
+            <Button
+                android:text="Info"
+                android:id="@+id/info_button"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#4259f4"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:elevation="0dp"
+                android:onClick="infoButton (MainActivity)"
+                android:layout_marginBottom="20dp"
+                android:layout_above="@+id/review_button"
+                android:layout_centerHorizontal="true" />
+        </LinearLayout>
 
     </RelativeLayout>
 
