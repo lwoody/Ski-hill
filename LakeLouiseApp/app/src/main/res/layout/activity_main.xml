@@ -43,18 +43,16 @@
             android:layout_alignParentStart="true" />
 
         <Button
-            android:text="Info"
-            android:id="@+id/info_button"
+            android:text="Make Route"
+            android:id="@+id/make_button"
             android:textSize="20sp"
-            android:layout_width="100dp"
             android:layout_height="50dp"
             android:background="#4259f4"
-            android:layout_marginTop="30dp"
             style="@style/Widget.AppCompat.Button.Colored"
-            android:layout_below="@+id/review_button"
+            android:onClick="routeMakerButton (MainActivity)"
+            android:layout_below="@+id/disc_text"
             android:layout_centerHorizontal="true"
-            android:elevation="0dp"
-            android:onClick="infoButton (MainActivity)" />
+            android:layout_width="200dp" />
 
         <Button
             android:text="Review"
@@ -66,23 +64,24 @@
             style="@style/Widget.AppCompat.Button.Colored"
             android:background="#4259f4"
             android:onClick="reviewButton"
-            android:layout_alignBaseline="@+id/make_button"
-            android:layout_alignBottom="@+id/make_button"
-            android:layout_toRightOf="@+id/info_button"
-            android:layout_toEndOf="@+id/info_button" />
+            android:layout_alignParentBottom="true"
+            android:layout_alignLeft="@+id/info_button"
+            android:layout_alignStart="@+id/info_button"
+            android:layout_marginBottom="17dp" />
 
         <Button
-            android:text="Make"
-            android:id="@+id/make_button"
+            android:text="Info"
+            android:id="@+id/info_button"
             android:textSize="20sp"
             android:layout_width="100dp"
             android:layout_height="50dp"
             android:background="#4259f4"
             style="@style/Widget.AppCompat.Button.Colored"
-            android:onClick="makeButton"
-            android:layout_below="@+id/disc_text"
-            android:layout_toLeftOf="@+id/info_button"
-            android:layout_toStartOf="@+id/info_button" />
+            android:elevation="0dp"
+            android:onClick="infoButton (MainActivity)"
+            android:layout_marginBottom="20dp"
+            android:layout_above="@+id/review_button"
+            android:layout_centerHorizontal="true" />
 
     </RelativeLayout>
 

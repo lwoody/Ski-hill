@@ -72,6 +72,11 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void routeMakerButton(View v) {
+        Intent intent = new Intent(this, route_maker.class);
+        startActivity(intent);
+    }
+
 
     /**
      * ATTENTION: This was auto-generated to implement the App Indexing API.
