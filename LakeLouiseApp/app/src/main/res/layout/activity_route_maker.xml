@@ -125,7 +125,8 @@
             android:orientation="horizontal"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/glacier_express">
+            android:id="@+id/glacier_express"
+            android:layout_marginTop="5dp">
 
             <LinearLayout
                 android:orientation="vertical"
@@ -133,19 +134,37 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1">
 
-                <TextView
-                    android:text="Glacier Express"
+                <LinearLayout
+                    android:orientation="horizontal"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:id="@+id/glacier_label"
-                    android:textSize="30sp"
-                    android:layout_weight="1" />
+                    android:layout_weight="1">
+
+                    <Button
+                        android:text="Glacier Express"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/glacier_button"
+                        android:layout_weight="1"
+                        android:textSize="22sp"
+                        android:elevation="0dp"
+                        android:textAlignment="center"
+                        android:layout_width="170dp" />
+
+                    <TextView
+                        android:text="OPEN"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/glacier_status"
+                        android:layout_weight="1"
+                        android:textSize="24sp"
+                        android:textAlignment="textEnd"
+                        android:layout_width="20dp" />
+                </LinearLayout>
 
                 <LinearLayout
                     android:orientation="horizontal"
                     android:layout_width="match_parent"
-                    android:layout_height="20dp"
-                    android:layout_weight="1">
+                    android:layout_weight="1"
+                    android:layout_height="10dp">
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -182,7 +201,8 @@
             android:orientation="horizontal"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/grizzly_express">
+            android:id="@+id/grizzly_express"
+            android:layout_marginTop="5dp">
 
             <LinearLayout
                 android:orientation="vertical"
@@ -190,19 +210,35 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1">
 
-                <TextView
-                    android:text="Grizzly Express"
+                <LinearLayout
+                    android:orientation="horizontal"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:id="@+id/grizzly_label"
-                    android:textSize="30sp"
-                    android:layout_weight="1" />
+                    android:layout_weight="1">
+
+                    <Button
+                        android:text="Grizzly Express"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/grizzly_button"
+                        android:layout_weight="1"
+                        android:textSize="22sp"
+                        android:layout_width="170dp" />
+
+                    <TextView
+                        android:text="OPEN"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/grizzly_status"
+                        android:layout_weight="1"
+                        android:textAlignment="textEnd"
+                        android:textSize="24sp"
+                        android:layout_width="20dp" />
+                </LinearLayout>
 
                 <LinearLayout
                 android:orientation="horizontal"
                 android:layout_width="match_parent"
-                android:layout_height="20dp"
-                android:layout_weight="1">
+                    android:layout_weight="1"
+                    android:layout_height="10dp">
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -241,7 +277,8 @@
             android:orientation="horizontal"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/top_of_the_world">
+            android:id="@+id/top_of_the_world"
+            android:layout_marginTop="5dp">
 
             <LinearLayout
                 android:orientation="vertical"
@@ -249,19 +286,35 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1">
 
-                <TextView
-                    android:text="Top of the World"
+                <LinearLayout
+                    android:orientation="horizontal"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:id="@+id/top_of_the_world_label"
-                    android:textSize="30sp"
-                    android:layout_weight="1" />
+                    android:layout_weight="1">
+
+                    <Button
+                        android:text="Top of the World"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/top_of_the_world_button"
+                        android:layout_weight="1"
+                        android:textSize="22sp"
+                        android:layout_width="170dp" />
+
+                    <TextView
+                        android:text="OPEN"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/top_of_the_world_status"
+                        android:layout_weight="1"
+                        android:textAlignment="textEnd"
+                        android:textSize="24sp"
+                        android:layout_width="20dp" />
+                </LinearLayout>
 
                 <LinearLayout
                     android:orientation="horizontal"
                     android:layout_width="match_parent"
-                    android:layout_height="20dp"
-                    android:layout_weight="1">
+                    android:layout_weight="1"
+                    android:layout_height="10dp">
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -300,7 +353,8 @@
             android:orientation="horizontal"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/ptarmigan">
+            android:id="@+id/ptarmigan"
+            android:layout_marginTop="5dp">
 
             <LinearLayout
                 android:orientation="vertical"
@@ -308,19 +362,35 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1">
 
-                <TextView
-                    android:text="Ptarmigan Express"
+                <LinearLayout
+                    android:orientation="horizontal"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:id="@+id/ptarmigan_label"
-                    android:textSize="30sp"
-                    android:layout_weight="1" />
+                    android:layout_weight="1">
+
+                    <Button
+                        android:text="Ptarmigan"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/ptarmigan_button"
+                        android:layout_weight="1"
+                        android:textSize="22sp"
+                        android:layout_width="170dp" />
+
+                    <TextView
+                        android:text="OPEN"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/ptarmigan_status"
+                        android:layout_weight="1"
+                        android:textAlignment="textEnd"
+                        android:textSize="24sp"
+                        android:layout_width="20dp" />
+                </LinearLayout>
 
                 <LinearLayout
                     android:orientation="horizontal"
                     android:layout_width="match_parent"
-                    android:layout_height="20dp"
-                    android:layout_weight="1">
+                    android:layout_weight="1"
+                    android:layout_height="10dp">
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -359,7 +429,8 @@
             android:orientation="horizontal"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/larch_express">
+            android:id="@+id/larch_express"
+            android:layout_marginTop="5dp">
 
             <LinearLayout
                 android:orientation="vertical"
@@ -367,19 +438,35 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1">
 
-                <TextView
-                    android:text="Larch Express"
+                <LinearLayout
+                    android:orientation="horizontal"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:id="@+id/larch_label"
-                    android:textSize="30sp"
-                    android:layout_weight="1" />
+                    android:layout_weight="1">
+
+                    <Button
+                        android:text="Larch Express"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/larch_button"
+                        android:layout_weight="1"
+                        android:textSize="22sp"
+                        android:layout_width="170dp" />
+
+                    <TextView
+                        android:text="OPEN"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/larch_status"
+                        android:layout_weight="1"
+                        android:textAlignment="textEnd"
+                        android:textSize="24sp"
+                        android:layout_width="20dp" />
+                </LinearLayout>
 
                 <LinearLayout
                     android:orientation="horizontal"
                     android:layout_width="match_parent"
-                    android:layout_height="20dp"
-                    android:layout_weight="1">
+                    android:layout_weight="1"
+                    android:layout_height="10dp">
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -418,7 +505,8 @@
             android:orientation="horizontal"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/paradise">
+            android:id="@+id/paradise"
+            android:layout_marginTop="5dp">
 
             <LinearLayout
                 android:orientation="vertical"
@@ -426,19 +514,36 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1">
 
-                <TextView
-                    android:text="Paradise"
+                <LinearLayout
+                    android:orientation="horizontal"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:id="@+id/paradise_label"
-                    android:textSize="30sp"
-                    android:layout_weight="1" />
+                    android:layout_weight="1">
+
+                    <Button
+                        android:text="Paradise"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/paradise_button"
+                        android:layout_weight="1"
+                        android:textSize="22sp"
+                        android:layout_width="170dp" />
+
+                    <TextView
+                        android:text="OPEN"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/paradise_status"
+                        android:layout_weight="1"
+                        android:textAlignment="textEnd"
+                        android:textSize="24sp"
+                        android:layout_width="20dp" />
+
+                </LinearLayout>
 
                 <LinearLayout
                     android:orientation="horizontal"
                     android:layout_width="match_parent"
-                    android:layout_height="20dp"
-                    android:layout_weight="1">
+                    android:layout_weight="1"
+                    android:layout_height="10dp">
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -477,26 +582,43 @@
             android:orientation="horizontal"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/summit_platter">
+            android:id="@+id/summit_platter"
+            android:layout_marginTop="5dp">
 
             <LinearLayout
                 android:orientation="vertical"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
 
-                <TextView
-                    android:text="Summit Platter"
+                <LinearLayout
+                    android:orientation="horizontal"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:id="@+id/summit_label"
-                    android:textSize="30sp"
-                    android:layout_weight="1" />
+                    android:layout_weight="1">
+
+                    <Button
+                        android:text="Summit Platter"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/summit_button"
+                        android:layout_weight="1"
+                        android:textSize="22sp"
+                        android:layout_width="170dp" />
+
+                    <TextView
+                        android:text="CLOSED"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView48"
+                        android:layout_weight="1"
+                        android:textSize="24sp"
+                        android:textAlignment="textEnd"
+                        android:layout_width="20dp" />
+                </LinearLayout>
 
                 <LinearLayout
                     android:orientation="horizontal"
                     android:layout_width="match_parent"
-                    android:layout_height="20dp"
-                    android:layout_weight="1">
+                    android:layout_weight="1"
+                    android:layout_height="10dp">
 
                     <TextView
                         android:layout_width="wrap_content"
