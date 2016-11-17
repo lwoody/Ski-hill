@@ -62,20 +62,9 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-    public void infoButton(View v) {
-        Intent intent = new Intent(this, info.class);
-        startActivity(intent);
-    }
-
-    public void reviewButton(View v) {
-        Intent intent = new Intent(this, review.class);
-        startActivity(intent);
-    }
-
-    public void routeMakerButton(View v) {
-        Intent intent = new Intent(this, route_maker.class);
-        startActivity(intent);
-    }
+    public void infoButton(View v)          {startActivity(new Intent(this, info.class));}
+    public void reviewButton(View v)        {startActivity(new Intent(this, review.class));}
+    public void routeMakerButton(View v)    {startActivity(new Intent(this, route_maker.class));}
 
 
     /**

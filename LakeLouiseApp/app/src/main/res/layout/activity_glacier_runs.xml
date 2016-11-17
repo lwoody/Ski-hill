@@ -25,7 +25,9 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/run_2"
                 android:background="@android:color/holo_blue_dark"
-                android:textAlignment="center" />
+                android:textAlignment="textStart"
+                android:textSize="24sp"
+                android:layout_marginTop="5dp" />
 
             <Button
                 android:text="3: Juniper"
@@ -33,7 +35,9 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/run_3"
                 android:background="@android:color/holo_blue_dark"
-                android:textAlignment="center" />
+                android:textAlignment="textStart"
+                android:textSize="24sp"
+                android:layout_marginTop="5dp" />
 
             <Button
                 android:text="4: Juniper Jungle"
@@ -41,14 +45,18 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/run_4"
                 android:background="@android:color/holo_blue_dark"
-                android:textAlignment="center" />
+                android:textAlignment="textStart"
+                android:textSize="24sp"
+                android:layout_marginTop="5dp" />
 
             <Button
                 android:text="5: SBX course"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/run_5"
-                android:textAlignment="center" />
+                android:textAlignment="textStart"
+                android:textSize="24sp"
+                android:layout_marginTop="5dp" />
 
             <Button
                 android:text="6: Bald Eagle"
@@ -56,7 +64,9 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/run_6"
                 android:background="@android:color/holo_green_dark"
-                android:textAlignment="center" />
+                android:textAlignment="textStart"
+                android:textSize="24sp"
+                android:layout_marginTop="5dp" />
 
             <Button
                 android:text="7: Ladies' Downhill"
@@ -64,7 +74,9 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/run_7"
                 android:background="@android:color/holo_orange_dark"
-                android:textAlignment="center" />
+                android:textAlignment="textStart"
+                android:textSize="24sp"
+                android:layout_marginTop="5dp" />
 
             <Button
                 android:text="8: Cameron's Way"
@@ -72,7 +84,9 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/run_8"
                 android:background="@android:color/holo_blue_dark"
-                android:textAlignment="center" />
+                android:textAlignment="textStart"
+                android:textSize="24sp"
+                android:layout_marginTop="5dp" />
 
             <Button
                 android:text="9: Wiwaxy"
@@ -80,7 +94,9 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/run_9"
                 android:background="@android:color/holo_green_dark"
-                android:textAlignment="center" />
+                android:textAlignment="textStart"
+                android:textSize="24sp"
+                android:layout_marginTop="5dp" />
 
             <Button
                 android:text="10: Pine Cone Way"
@@ -88,7 +104,9 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/run_10"
                 android:background="@android:color/holo_green_dark"
-                android:textAlignment="center" />
+                android:textAlignment="textStart"
+                android:textSize="24sp"
+                android:layout_marginTop="5dp" />
 
             <Button
                 android:text="11: Cross"
@@ -96,7 +114,9 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/run_11"
                 android:background="@android:color/holo_green_dark"
-                android:textAlignment="center" />
+                android:textAlignment="textStart"
+                android:textSize="24sp"
+                android:layout_marginTop="5dp" />
 
             <Button
                 android:text="11: Lowest Meadowlark"
@@ -104,7 +124,9 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/run_12"
                 android:background="@android:color/holo_orange_dark"
-                android:textAlignment="center" />
+                android:textAlignment="textStart"
+                android:textSize="24sp"
+                android:layout_marginTop="5dp" />
 
             <Button
                 android:text="13: Easy Street"
@@ -112,7 +134,9 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/run_13"
                 android:background="@android:color/holo_green_dark"
-                android:textAlignment="center" />
+                android:textAlignment="textStart"
+                android:textSize="24sp"
+                android:layout_marginTop="5dp" />
 
             <Button
                 android:text="14: Sunny Side"
@@ -120,7 +144,9 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/run_14"
                 android:background="@android:color/holo_green_dark"
-                android:textAlignment="center" />
+                android:textAlignment="textStart"
+                android:textSize="24sp"
+                android:layout_marginTop="5dp" />
 
         </LinearLayout>
     </ScrollView>
