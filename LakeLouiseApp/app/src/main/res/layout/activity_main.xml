@@ -18,71 +18,89 @@
         android:background="?android:attr/colorBackground"
         android:id="@+id/MainContent1">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="100dp"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="LAKE LOUISE"
-            android:id="@+id/textView1"
-            android:textColor="#4259f4"
-            android:textSize="35sp"
-            android:fontFamily="monospace"
-            android:paddingTop="25sp"
-            android:layout_alignParentTop="true"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="150dp" />
-
-        <Button
-            android:text="Review"
-            android:layout_width="100dp"
-            android:layout_height="50dp"
-            android:id="@+id/button2"
-            android:layout_marginRight="60dp"
-            android:layout_marginEnd="60dp"
-            android:textSize="20sp"
-            android:textAlignment="center"
-            style="@style/Widget.AppCompat.Button.Colored"
-            android:background="#4259f4"
-            android:onClick="reviewButton"
-            android:layout_below="@+id/textView1"
-            android:layout_alignParentRight="true"
-            android:layout_alignParentEnd="true"
-            android:layout_marginTop="70dp" />
-
-        <Button
-            android:text="Make"
-            android:id="@+id/button1"
-            android:textSize="20sp"
-            android:layout_width="100dp"
-            android:layout_height="50dp"
-            android:background="#4259f4"
-            android:layout_below="@+id/textView1"
-            android:layout_toLeftOf="@+id/button2"
-            android:layout_toStartOf="@+id/button2"
-            android:layout_marginRight="60dp"
-            android:layout_marginEnd="60dp"
-            android:layout_marginTop="70dp"
-            style="@style/Widget.AppCompat.Button.Colored"
-            android:onClick="makeButton" />
-
-    </RelativeLayout>
-
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/MainContent2">
-
-        <TextView
-            android:text="information of ski hill"
+        <ScrollView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/textView2"
-            android:textAlignment="center"
-            android:textSize="50sp"
-            android:layout_centerVertical="true"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true" />
+            android:layout_height="match_parent">
 
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="LAKE LOUISE"
+                    android:id="@+id/title"
+                    android:textColor="#4259f4"
+                    android:textSize="50sp"
+                    android:fontFamily="monospace"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:text="Information for Skiers"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/disc_text"
+                    android:textAlignment="center"
+                    android:textSize="50sp"
+                    android:layout_below="@+id/title"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginTop="10dp" />
+
+                <Button
+                    android:text="Make Route"
+                    android:id="@+id/make_button"
+                    android:textSize="20sp"
+                    android:layout_height="50dp"
+                    android:background="#4259f4"
+                    style="@style/Widget.AppCompat.Button.Colored"
+                    android:onClick="routeMakerButton"
+                    android:layout_below="@+id/disc_text"
+                    android:layout_centerHorizontal="true"
+                    android:layout_width="match_parent"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginTop="10dp" />
+
+                <Button
+                    android:text="Review"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:id="@+id/review_button"
+                    android:textSize="20sp"
+                    android:textAlignment="center"
+                    style="@style/Widget.AppCompat.Button.Colored"
+                    android:background="#4259f4"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignLeft="@+id/info_button"
+                    android:layout_alignStart="@+id/info_button"
+                    android:layout_marginBottom="20dp
+                    "
+                    android:onClick="reviewButton" />
+
+                <Button
+                    android:text="Info"
+                    android:id="@+id/info_button"
+                    android:textSize="20sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="#4259f4"
+                    style="@style/Widget.AppCompat.Button.Colored"
+                    android:elevation="0dp"
+                    android:onClick="infoButton"
+                    android:layout_marginBottom="20dp"
+                    android:layout_above="@+id/review_button"
+                    android:layout_centerHorizontal="true" />
+            </LinearLayout>
+        </ScrollView>
 
     </RelativeLayout>
 

@@ -29,6 +29,8 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:id="@+id/btnNext" />
+<<<<<<< HEAD
+=======
 
     <LinearLayout
         android:orientation="vertical"
@@ -68,15 +70,12 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/button12" />
+>>>>>>> 3b6af4e0a8fce1629edb9d27e28bda870f9b5a72
 
-                <Button
-                    android:text="Route 5"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/button14" />
-            </LinearLayout>
-        </ScrollView>
 
+<<<<<<< HEAD
+=======
     </LinearLayout>
 
+>>>>>>> 3b6af4e0a8fce1629edb9d27e28bda870f9b5a72
 </RelativeLayout>

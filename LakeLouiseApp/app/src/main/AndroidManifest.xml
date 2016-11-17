@@ -19,7 +19,25 @@
         <activity android:name=".SelectRouteActivity" />
         <activity android:name=".RouteShowActivity" />
         <activity android:name=".MakeReviewActivity" />
-        <activity android:name=".ReviewActivity"></activity>
+        <activity android:name=".ReviewActivity" />
+        <!--
+ ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity android:name=".info" />
+        <activity android:name=".review" />
+        <activity android:name=".route_maker" />
+        <activity android:name=".glacier_runs" />
+        <activity android:name=".grizzly_runs" />
+        <activity android:name=".top_of_the_world_runs" />
+        <activity android:name=".ptarmigan_runs" />
+        <activity android:name=".larch_runs" />
+        <activity android:name=".paradise_runs" />
+        <activity android:name=".summit_runs"></activity>
     </application>
 
 </manifest>
