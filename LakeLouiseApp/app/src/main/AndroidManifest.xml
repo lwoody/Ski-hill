@@ -29,15 +29,8 @@
             android:value="@integer/google_play_services_version" />
 
         <activity android:name=".info" />
-        <activity android:name=".review" />
         <activity android:name=".route_maker" />
         <activity android:name=".glacier_runs" />
-        <activity android:name=".grizzly_runs" />
-        <activity android:name=".top_of_the_world_runs" />
-        <activity android:name=".ptarmigan_runs" />
-        <activity android:name=".larch_runs" />
-        <activity android:name=".paradise_runs" />
-        <activity android:name=".summit_runs"></activity>
     </application>
 
 </manifest>

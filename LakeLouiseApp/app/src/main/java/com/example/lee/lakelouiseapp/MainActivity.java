@@ -63,7 +63,6 @@ public class MainActivity extends AppCompatActivity {
 
 
     public void infoButton(View v)          {startActivity(new Intent(this, info.class));}
-    public void reviewButton(View v)        {startActivity(new Intent(this, review.class));}
     public void routeMakerButton(View v)    {startActivity(new Intent(this, SelectLiftActivity.class));}
 
 

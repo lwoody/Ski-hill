@@ -53,7 +53,7 @@
         android:layout_width="60dp" />
 
     <Button
-        android:text="Start/Stop"
+        android:text="Start | Stop"
         android:layout_width="wrap_content"
         android:id="@+id/button"
         android:background="#4259f4"
