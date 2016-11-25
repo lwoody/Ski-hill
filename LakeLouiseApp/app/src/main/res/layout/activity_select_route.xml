@@ -41,7 +41,6 @@
             android:background="@drawable/glacier_route">
 
             <CheckBox
-                android:text="WIWAXY"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/checkBox2"
@@ -53,7 +52,6 @@
                 android:layout_alignStart="@+id/checkBox" />
 
             <CheckBox
-                android:text="JUNIPER"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="27dp"
@@ -65,7 +63,6 @@
                 android:layout_marginTop="56dp" />
 
             <CheckBox
-                android:text="JUNIPER JUNGLE"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="96dp"
@@ -77,16 +74,6 @@
                 android:layout_marginStart="11dp" />
 
             <CheckBox
-                android:text="EASY STREET"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/checkBox9"
-                android:layout_below="@+id/checkBox8"
-                android:layout_centerHorizontal="true"
-                android:layout_marginTop="84dp" />
-
-            <CheckBox
-                android:text="UPPER JUNIPER"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="229dp"
@@ -98,64 +85,66 @@
                 android:layout_marginStart="18dp" />
 
             <CheckBox
-                android:text="LADIE'S DOWNHILL"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/checkBox4"
-                android:layout_below="@+id/checkBox2"
-                android:layout_alignRight="@+id/checkBox7"
-                android:layout_alignEnd="@+id/checkBox7"
-                android:layout_marginRight="16dp"
-                android:layout_marginEnd="16dp"
-                android:layout_marginTop="49dp" />
-
-            <CheckBox
-                android:text="PINE CONE WAY"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/checkBox3"
-                android:layout_marginLeft="17dp"
-                android:layout_marginStart="17dp"
-                android:layout_marginTop="21dp"
+                android:layout_marginTop="30dp"
                 android:layout_alignTop="@+id/checkBox2"
-                android:layout_alignLeft="@+id/checkBox10"
-                android:layout_alignStart="@+id/checkBox10" />
-
-            <CheckBox
-                android:text="CAMERON'S WAY"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/checkBox6"
-                android:layout_marginTop="20dp"
-                android:layout_below="@+id/checkBox4"
-                android:layout_toRightOf="@+id/checkBox9"
-                android:layout_toEndOf="@+id/checkBox9"
-                android:layout_marginLeft="17dp"
-                android:layout_marginStart="17dp" />
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginRight="36dp"
+                android:layout_marginEnd="36dp" />
 
             <CheckBox
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/checkBox7"
-                android:text="LOWEST MEADOWLARK"
-                android:layout_below="@+id/checkBox6"
-                android:layout_alignParentRight="true"
-                android:layout_alignParentEnd="true"
-                android:layout_alignLeft="@+id/checkBox10"
-                android:layout_alignStart="@+id/checkBox10"
-                style="@style/Widget.AppCompat.CompoundButton.CheckBox" />
+                style="@style/Widget.AppCompat.CompoundButton.CheckBox"
+                android:layout_marginLeft="15dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="20dp"
+                android:layout_alignTop="@+id/checkBox5"
+                android:layout_alignLeft="@+id/checkBox3"
+                android:layout_alignStart="@+id/checkBox3" />
 
             <CheckBox
-                android:text="SBX COURSE"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox9"
+                android:layout_marginTop="80dp"
+                android:layout_below="@+id/checkBox8"
+                android:layout_alignLeft="@+id/checkBox2"
+                android:layout_alignStart="@+id/checkBox2"
+                android:layout_marginLeft="24dp"
+                android:layout_marginStart="24dp" />
+
+            <CheckBox
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/checkBox10"
-                android:layout_alignBottom="@+id/checkBox9"
+                android:layout_below="@+id/checkBox8"
                 android:layout_alignLeft="@+id/checkBox6"
                 android:layout_alignStart="@+id/checkBox6"
-                android:layout_marginLeft="17dp"
-                android:layout_marginStart="17dp"
-                android:layout_marginBottom="41dp" />
+                android:layout_marginTop="36dp" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox4"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="18dp"
+                android:layout_marginStart="18dp"
+                android:layout_below="@+id/checkBox2"
+                android:layout_toRightOf="@+id/checkBox9"
+                android:layout_toEndOf="@+id/checkBox9" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox6"
+                android:layout_above="@+id/checkBox7"
+                android:layout_toLeftOf="@+id/checkBox7"
+                android:layout_toStartOf="@+id/checkBox7" />
         </RelativeLayout>
     </ScrollView>
 
