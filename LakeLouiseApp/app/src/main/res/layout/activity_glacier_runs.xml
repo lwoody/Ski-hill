@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_glacier_runs"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.lee.lakelouiseapp.glacier_runs">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:text="GLACIER EXPRESS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/title"
+            android:textSize="36sp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="252dp"
+            app:srcCompat="@drawable/glacier_run_diagram"
+            android:id="@+id/imageView6" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:text="2: Upper Juniper"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/run_2"
+                    android:background="@android:color/holo_blue_dark"
+                    android:textAlignment="textStart"
+                    android:textSize="24sp"
+                    android:layout_marginTop="5dp"
+                    android:onClick="run_2Button" />
+
+                <Button
+                    android:text="3: Juniper"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/run_3"
+                    android:background="@android:color/holo_blue_dark"
+                    android:textAlignment="textStart"
+                    android:textSize="24sp"
+                    android:layout_marginTop="5dp"
+                    android:onClick="run_3Button" />
+
+                <Button
+                    android:text="4: Juniper Jungle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/run_4"
+                    android:background="@android:color/holo_blue_dark"
+                    android:textAlignment="textStart"
+                    android:textSize="24sp"
+                    android:layout_marginTop="5dp"
+                    android:onClick="run_4Button" />
+
+                <Button
+                    android:text="5: SBX course"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/run_5"
+                    android:textAlignment="textStart"
+                    android:textSize="24sp"
+                    android:layout_marginTop="5dp"
+                    android:onClick="run_5Button" />
+
+                <Button
+                    android:text="6: Bald Eagle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/run_6"
+                    android:background="@android:color/holo_green_dark"
+                    android:textAlignment="textStart"
+                    android:textSize="24sp"
+                    android:layout_marginTop="5dp"
+                    android:onClick="run_6Button" />
+
+                <Button
+                    android:text="7: Ladies' Downhill"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/run_7"
+                    android:background="@android:color/holo_orange_dark"
+                    android:textAlignment="textStart"
+                    android:textSize="24sp"
+                    android:layout_marginTop="5dp"
+                    android:onClick="run_7Button" />
+
+                <Button
+                    android:text="8: Cameron's Way"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/run_8"
+                    android:background="@android:color/holo_blue_dark"
+                    android:textAlignment="textStart"
+                    android:textSize="24sp"
+                    android:layout_marginTop="5dp"
+                    android:onClick="run_8Button" />
+
+                <Button
+                    android:text="9: Wiwaxy"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/run_9"
+                    android:background="@android:color/holo_green_dark"
+                    android:textAlignment="textStart"
+                    android:textSize="24sp"
+                    android:layout_marginTop="5dp"
+                    android:onClick="run_9Button" />
+
+                <Button
+                    android:text="10: Pine Cone Way"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/run_10"
+                    android:background="@android:color/holo_green_dark"
+                    android:textAlignment="textStart"
+                    android:textSize="24sp"
+                    android:layout_marginTop="5dp"
+                    android:onClick="run_10Button" />
+
+                <Button
+                    android:text="11: Cross"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/run_11"
+                    android:background="@android:color/holo_green_dark"
+                    android:textAlignment="textStart"
+                    android:textSize="24sp"
+                    android:layout_marginTop="5dp"
+                    android:onClick="run_11Button" />
+
+                <Button
+                    android:text="12: Lowest Meadowlark"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/run_12"
+                    android:background="@android:color/holo_orange_dark"
+                    android:textAlignment="textStart"
+                    android:textSize="24sp"
+                    android:layout_marginTop="5dp"
+                    android:onClick="run_12Button" />
+
+                <Button
+                    android:text="13: Easy Street"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/run_13"
+                    android:background="@android:color/holo_green_dark"
+                    android:textAlignment="textStart"
+                    android:textSize="24sp"
+                    android:layout_marginTop="5dp"
+                    android:onClick="run_13Button" />
+
+                <Button
+                    android:text="14: Sunny Side"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/run_14"
+                    android:background="@android:color/holo_green_dark"
+                    android:textAlignment="textStart"
+                    android:textSize="24sp"
+                    android:layout_marginTop="5dp"
+                    android:onClick="run_14Button" />
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</RelativeLayout>

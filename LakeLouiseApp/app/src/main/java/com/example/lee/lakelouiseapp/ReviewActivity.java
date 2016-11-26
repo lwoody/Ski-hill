@@ -3,7 +3,7 @@ package com.example.lee.lakelouiseapp;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class review extends AppCompatActivity {
+public class ReviewActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

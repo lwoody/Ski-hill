@@ -29,8 +29,8 @@
             android:value="@integer/google_play_services_version" />
 
         <activity android:name=".info" />
-        <activity android:name=".review" />
-        <activity android:name=".route_maker"></activity>
+        <activity android:name=".route_maker" />
+        <activity android:name=".glacier_runs" />
     </application>
 
 </manifest>
