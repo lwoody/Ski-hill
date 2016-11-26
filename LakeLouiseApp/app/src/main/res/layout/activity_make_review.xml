@@ -32,16 +32,6 @@
         android:layout_alignEnd="@+id/textView67" />
 
     <TextView
-        android:text="12m 34s"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/textView63"
-        android:textSize="50sp"
-        android:layout_marginTop="66dp"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
-
-    <TextView
         android:layout_height="5sp"
         android:id="@+id/textView71"
         android:background="#4259f4"
@@ -70,7 +60,8 @@
             android:textColor="@color/common_google_signin_btn_text_dark_default"
             android:background="#4259f4"
             android:layout_marginRight="5sp"
-            android:layout_marginTop="7sp" />
+            android:layout_marginTop="7sp"
+            android:onClick="onClickCancel" />
 
         <Button
             android:text="save"
@@ -82,7 +73,8 @@
             android:textColor="@color/common_google_signin_btn_text_dark_default"
             android:layout_marginLeft="5sp"
             android:layout_marginTop="7sp"
-            android:textSize="14sp" />
+            android:textSize="14sp"
+            android:onClick="onClickSave" />
     </LinearLayout>
 
     <TextView
@@ -130,6 +122,16 @@
         android:layout_height="wrap_content"
         android:id="@+id/ratingBar2"
         android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="12m 34s"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView63"
+        android:textSize="35sp"
+        android:layout_marginTop="74dp"
+        android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />
 
 
