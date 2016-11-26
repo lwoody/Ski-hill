@@ -35,25 +35,6 @@ public class MainActivity extends AppCompatActivity {
 
         mainContent1.setVisibility(View.VISIBLE);
 
-        BottomBar bottomBar = BottomBar.attach(this, savedInstanceState);
-        bottomBar.setItemsFromMenu(R.menu.bottom_button, new OnMenuTabSelectedListener() {
-            @Override
-            public void onMenuItemSelected(int itemId) {
-                switch (itemId) {
-                    case R.id.route_item:
-                        Snackbar.make(coordinatorLayout, "Routes Selected", Snackbar.LENGTH_LONG).show();
-                        mainContent1.setVisibility(View.VISIBLE);
-                        break;
-                    case R.id.info_item:
-                        Snackbar.make(coordinatorLayout, "Infromation Selected", Snackbar.LENGTH_LONG).show();
-                        mainContent1.setVisibility(View.GONE);
-                        break;
-                }
-            }
-        });
-
-        // Set the color for the active tab. Ignored on mobile when there are more than three tabs.
-        bottomBar.setActiveTabColor("#4259f4");
 
         // ATTENTION: This was auto-generated to implement the App Indexing API.
         // See https://g.co/AppIndexing/AndroidStudio for more information.
