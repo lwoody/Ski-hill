@@ -13,23 +13,28 @@ import android.widget.TextView;
 
 public class RouteShowActivity extends AppCompatActivity{
 
-    Button startButton, stopButton;
+    Button startButton, stopButton, resetButton;
     TextView timerView;
     Handler handler = new Handler();
     long startTime=0, milliTime=0, timeSwapBuff=0, updateTime=0;
+
+    boolean reset = false;
 
     Runnable updateTimerThread = new Runnable() {
         @Override
         public void run() {
             milliTime = SystemClock.uptimeMillis()-startTime;
             updateTime = timeSwapBuff+milliTime;
-            int secs = (int)(updateTime / 1000);
+            int secs = ((int)(updateTime / 1000));
             int mins = secs / 60;
             int milli = (int) (updateTime%1000);
+
             if (mins > 0)
-                timerView.setText("" + mins + ":" + String.format("%2d", secs) + ":" + String.format("%3d", milli));
+                timerView.setText("" + mins + ":" + String.format("%2d", secs%60) + ":" + String.format("%3d", milli));
+            else if (secs > 0)
+                timerView.setText(String.format("%2d", secs%60) + ":" + String.format("%3d", milli));
             else
-                timerView.setText(String.format("%2d", secs) + ":" + String.format("%3d", milli));
+                timerView.setText(String.format("%3d", milli));
 
             handler.postDelayed(this, 0);
         }
@@ -43,6 +48,7 @@ public class RouteShowActivity extends AppCompatActivity{
 
         startButton = (Button)findViewById(R.id.startButton);
         stopButton = (Button)findViewById(R.id.stopButton);
+        resetButton = (Button)findViewById(R.id.resetButton);
         timerView = (TextView)findViewById(R.id.timer);
 
         startButton.setOnClickListener (new View.OnClickListener() {
@@ -50,13 +56,27 @@ public class RouteShowActivity extends AppCompatActivity{
             public void onClick(View view) {
                 startTime = SystemClock.uptimeMillis();
                 handler.postDelayed(updateTimerThread, 0);
+                startButton.setText("RESTART");
+                if (reset) timeSwapBuff = 0;
+                reset = true;
             }
         });
         stopButton.setOnClickListener (new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                timeSwapBuff+=milliTime;
+                timeSwapBuff += milliTime;
                 handler.removeCallbacks(updateTimerThread);
+                startButton.setText("START");
+                reset = false;
+            }
+        });
+        resetButton.setOnClickListener (new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                timeSwapBuff = 0;
+                handler.removeCallbacks(updateTimerThread);
+                timerView.setText("0:00:000");
+                startButton.setText("START");
             }
         });
     }

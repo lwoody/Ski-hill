@@ -16,14 +16,29 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <TextView
-            android:text="0:00:000"
+        <LinearLayout
+            android:orientation="horizontal"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/timer"
-            android:textSize="50sp"
-            android:layout_below="@+id/textView10"
-            android:layout_centerHorizontal="true" />
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="0:00:000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/timer"
+                android:textSize="50sp"
+                android:layout_below="@+id/textView10"
+                android:layout_centerHorizontal="true"
+                android:layout_weight="1" />
+
+            <Button
+                android:text="RESET"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/resetButton"
+                android:layout_weight="0"
+                android:elevation="0dp" />
+        </LinearLayout>
 
         <LinearLayout
             android:orientation="horizontal"
