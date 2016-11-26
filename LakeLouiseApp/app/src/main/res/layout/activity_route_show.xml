@@ -11,187 +11,191 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.lee.lakelouiseapp.RouteShowActivity">
 
-    <TextView
-        android:text="TIME"
-        android:layout_height="wrap_content"
-        android:id="@+id/textView2"
-        android:textSize="24sp"
-
-        android:textColor="#4259f4"
-        android:layout_width="60dp"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
-
-    <TextView
-        android:id="@+id/textView10"
-        android:background="#4259f4"
-        android:layout_height="5dp"
-        android:layout_width="60dp"
-        android:layout_below="@+id/textView2"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
-
-    <TextView
-        android:id="@+id/textView13"
-        android:background="#4259f4"
-        android:layout_height="5dp"
-        android:layout_width="60dp"
-        android:layout_below="@+id/textView12"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_alignRight="@+id/textView12"
-        android:layout_alignEnd="@+id/textView12" />
-
-    <ScrollView
+    <LinearLayout
+        android:orientation="vertical"
         android:layout_width="match_parent"
-        android:id="@+id/routeName"
-        android:layout_below="@+id/imageView2"
-        android:layout_height="110dp">
+        android:layout_height="match_parent">
 
         <LinearLayout
-            android:orientation="vertical"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="0:00:000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/timer"
+                android:textSize="50sp"
+                android:layout_below="@+id/textView10"
+                android:layout_centerHorizontal="true"
+                android:layout_weight="1" />
+
+            <Button
+                android:text="RESET"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/resetButton"
+                android:layout_weight="0"
+                android:elevation="0dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
             <Button
-                android:text="2: Upper Juniper"
-                android:layout_width="match_parent"
-                android:id="@+id/run_2"
-                android:background="@android:color/holo_blue_dark"
-                android:textAlignment="center"
-                android:textSize="20sp"
-                android:layout_marginTop="5dp"
-                android:onClick="run_2Button"
-                android:layout_height="40sp" />
+                android:text="START"
+                android:layout_width="wrap_content"
+                android:id="@+id/startButton"
+                android:background="#4259f4"
+                android:textColor="@color/common_google_signin_btn_text_dark_default"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/timer"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_weight="1" />
 
             <Button
-                android:text="3: Juniper"
-                android:layout_width="match_parent"
-                android:id="@+id/run_3"
-                android:background="@android:color/holo_blue_dark"
-                android:textAlignment="center"
-                android:textSize="20sp"
-                android:layout_marginTop="5dp"
-                android:onClick="run_3Button"
-                android:layout_height="40sp" />
+                android:text="STOP"
+                android:layout_width="wrap_content"
+                android:id="@+id/stopButton"
+                android:background="@android:color/holo_red_dark"
+                android:textColor="@color/common_google_signin_btn_text_dark_default"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/timer"
+                android:layout_alignParentLeft="false"
+                android:layout_alignParentStart="false"
+                android:layout_alignParentRight="false"
+                android:layout_alignParentEnd="false"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:id="@+id/imageView2"
+            android:scaleType="fitCenter"
+            android:layout_height="200dp"
+            app:srcCompat="@drawable/route_selected"
+            android:layout_below="@+id/textView13"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/routeName">
 
             <Button
-                android:text="4: Juniper Jungle"
-                android:layout_width="match_parent"
-                android:id="@+id/run_4"
-                android:background="@android:color/holo_blue_dark"
-                android:textAlignment="center"
-                android:textSize="20sp"
-                android:layout_marginTop="5dp"
-                android:onClick="run_4Button"
-                android:layout_height="40sp" />
+                android:text="SHARE"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/button7"
+                android:layout_weight="1"
+                android:background="#4259f4"
+                android:textColor="@color/common_google_signin_btn_text_dark_default"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="7dp" />
 
             <Button
-                android:text="6: Bald Eagle"
-                android:layout_width="match_parent"
-                android:id="@+id/run_6"
-                android:background="@android:color/holo_green_dark"
-                android:textAlignment="center"
-                android:textSize="20sp"
-                android:layout_marginTop="5dp"
-                android:onClick="run_6Button"
-                android:layout_height="40sp" />
-
-            <Button
-                android:text="13: Easy Street"
-                android:layout_width="match_parent"
-                android:id="@+id/run_13"
-                android:background="@android:color/holo_green_dark"
-                android:textAlignment="center"
-                android:textSize="20sp"
-                android:layout_marginTop="5dp"
-                android:onClick="run_13Button"
-                android:layout_height="40sp" />
+                android:text="Make review"
+                android:layout_width="wrap_content"
+                android:id="@+id/button6"
+                android:layout_weight="1"
+                android:background="#4259f4"
+                android:layout_height="wrap_content"
+                android:textColor="@color/common_google_signin_btn_text_dark_default"
+                android:layout_marginTop="7dp"
+                android:layout_marginLeft="5dp"
+                android:onClick="onClickSave" />
 
         </LinearLayout>
-    </ScrollView>
 
-    <LinearLayout
-        android:orientation="horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginBottom="13dp"
-        android:layout_below="@+id/routeName">
-
-        <Button
-            android:text="SHARE"
-            android:layout_width="wrap_content"
+        <TextView
+            android:text="Selected Runs"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/button7"
-            android:layout_weight="1"
-            android:background="#4259f4"
-            android:textColor="@color/common_google_signin_btn_text_dark_default"
-            android:layout_marginRight="5dp"
-            android:layout_marginTop="7dp" />
+            android:id="@+id/textView2"
+            android:textSize="24sp"
+            android:fontFamily="sans-serif"
+            android:textAlignment="center" />
 
-        <Button
-            android:text="Make review"
-            android:layout_width="wrap_content"
-            android:id="@+id/button6"
-            android:layout_weight="1"
-            android:background="#4259f4"
-            android:layout_height="wrap_content"
-            android:textColor="@color/common_google_signin_btn_text_dark_default"
-            android:layout_marginTop="7dp"
-            android:layout_marginLeft="5dp"
-            android:onClick="onClickSave" />
+        <ScrollView
+            android:layout_width="match_parent"
+            android:id="@+id/routeName"
+            android:layout_below="@+id/imageView2"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:text="2: Upper Juniper"
+                    android:layout_width="match_parent"
+                    android:id="@+id/run_2"
+                    android:background="@android:color/holo_blue_dark"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:layout_marginTop="5dp"
+                    android:onClick="run_2Button"
+                    android:layout_height="40sp" />
+
+                <Button
+                    android:text="3: Juniper"
+                    android:layout_width="match_parent"
+                    android:id="@+id/run_3"
+                    android:background="@android:color/holo_blue_dark"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:layout_marginTop="5dp"
+                    android:onClick="run_3Button"
+                    android:layout_height="40sp" />
+
+                <Button
+                    android:text="4: Juniper Jungle"
+                    android:layout_width="match_parent"
+                    android:id="@+id/run_4"
+                    android:background="@android:color/holo_blue_dark"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:layout_marginTop="5dp"
+                    android:onClick="run_4Button"
+                    android:layout_height="40sp" />
+
+                <Button
+                    android:text="6: Bald Eagle"
+                    android:layout_width="match_parent"
+                    android:id="@+id/run_6"
+                    android:background="@android:color/holo_green_dark"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:layout_marginTop="5dp"
+                    android:onClick="run_6Button"
+                    android:layout_height="40sp" />
+
+                <Button
+                    android:text="13: Easy Street"
+                    android:layout_width="match_parent"
+                    android:id="@+id/run_13"
+                    android:background="@android:color/holo_green_dark"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:layout_marginTop="5dp"
+                    android:onClick="run_13Button"
+                    android:layout_height="40sp" />
+
+            </LinearLayout>
+        </ScrollView>
+
     </LinearLayout>
-
-    <TextView
-        android:text="ROUTE"
-        android:layout_height="wrap_content"
-        android:id="@+id/textView12"
-        android:textSize="24sp"
-        android:textColor="#4259f4"
-
-        android:textAlignment="textStart"
-        android:layout_width="80dp"
-        android:layout_marginTop="18dp"
-        android:layout_below="@+id/button"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
-
-    <ImageView
-        android:layout_width="wrap_content"
-        android:id="@+id/imageView2"
-        android:scaleType="fitCenter"
-        android:layout_height="200dp"
-        app:srcCompat="@drawable/route_selected"
-        android:layout_below="@+id/textView13"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
-
-    <TextView
-        android:text="00:00"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/textView9"
-        android:textSize="50sp"
-        android:layout_marginTop="16dp"
-        android:layout_below="@+id/textView10"
-        android:layout_centerHorizontal="true" />
-
-    <Button
-        android:text="Start | Stop"
-        android:layout_width="wrap_content"
-        android:id="@+id/button"
-        android:background="#4259f4"
-        android:textColor="@color/common_google_signin_btn_text_dark_default"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
-        android:layout_below="@+id/textView9"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
 
 </RelativeLayout>
