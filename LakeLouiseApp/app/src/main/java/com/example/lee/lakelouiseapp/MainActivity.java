@@ -4,7 +4,6 @@ import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.design.widget.CoordinatorLayout;
-import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.RelativeLayout;
@@ -13,8 +12,6 @@ import com.google.android.gms.appindexing.Action;
 import com.google.android.gms.appindexing.AppIndex;
 import com.google.android.gms.appindexing.Thing;
 import com.google.android.gms.common.api.GoogleApiClient;
-import com.roughike.bottombar.BottomBar;
-import com.roughike.bottombar.OnMenuTabSelectedListener;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -29,6 +26,26 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+//        coordinatorLayout = (CoordinatorLayout) findViewById(R.id.activity_main);
+//
+//        BottomBar bottomBar = BottomBar.attach(this, savedInstanceState);
+//        bottomBar.setItemsFromMenu(R.menu.bottom_button, new OnMenuTabSelectedListener() {
+//            @Override
+//            public void onMenuItemSelected(int itemId) {
+//                switch (itemId) {
+//                    case R.id.route_item:
+//                        Snackbar.make(coordinatorLayout, "Recent Item Selected", Snackbar.LENGTH_LONG).show();
+//                        break;
+//                    case R.id.info_item:
+//                        Snackbar.make(coordinatorLayout, "Favorite Item Selected", Snackbar.LENGTH_LONG).show();
+//                        break;
+//                }
+//            }
+//        });
+//
+//        // Set the color for the active tab. Ignored on mobile when there are more than three tabs.
+//        bottomBar.setActiveTabColor("#C2185B");
 
         coordinatorLayout = (CoordinatorLayout) findViewById(R.id.activity_main);
         final RelativeLayout mainContent1 = (RelativeLayout) findViewById(R.id.MainContent1);
@@ -83,4 +100,6 @@ public class MainActivity extends AppCompatActivity {
         AppIndex.AppIndexApi.end(client, getIndexApiAction());
         client.disconnect();
     }
+
+
 }
