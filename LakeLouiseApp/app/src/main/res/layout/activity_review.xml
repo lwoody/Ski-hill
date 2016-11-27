@@ -14,34 +14,71 @@
 
     tools:context="com.example.lee.lakelouiseapp.review">
 
-    <LinearLayout
-        android:orientation="vertical"
+    <TableLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginBottom="7dp">
+        android:layout_height="match_parent">
 
-        <LinearLayout
-            android:orientation="horizontal"
+        <TableRow
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:orientation="vertical">
 
+<<<<<<< HEAD
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/textView61"
                 android:layout_weight="1"
                 android:text="fdsafdsa" />
-
-            <ImageView
+=======
+            <LinearLayout
+                android:orientation="vertical"
                 android:layout_width="wrap_content"
-                android:layout_height="200dp"
-                app:srcCompat="@drawable/selectedroute"
-                android:id="@+id/imageView4"
-                android:layout_weight="1" />
-        </LinearLayout>
-    </LinearLayout>
+                android:layout_height="match_parent"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="7dp">
+>>>>>>> f1750ea365ab6744b346b2c33549f3f36578373e
+
+                <ImageView
+                    app:srcCompat="@drawable/selectedroute"
+                    android:id="@+id/imageView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp" />
+
+                <RatingBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/ratingBar2"
+                    android:numStars="5"
+                    android:stepSize=".5"
+                    android:contextClickable="false"
+                    android:rating="3.5" />
+
+                <TextView
+                    android:text="15m 42s"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView12"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:text="This is a review"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView9"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp"
+                    android:id="@+id/textView61"
+                    android:background="@android:color/holo_blue_dark" />
+            </LinearLayout>
+
+        </TableRow>
+
+    </TableLayout>
 
 </RelativeLayout>

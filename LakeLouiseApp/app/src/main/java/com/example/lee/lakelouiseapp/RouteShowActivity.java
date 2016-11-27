@@ -78,5 +78,9 @@ public class RouteShowActivity extends AppCompatActivity{
             }
         });
     }
-    public void onClickSave(View v){ startActivity(new Intent(this, MakeReviewActivity.class)); }
+    public void onClickSave(View v)
+    {
+        startActivity(new Intent(this, MakeReviewActivity.class));
+        MakeReviewActivity.getTime(updateTime);
+    }
 }
