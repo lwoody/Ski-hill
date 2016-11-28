@@ -1,5 +1,6 @@
 package com.example.lee.lakelouiseapp;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.content.ContextCompat;
@@ -41,6 +42,6 @@ public class ReviewActivity extends AppCompatActivity {
 
     }
 
-    public void onClickTry(View v){startActivity(new Intent(this, MakeReviewActivity.class));}
+    public void onClickTry(View v){startActivity(new Intent(this, RouteShowActivity.class));}
 
 }
