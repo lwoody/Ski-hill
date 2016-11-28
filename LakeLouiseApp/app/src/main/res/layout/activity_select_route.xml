@@ -150,59 +150,6 @@
                 <CheckBox
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:id="@+id/checkBox9"
-                    android:layout_marginTop="14dp"
-                    android:layout_marginLeft="11dp"
-                    android:layout_marginStart="11dp"
-                    android:layout_below="@+id/checkBox10"
-                    android:layout_alignLeft="@+id/checkBox2"
-                    android:layout_alignStart="@+id/checkBox2" />
-
-                <CheckBox
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/checkBox10"
-                    android:layout_marginTop="33dp"
-                    android:layout_below="@+id/checkBox8"
-                    android:layout_alignLeft="@+id/checkBox6"
-                    android:layout_alignStart="@+id/checkBox6"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginStart="10dp" />
-
-                <CheckBox
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/checkBox4"
-                    android:layout_marginTop="52dp"
-                    android:layout_below="@+id/checkBox2"
-                    android:layout_toRightOf="@+id/checkBox9"
-                    android:layout_toEndOf="@+id/checkBox9"
-                    android:layout_marginLeft="36dp"
-                    android:layout_marginStart="36dp" />
-
-                <CheckBox
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/checkBox6"
-                    android:layout_above="@+id/checkBox7"
-                    android:layout_toRightOf="@+id/checkBox11"
-                    android:layout_toEndOf="@+id/checkBox11" />
-
-                <CheckBox
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/checkBox7"
-                    style="@style/Widget.AppCompat.CompoundButton.CheckBox"
-                    android:layout_marginLeft="12dp"
-                    android:layout_marginStart="12dp"
-                    android:layout_marginTop="17dp"
-                    android:layout_alignTop="@+id/checkBox5"
-                    android:layout_toRightOf="@+id/checkBox10"
-                    android:layout_toEndOf="@+id/checkBox10" />
-
-                <CheckBox
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
                     android:id="@+id/checkBox3"
                     android:layout_marginTop="30dp"
                     android:layout_alignTop="@+id/checkBox2"
@@ -212,11 +159,61 @@
                 <CheckBox
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:id="@+id/checkBox4"
+                    android:layout_marginTop="53dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_below="@+id/checkBox2"
+                    android:layout_toRightOf="@+id/checkBox9"
+                    android:layout_toEndOf="@+id/checkBox9" />
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/checkBox9"
+                    android:layout_marginTop="20dp"
+                    android:layout_below="@+id/checkBox10"
+                    android:layout_alignLeft="@+id/checkBox2"
+                    android:layout_alignStart="@+id/checkBox2" />
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
                     android:id="@+id/checkBox11"
                     android:layout_below="@+id/checkBox9"
                     android:layout_toRightOf="@+id/checkBox4"
-                    android:layout_toEndOf="@+id/checkBox4"
-                    android:layout_marginTop="12dp" />
+                    android:layout_toEndOf="@+id/checkBox4" />
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/checkBox10"
+                    android:layout_marginTop="34dp"
+                    android:layout_below="@+id/checkBox8"
+                    android:layout_alignRight="@+id/checkBox3"
+                    android:layout_alignEnd="@+id/checkBox3"
+                    android:layout_marginRight="11dp"
+                    android:layout_marginEnd="11dp" />
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/checkBox6"
+                    android:layout_above="@+id/checkBox7"
+                    android:layout_toRightOf="@+id/checkBox11"
+                    android:layout_toEndOf="@+id/checkBox11"
+                    android:layout_marginLeft="11dp"
+                    android:layout_marginStart="11dp" />
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/checkBox7"
+                    style="@style/Widget.AppCompat.CompoundButton.CheckBox"
+                    android:layout_marginTop="13dp"
+                    android:layout_alignTop="@+id/checkBox5"
+                    android:layout_toRightOf="@+id/checkBox10"
+                    android:layout_toEndOf="@+id/checkBox10" />
             </RelativeLayout>
         </ScrollView>
 
