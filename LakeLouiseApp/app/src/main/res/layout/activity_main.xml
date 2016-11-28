@@ -24,7 +24,7 @@
             android:id="@+id/disc_text"
             android:textAlignment="center"
             android:textSize="50sp"
-            android:layout_below="@+id/title"
+            android:layout_below="@+id/textView1"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
             android:layout_marginTop="10dp" />
@@ -45,21 +45,28 @@
                 android:layout_width="match_parent"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="LAKE LOUISE"
-                android:id="@+id/title"
+                android:id="@+id/textView1"
                 android:textColor="#4259f4"
-                android:textSize="50sp"
                 android:fontFamily="monospace"
                 android:layout_alignParentTop="true"
                 android:layout_centerHorizontal="true"
                 android:textAlignment="center"
                 android:layout_weight="2.08"
-                android:layout_height="match_parent" />
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:textAllCaps="true"
+                android:textSize="45dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:id="@+id/textView78"
+                android:background="#4259f4"
+                android:layout_height="1dp" />
 
             <Button
-                android:text="Make Route"
+                android:text="Route Maker"
                 android:id="@+id/make_button"
-                android:textSize="20sp"
-                android:layout_height="match_parent"
+                android:layout_height="100dp"
                 android:background="#4259f4"
                 style="@style/Widget.AppCompat.Button.Colored"
                 android:onClick="routeMakerButton"
@@ -68,14 +75,14 @@
                 android:layout_width="match_parent"
                 android:layout_marginBottom="20dp"
                 android:layout_marginTop="10dp"
-                android:layout_weight="2.08" />
+                android:layout_weight="2.08"
+                android:textSize="25dp" />
 
             <Button
-                android:text="Info"
+                android:text="Condition information"
                 android:id="@+id/info_button"
-                android:textSize="20sp"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="100dp"
                 android:background="#4259f4"
                 style="@style/Widget.AppCompat.Button.Colored"
                 android:elevation="0dp"
@@ -83,14 +90,15 @@
                 android:layout_marginBottom="20dp"
                 android:layout_above="@+id/review_button"
                 android:layout_centerHorizontal="true"
-                android:layout_weight="2.08" />
+                android:layout_weight="2.08"
+                android:textSize="25dp" />
 
             <Button
-                android:text="Review"
+                android:text="Reviews"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="100dp"
                 android:id="@+id/review_button"
-                android:textSize="20sp"
+                android:textSize="25dp"
                 android:textAlignment="center"
                 style="@style/Widget.AppCompat.Button.Colored"
                 android:background="#4259f4"
