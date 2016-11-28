@@ -18,12 +18,20 @@
 
         <TextView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
             android:id="@+id/textView9"
             android:text="Timer"
             android:textAllCaps="true"
-            android:textSize="24sp"
-            android:textAlignment="center" />
+            android:textSize="30dp"
+            android:textAlignment="center"
+            android:layout_height="40dp"
+            android:textColor="#4259f4"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:id="@+id/textView79"
+            android:background="#4259f4" />
 
         <LinearLayout
             android:orientation="horizontal"
@@ -86,14 +94,40 @@
         </LinearLayout>
 
         <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:id="@+id/textView81"
+            android:background="@color/common_action_bar_splitter"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp" />
+
+        <TextView
             android:text="Selected Runs"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="40dp"
             android:id="@+id/textView2"
-            android:textSize="24sp"
+            android:textSize="30dp"
             android:fontFamily="sans-serif"
             android:textAlignment="center"
-            android:textAllCaps="true" />
+            android:textAllCaps="true"
+            android:textColor="#4259f4"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:id="@+id/textView80"
+            android:background="#4259f4" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:id="@+id/imageView2"
+            android:scaleType="fitCenter"
+            android:layout_height="200dp"
+            app:srcCompat="@drawable/route_selected"
+            android:layout_below="@+id/textView13"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
 
         <ScrollView
             android:layout_width="match_parent"
@@ -163,16 +197,6 @@
 
             </LinearLayout>
         </ScrollView>
-
-        <ImageView
-            android:layout_width="match_parent"
-            android:id="@+id/imageView2"
-            android:scaleType="fitCenter"
-            android:layout_height="200dp"
-            app:srcCompat="@drawable/route_selected"
-            android:layout_below="@+id/textView13"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true" />
 
         <LinearLayout
             android:orientation="horizontal"

@@ -2,21 +2,11 @@ package com.example.lee.lakelouiseapp;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v4.widget.TextViewCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.RatingBar;
 import android.widget.TextView;
-
-import java.io.BufferedReader;
-import java.io.BufferedWriter;
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileOutputStream;
-import java.io.FileWriter;
-import java.io.FileReader;
-import java.io.IOException;
 
 public class MakeReviewActivity extends AppCompatActivity {
 
@@ -41,7 +31,7 @@ public class MakeReviewActivity extends AppCompatActivity {
     {
         System.out.println("click");
         saveReview();
-        //startActivity(new Intent(this, ReviewActivity.class));
+        startActivity(new Intent(this, ReviewActivity.class));
     }
     public void onClickCancel(View v){ startActivity(new Intent(this, MainActivity.class)); }
 

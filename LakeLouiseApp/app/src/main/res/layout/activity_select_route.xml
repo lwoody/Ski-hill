@@ -16,82 +16,71 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
+        <TextView
+            android:text="Select Routes"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/textView5"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="30sp"
+            android:textAllCaps="true"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true"
+            android:layout_above="@+id/textView11"
+            android:textColor="#4259f4"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:id="@+id/textView77"
+            android:background="#4259f4"
+            android:layout_marginBottom="5dp" />
+
         <LinearLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginBottom="5dp">
 
             <TextView
-                android:text="Select Routes"
+                android:text="Curve"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/textView5"
-                android:fontFamily="sans-serif-condensed"
-                android:textSize="25sp"
-                android:textAllCaps="true"
-                android:layout_centerHorizontal="true"
+                android:id="@+id/textView"
+                android:textColor="@color/colorAccent"
                 android:layout_alignParentTop="true"
-                android:layout_above="@+id/textView11"
-                android:textColor="#4259f4"
-                android:textStyle="normal|bold"
-                android:layout_weight="1" />
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_weight="1"
+                android:gravity="center"/>
 
-            <LinearLayout
-                android:orientation="vertical"
+            <TextView
+                android:text="Rock"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1">
+                android:id="@+id/textView4"
+                android:textColor="#633e19"
+                android:layout_below="@+id/textView3"
+                android:layout_alignLeft="@+id/textView"
+                android:layout_alignStart="@+id/textView"
+                android:layout_weight="1"
+                android:gravity="center"/>
 
-                <TextView
-                    android:text="Curve"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/textView"
-                    android:textColor="@color/colorAccent"
-                    android:layout_alignParentTop="true"
-                    android:layout_alignParentRight="true"
-                    android:layout_alignParentEnd="true"
-                    android:layout_weight="1" />
-
-                <TextView
-                    android:text="Tree"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/textView3"
-                    android:textColor="#175C3A"
-                    android:layout_below="@+id/textView"
-                    android:layout_alignParentRight="true"
-                    android:layout_alignParentEnd="true"
-                    android:layout_weight="1" />
-
-                <TextView
-                    android:text="Rock"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/textView4"
-                    android:textColor="#633e19"
-                    android:layout_below="@+id/textView3"
-                    android:layout_alignLeft="@+id/textView"
-                    android:layout_alignStart="@+id/textView"
-                    android:layout_weight="1" />
-            </LinearLayout>
+            <TextView
+                android:text="Tree"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView3"
+                android:textColor="#175C3A"
+                android:layout_below="@+id/textView"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_weight="1"
+                android:gravity="center"/>
 
         </LinearLayout>
-
-        <Button
-            android:text="Submit"
-            android:layout_width="match_parent"
-            android:id="@+id/button3"
-            android:layout_below="@+id/route"
-            android:layout_height="wrap_content"
-            android:background="#4259f4"
-            android:textColor="@color/common_google_signin_btn_text_dark_default"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentRight="true"
-            android:layout_alignParentEnd="true"
-            android:textSize="14sp"
-            android:onClick="onClickSubmit" />
 
         <ScrollView
             android:layout_width="match_parent"
@@ -99,7 +88,7 @@
             android:layout_below="@+id/textView4"
             android:scrollbarStyle="outsideOverlay"
             android:layout_marginBottom="10dp"
-            android:layout_height="match_parent">
+            android:layout_height="450dp">
 
             <RelativeLayout
                 android:layout_width="match_parent"
@@ -142,37 +131,6 @@
                 <CheckBox
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:id="@+id/checkBox3"
-                    android:layout_marginTop="30dp"
-                    android:layout_alignTop="@+id/checkBox2"
-                    android:layout_alignParentRight="true"
-                    android:layout_alignParentEnd="true"
-                    android:layout_marginRight="36dp"
-                    android:layout_marginEnd="36dp" />
-
-                <CheckBox
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/checkBox7"
-                    style="@style/Widget.AppCompat.CompoundButton.CheckBox"
-                    android:layout_marginLeft="15dp"
-                    android:layout_marginStart="15dp"
-                    android:layout_marginTop="20dp"
-                    android:layout_alignTop="@+id/checkBox5"
-                    android:layout_alignLeft="@+id/checkBox3"
-                    android:layout_alignStart="@+id/checkBox3" />
-
-                <CheckBox
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/checkBox6"
-                    android:layout_above="@+id/checkBox7"
-                    android:layout_toLeftOf="@+id/checkBox7"
-                    android:layout_toStartOf="@+id/checkBox7" />
-
-                <CheckBox
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
                     android:layout_marginTop="227dp"
                     android:id="@+id/checkBox"
                     android:layout_marginLeft="18dp"
@@ -180,15 +138,6 @@
                     android:layout_alignParentTop="true"
                     android:layout_alignLeft="@+id/checkBox8"
                     android:layout_alignStart="@+id/checkBox8" />
-
-                <CheckBox
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/checkBox4"
-                    android:layout_marginTop="52dp"
-                    android:layout_below="@+id/checkBox2"
-                    android:layout_toRightOf="@+id/checkBox9"
-                    android:layout_toEndOf="@+id/checkBox9" />
 
                 <CheckBox
                     android:layout_width="wrap_content"
@@ -215,14 +164,68 @@
                 <CheckBox
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:id="@+id/checkBox4"
+                    android:layout_marginTop="52dp"
+                    android:layout_below="@+id/checkBox2"
+                    android:layout_toRightOf="@+id/checkBox9"
+                    android:layout_toEndOf="@+id/checkBox9"
+                    android:layout_marginLeft="36dp"
+                    android:layout_marginStart="36dp" />
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/checkBox6"
+                    android:layout_above="@+id/checkBox7"
+                    android:layout_toRightOf="@+id/checkBox11"
+                    android:layout_toEndOf="@+id/checkBox11" />
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/checkBox7"
+                    style="@style/Widget.AppCompat.CompoundButton.CheckBox"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_alignTop="@+id/checkBox5"
+                    android:layout_toRightOf="@+id/checkBox10"
+                    android:layout_toEndOf="@+id/checkBox10" />
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/checkBox3"
+                    android:layout_marginTop="30dp"
+                    android:layout_alignTop="@+id/checkBox2"
+                    android:layout_toRightOf="@+id/checkBox6"
+                    android:layout_toEndOf="@+id/checkBox6" />
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
                     android:id="@+id/checkBox11"
                     android:layout_below="@+id/checkBox9"
                     android:layout_toRightOf="@+id/checkBox4"
                     android:layout_toEndOf="@+id/checkBox4"
-                    android:layout_marginLeft="12dp"
-                    android:layout_marginStart="12dp" />
+                    android:layout_marginTop="12dp" />
             </RelativeLayout>
         </ScrollView>
+
+        <Button
+            android:text="Submit"
+            android:layout_width="match_parent"
+            android:id="@+id/button3"
+            android:layout_below="@+id/route"
+            android:background="#4259f4"
+            android:textColor="@color/common_google_signin_btn_text_dark_default"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:textSize="14sp"
+            android:onClick="onClickSubmit"
+            android:layout_height="60dp" />
 
     </LinearLayout>
 

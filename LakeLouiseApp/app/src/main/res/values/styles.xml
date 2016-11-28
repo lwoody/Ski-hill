@@ -1,17 +1,17 @@
 <resources>
 
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <!--<style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">-->
 
-        <item name="colorPrimary">#4259f4</item>
-        <item name="colorPrimaryDark">#4259f4</item>
-        <!-- Customize your theme here. -->
-    </style>
+        <!--<item name="colorPrimary">#4259f4</item>-->
+        <!--<item name="colorPrimaryDark">#4259f4</item>-->
+        <!--&lt;!&ndash; Customize your theme here. &ndash;&gt;-->
+    <!--</style>-->
 
 
 
     <!--No action bar -->
-    <!--<style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">-->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
 
-    <!--</style>-->
+    </style>
 
 </resources>
