@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="lifts">
+        <item >Grizzly Express</item>
+        <item >Glacier Express</item>
+        <item >Summit Platter</item>
+        <item >Paradise</item>
+        <item >Top of the world</item>
+        <item >Ptamirgan Express</item>
+        <item >Larch Express</item>
+    </string-array>
+</resources>
