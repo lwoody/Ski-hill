@@ -111,117 +111,183 @@
                 android:background="@drawable/glacier_route"
                 android:layout_height="wrap_content">
 
-                <CheckBox
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/checkBox2"
-                    android:layout_marginBottom="69dp"
-                    android:layout_marginLeft="87dp"
-                    android:layout_marginStart="87dp"
-                    android:layout_alignBottom="@+id/checkBox"
-                    android:layout_alignLeft="@+id/checkBox"
-                    android:layout_alignStart="@+id/checkBox" />
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_below="@+id/relativeLayout"
+                    android:layout_height="300dp"
+                    android:id="@+id/part1">
 
-                <CheckBox
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="27dp"
-                    android:layout_marginStart="27dp"
-                    android:id="@+id/checkBox5"
-                    android:layout_below="@+id/checkBox4"
-                    android:layout_alignLeft="@+id/checkBox"
-                    android:layout_alignStart="@+id/checkBox"
-                    android:layout_marginTop="56dp" />
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/checkBox3"
+                        android:layout_marginTop="33dp"
+                        android:button="@drawable/xml_button"
+                        android:layout_marginRight="37dp"
+                        android:layout_marginEnd="37dp"
+                        android:layout_alignTop="@+id/checkBox2"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true" />
 
-                <CheckBox
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="96dp"
-                    android:id="@+id/checkBox8"
-                    android:layout_below="@+id/checkBox7"
-                    android:layout_alignParentLeft="true"
-                    android:layout_alignParentStart="true"
-                    android:layout_marginLeft="11dp"
-                    android:layout_marginStart="11dp" />
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/checkBox1"
+                        android:layout_marginLeft="26dp"
+                        android:layout_marginStart="26dp"
+                        android:button="@drawable/xml_button"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_marginBottom="46dp" />
 
-                <CheckBox
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="227dp"
-                    android:id="@+id/checkBox"
-                    android:layout_marginLeft="18dp"
-                    android:layout_marginStart="18dp"
-                    android:layout_alignParentTop="true"
-                    android:layout_alignLeft="@+id/checkBox8"
-                    android:layout_alignStart="@+id/checkBox8" />
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/checkBox2"
+                        android:layout_marginBottom="68dp"
+                        android:layout_marginLeft="54dp"
+                        android:layout_marginStart="54dp"
+                        android:button="@drawable/xml_button"
+                        android:layout_alignBottom="@+id/checkBox1"
+                        android:layout_toRightOf="@+id/checkBox1"
+                        android:layout_toEndOf="@+id/checkBox1" />
+                </RelativeLayout>
 
-                <CheckBox
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/checkBox3"
-                    android:layout_marginTop="30dp"
-                    android:layout_alignTop="@+id/checkBox2"
-                    android:layout_toRightOf="@+id/checkBox6"
-                    android:layout_toEndOf="@+id/checkBox6" />
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_below="@+id/part1"
+                    android:id="@+id/part2"
+                    android:layout_height="200dp">
 
-                <CheckBox
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/checkBox4"
-                    android:layout_marginTop="53dp"
-                    android:layout_marginLeft="8dp"
-                    android:layout_marginStart="8dp"
-                    android:layout_below="@+id/checkBox2"
-                    android:layout_toRightOf="@+id/checkBox9"
-                    android:layout_toEndOf="@+id/checkBox9" />
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:id="@+id/part2_1">
 
-                <CheckBox
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/checkBox9"
-                    android:layout_marginTop="20dp"
-                    android:layout_below="@+id/checkBox10"
-                    android:layout_alignLeft="@+id/checkBox2"
-                    android:layout_alignStart="@+id/checkBox2" />
+                        <CheckBox
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/checkBox6"
+                            android:button="@drawable/xml_button"
+                            android:layout_marginRight="134dp"
+                            android:layout_marginEnd="134dp"
+                            android:layout_marginTop="18dp"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentEnd="true" />
+                    </RelativeLayout>
 
-                <CheckBox
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/checkBox11"
-                    android:layout_below="@+id/checkBox9"
-                    android:layout_toRightOf="@+id/checkBox4"
-                    android:layout_toEndOf="@+id/checkBox4" />
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_below="@+id/part2_2"
+                        android:id="@+id/part2_3">
 
-                <CheckBox
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/checkBox10"
-                    android:layout_marginTop="34dp"
-                    android:layout_below="@+id/checkBox8"
-                    android:layout_alignRight="@+id/checkBox3"
-                    android:layout_alignEnd="@+id/checkBox3"
-                    android:layout_marginRight="11dp"
-                    android:layout_marginEnd="11dp" />
+                    </RelativeLayout>
 
-                <CheckBox
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/checkBox6"
-                    android:layout_above="@+id/checkBox7"
-                    android:layout_toRightOf="@+id/checkBox11"
-                    android:layout_toEndOf="@+id/checkBox11"
-                    android:layout_marginLeft="11dp"
-                    android:layout_marginStart="11dp" />
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:id="@+id/part2_2"
+                        android:layout_height="110dp"
+                        android:layout_below="@+id/part2_1"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true">
 
-                <CheckBox
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/checkBox7"
-                    style="@style/Widget.AppCompat.CompoundButton.CheckBox"
-                    android:layout_marginTop="13dp"
-                    android:layout_alignTop="@+id/checkBox5"
-                    android:layout_toRightOf="@+id/checkBox10"
-                    android:layout_toEndOf="@+id/checkBox10" />
+                        <CheckBox
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/checkBox4"
+                            android:button="@drawable/xml_button"
+                            android:layout_marginRight="68dp"
+                            android:layout_marginEnd="68dp"
+                            android:layout_above="@+id/checkBox5"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginBottom="15dp" />
+
+                        <CheckBox
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/checkBox5"
+                            android:button="@drawable/xml_button"
+                            android:layout_marginLeft="51dp"
+                            android:layout_marginStart="51dp"
+                            android:layout_marginBottom="28dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentStart="true" />
+
+                        <CheckBox
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/checkBox7"
+                            android:button="@drawable/xml_button"
+                            android:layout_marginRight="20dp"
+                            android:layout_marginEnd="20dp"
+                            android:layout_marginBottom="12dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentEnd="true" />
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:layout_below="@+id/part2"
+                    android:id="@+id/part3">
+
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/checkBox8"
+                        android:layout_marginLeft="9dp"
+                        android:layout_marginStart="9dp"
+                        android:button="@drawable/xml_button"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_marginTop="55dp" />
+
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/checkBox9"
+                        android:button="@drawable/xml_button"
+                        android:layout_marginRight="111dp"
+                        android:layout_marginEnd="111dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginBottom="68dp" />
+
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/checkBox11"
+                        android:button="@drawable/xml_button"
+                        android:layout_above="@+id/checkBox9"
+                        android:layout_alignRight="@+id/checkBox9"
+                        android:layout_alignEnd="@+id/checkBox9"
+                        android:layout_marginRight="67dp"
+                        android:layout_marginEnd="67dp"
+                        android:layout_marginBottom="14dp" />
+
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/checkBox10"
+                        android:layout_marginLeft="31dp"
+                        android:layout_marginStart="31dp"
+                        android:button="@drawable/xml_button"
+                        android:layout_above="@+id/checkBox11"
+                        android:layout_toRightOf="@+id/checkBox11"
+                        android:layout_toEndOf="@+id/checkBox11"
+                        android:layout_marginBottom="22dp" />
+                </RelativeLayout>
+
             </RelativeLayout>
         </com.github.ksoichiro.android.observablescrollview.ObservableScrollView>
 
