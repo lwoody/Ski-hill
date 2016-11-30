@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="New Text"
+        android:layout_width="match_parent"
+        android:id="@+id/textView3"
+        android:layout_weight="4"
+        android:textColor="#000000"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_marginTop="15dp"
+        android:gravity="center"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:id="@+id/imageView1"
+        android:layout_weight="4"
+        android:layout_height="150dp"
+        android:layout_marginTop="15dp" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_weight="4"
+        android:layout_height="200dp">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_weight="4"
+            android:layout_height="20dp"
+            android:layout_marginTop="15dp">
+
+            <RatingBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ratingBar2"
+                android:stepSize="0.5"
+                android:rating="3.5"
+                android:numStars="5"
+                android:isIndicator="true" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:text="New Text"
+                android:id="@+id/textView1"
+                android:textColor="#000000"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/textView2"
+            android:textSize="16dp"
+            android:textColor="#666666"
+            android:layout_weight="4"
+            android:layout_marginTop="15dp" />
+
+        <Button
+            android:text="TRY"
+            android:layout_width="match_parent"
+            android:id="@+id/button"
+            android:layout_weight="4"
+            android:textSize="15sp"
+            android:background="#4259f4"
+            android:textColor="@color/common_google_signin_btn_text_dark_default"
+            android:layout_height="30dp"
+            android:layout_marginBottom="15dp"
+            android:onClick="onClickTry" />
+
+    </LinearLayout>
+
+</LinearLayout>

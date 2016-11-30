@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/LEE/Desktop/Ski-hill/SkiHillApp/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8a372c4191f80489770a231f7be4820b204b886a">
+        <dex dex="/Users/LEE/Desktop/Ski-hill/SkiHillApp/app/build/intermediates/pre-dexed/debug/com.android.support-cardview-v7-25.0.0_d9955a17b07dd0371cee1630c86d00c0ddb865ae.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/LEE/Desktop/Ski-hill/SkiHillApp/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="26674000177e45447a0326a6ad84612761199a13">
+        <dex dex="/Users/LEE/Desktop/Ski-hill/SkiHillApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.0.0_ae9007506c13a5944cb215106c757df1ca55cb04.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/LEE/Desktop/Ski-hill/SkiHillApp/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7fddc0ee51471eb911aef02c75af1ef8813a6ebd">
+        <dex dex="/Users/LEE/Desktop/Ski-hill/SkiHillApp/app/build/intermediates/pre-dexed/debug/instant-run-bootstrap_061a465f98405e6e10a52290d81c66747c1c430f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/LEE/Desktop/Ski-hill/SkiHillApp/app/build/intermediates/exploded-aar/com.android.support/gridlayout-v7/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5025063c4c03baa1b6759432195024dd8e5a3f92">
+        <dex dex="/Users/LEE/Desktop/Ski-hill/SkiHillApp/app/build/intermediates/pre-dexed/debug/com.android.support-gridlayout-v7-25.0.0_08dd05a93bf83fc42e40ae971c752d4d3f5a63e4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/LEE/Desktop/Ski-hill/SkiHillApp/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="/Users/LEE/Desktop/Ski-hill/SkiHillApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-24.2.1_43273bf1b8b50c138de972354278389ee326f96b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/LEE/Desktop/Ski-hill/SkiHillApp/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="/Users/LEE/Desktop/Ski-hill/SkiHillApp/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_cf3da108b70bba4ea88405902871498342fd4761.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/LEE/Desktop/Ski-hill/SkiHillApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/LEE/Desktop/Ski-hill/SkiHillApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-24.2.1_fa6afa00237c517390e1ae58c95c9f1780157579.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/LEE/Desktop/Ski-hill/SkiHillApp/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
+        <dex dex="/Users/LEE/Desktop/Ski-hill/SkiHillApp/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-24.2.1_20b13209a6ae98628797f5138e115613d547f88a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/LEE/Desktop/Ski-hill/SkiHillApp/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
+        <dex dex="/Users/LEE/Desktop/Ski-hill/SkiHillApp/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.0_ae8a4b891c7174d1f0f79610f592a998328bac8f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/LEE/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.0.0/support-annotations-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
+        <dex dex="/Users/LEE/Desktop/Ski-hill/SkiHillApp/app/build/intermediates/pre-dexed/debug/support-annotations-25.0.0_3eea0b71216fd189ad49b972c29e2cd7d613ee5e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/LEE/Desktop/Ski-hill/SkiHillApp/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="/Users/LEE/Desktop/Ski-hill/SkiHillApp/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-24.2.1_34a4de9014412942b425930e1171a25e5c8cf3b0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/LEE/Desktop/Ski-hill/SkiHillApp/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="/Users/LEE/Desktop/Ski-hill/SkiHillApp/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_2b2044f98dd65919df4cd5466cc53630091df04c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/LEE/Desktop/Ski-hill/SkiHillApp/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="/Users/LEE/Desktop/Ski-hill/SkiHillApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-24.2.1_de383535e6f5d15b7a5540bc03e901395607e141.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/LEE/Desktop/Ski-hill/SkiHillApp/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
+        <dex dex="/Users/LEE/Desktop/Ski-hill/SkiHillApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.0.0_5d7caca39598459e09a4761fa3b7cea9c5d0798b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/LEE/Desktop/Ski-hill/SkiHillApp/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="/Users/LEE/Desktop/Ski-hill/SkiHillApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-24.2.1_79613b49e63b0eb7009a0797374e92374a33097b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/LEE/Desktop/Ski-hill/SkiHillApp/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="/Users/LEE/Desktop/Ski-hill/SkiHillApp/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.0_611f3e5bd8330803c8f57675f0627e2b8030e1d5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/LEE/Desktop/Ski-hill/SkiHillApp/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="/Users/LEE/Desktop/Ski-hill/SkiHillApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-24.2.1_43c92c93d3952c6eef8458f0626cdac4a5fb4715.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/LEE/Desktop/Ski-hill/SkiHillApp/app/build/intermediates/exploded-aar/com.github.chrisbanes.photoview/library/1.2.3/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="81aa0e8e77d948204aa6754019c6f3c04dd922e3">
+        <dex dex="/Users/LEE/Desktop/Ski-hill/SkiHillApp/app/build/intermediates/pre-dexed/debug/com.github.chrisbanes.photoview-library-1.2.3_237c25453a085aaaa3d0637d814c763342617268.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/LEE/Desktop/Ski-hill/SkiHillApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="/Users/LEE/Desktop/Ski-hill/SkiHillApp/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-24.2.1_b9c36d492137eabafac10ccd32f2fcb840724ffa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/LEE/Desktop/Ski-hill/SkiHillApp/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="44687654df0f8d7480cae717630c255bcb393c63">
+        <dex dex="/Users/LEE/Desktop/Ski-hill/SkiHillApp/app/build/intermediates/pre-dexed/debug/instant-run_97016c762e35c5bfb21fdf29c7d4abb3d80724a7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/LEE/Desktop/Ski-hill/SkiHillApp/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="/Users/LEE/Desktop/Ski-hill/SkiHillApp/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_3fc28bffe9e1a436cbddbd4039402f3ada4edaa1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/LEE/Desktop/Ski-hill/SkiHillApp/app/build/intermediates/exploded-aar/com.android.support/design/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
+        <dex dex="/Users/LEE/Desktop/Ski-hill/SkiHillApp/app/build/intermediates/pre-dexed/debug/com.android.support-design-24.2.1_380a12499062f4dc94782048efdb75bb42009761.jar" />
+    </item>
+
+</items>

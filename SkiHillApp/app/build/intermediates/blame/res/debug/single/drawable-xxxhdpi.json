@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "/Users/LEE/Desktop/Ski-hill/SkiHillApp/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_pin_drop_black_24dp.png",
+        "source": "/Users/LEE/Desktop/Ski-hill/SkiHillApp/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_pin_drop_black_24dp.png"
+    },
+    {
+        "merged": "/Users/LEE/Desktop/Ski-hill/SkiHillApp/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_terrain_black_24dp.png",
+        "source": "/Users/LEE/Desktop/Ski-hill/SkiHillApp/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_terrain_black_24dp.png"
+    },
+    {
+        "merged": "/Users/LEE/Desktop/Ski-hill/SkiHillApp/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_location_city_black_24dp.png",
+        "source": "/Users/LEE/Desktop/Ski-hill/SkiHillApp/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_location_city_black_24dp.png"
+    },
+    {
+        "merged": "/Users/LEE/Desktop/Ski-hill/SkiHillApp/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_satellite_black_24dp.png",
+        "source": "/Users/LEE/Desktop/Ski-hill/SkiHillApp/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_satellite_black_24dp.png"
+    },
+    {
+        "merged": "/Users/LEE/Desktop/Ski-hill/SkiHillApp/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_translate_black_24dp.png",
+        "source": "/Users/LEE/Desktop/Ski-hill/SkiHillApp/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_translate_black_24dp.png"
+    },
+    {
+        "merged": "/Users/LEE/Desktop/Ski-hill/SkiHillApp/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_local_atm_black_24dp.png",
+        "source": "/Users/LEE/Desktop/Ski-hill/SkiHillApp/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_local_atm_black_24dp.png"
+    },
+    {
+        "merged": "/Users/LEE/Desktop/Ski-hill/SkiHillApp/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_directions_black_24dp.png",
+        "source": "/Users/LEE/Desktop/Ski-hill/SkiHillApp/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_directions_black_24dp.png"
+    },
+    {
+        "merged": "/Users/LEE/Desktop/Ski-hill/SkiHillApp/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_home_black_24dp.png",
+        "source": "/Users/LEE/Desktop/Ski-hill/SkiHillApp/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_home_black_24dp.png"
+    },
+    {
+        "merged": "/Users/LEE/Desktop/Ski-hill/SkiHillApp/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_hotel_black_24dp.png",
+        "source": "/Users/LEE/Desktop/Ski-hill/SkiHillApp/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_hotel_black_24dp.png"
+    },
+    {
+        "merged": "/Users/LEE/Desktop/Ski-hill/SkiHillApp/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_phone_black_24dp.png",
+        "source": "/Users/LEE/Desktop/Ski-hill/SkiHillApp/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_phone_black_24dp.png"
+    }
+]

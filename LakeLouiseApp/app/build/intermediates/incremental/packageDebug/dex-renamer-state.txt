@@ -1,0 +1,7 @@
+#Wed Nov 30 01:54:57 MST 2016
+base.0=/Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_d13275318bf295604aff615ce5145136ae8b6faf
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_ac4f3e473af84c496f614336678982c983802498/classes.dex
+base.1=/Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_ac4f3e473af84c496f614336678982c983802498
+file.0=/Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_d13275318bf295604aff615ce5145136ae8b6faf/classes.dex
