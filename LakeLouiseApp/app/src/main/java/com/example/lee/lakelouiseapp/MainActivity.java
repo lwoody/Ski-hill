@@ -27,6 +27,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        this.setTitle("");
+
 //        coordinatorLayout = (CoordinatorLayout) findViewById(R.id.activity_main);
 //
 //        BottomBar bottomBar = BottomBar.attach(this, savedInstanceState);

@@ -18,6 +18,9 @@ public class MakeReviewActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_make_review);
+
+        this.setTitle("MAKE REVIEW");
+
         TextView timeView = (TextView)findViewById((R.id.timeView));
         int secs = ((int)(time / 1000));
         int mins = secs / 60;

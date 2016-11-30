@@ -10,15 +10,15 @@
     android:orientation="vertical"
     tools:context=".MainActivity" >
 
-    <TextView
-        android:text="ROUTE REVIEW"
-        android:layout_width="match_parent"
-        android:id="@+id/textView12"
-        android:textColor="#4259f4"
-        android:textSize="30sp"
-        android:textAlignment="center"
-        android:gravity="center"
-        android:layout_height="50dp" />
+    <!--<TextView-->
+        <!--android:text="ROUTE REVIEW"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:id="@+id/textView12"-->
+        <!--android:textColor="#4259f4"-->
+        <!--android:textSize="25dp"-->
+        <!--android:textAlignment="center"-->
+        <!--android:gravity="center"-->
+        <!--android:layout_height="30dp" />-->
 
     <TextView
         android:layout_width="match_parent"
@@ -37,7 +37,7 @@
             android:layout_height="match_parent"
             android:id="@+id/textView62"
             android:gravity="center_vertical"
-            android:textSize="17sp"
+            android:textSize="15dp"
             android:textColor="@color/colorPrimary" />
 
         <TextView
@@ -53,7 +53,8 @@
             android:layout_width="match_parent"
             android:id="@+id/spinner2"
             android:layout_height="32dp"
-            android:entries="@array/lifts" />
+            android:entries="@array/lifts"
+            android:textAlignment="viewStart" />
 
     </LinearLayout>
 
@@ -70,34 +71,24 @@
 
         <Switch
             android:text="RATING"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:id="@+id/switch2"
             android:textColor="@color/colorPrimary"
-            android:textSize="17sp"
+            android:textSize="15dp"
             android:layout_weight="0.75"
             style="@android:style/Widget.Material.Light.CompoundButton.Switch"
             android:textOff="Low"
             android:textOn="High"/>
 
-        <TextView
-            android:layout_width="1sp"
-            android:layout_height="match_parent"
-            android:id="@+id/textView65"
-            android:gravity="center_vertical"
-            android:textColor="#4259f4"
-            android:layout_weight="0.07"
-            android:background="#4259f4"
-            android:textSize="14sp" />
-
         <Switch
             android:text="SPEED"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:id="@+id/switch1"
             android:layout_weight="0.80"
             android:textColor="@color/colorPrimary"
-            android:textSize="17sp"
+            android:textSize="15dp"
             style="@android:style/Widget.Material.Light.CompoundButton.Switch"
             android:textOff="Slow"
             android:textOn="Fast"/>
@@ -109,7 +100,7 @@
         android:id="@+id/textView64"
         android:background="#4259f4" />
 
-    <ListView
+    <com.github.ksoichiro.android.observablescrollview.ObservableListView
         android:id="@+id/review_list"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

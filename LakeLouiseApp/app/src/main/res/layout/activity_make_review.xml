@@ -9,188 +9,165 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.lee.lakelouiseapp.MakeReviewActivity">
+    tools:context="com.example.lee.lakelouiseapp.MakeReviewActivity"
+    android:background="@color/common_google_signin_btn_text_dark_default">
 
-    <ScrollView
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
 
-        <LinearLayout
+        <!--<TextView-->
+            <!--android:text="Route"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:id="@+id/textView82"-->
+            <!--android:textAllCaps="true"-->
+            <!--android:textColor="#4259f4"-->
+            <!--android:layout_below="@+id/imageView"-->
+            <!--android:layout_alignParentLeft="true"-->
+            <!--android:layout_alignParentStart="true"-->
+            <!--android:textAlignment="center"-->
+            <!--android:gravity="center"-->
+            <!--android:layout_height="30dp"-->
+            <!--android:textSize="25dp" />-->
+
+        <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="1dp"-->
+            <!--android:id="@+id/textView83"-->
+            <!--android:background="#4259f4"-->
+            <!--android:layout_marginBottom="10dp" />-->
+
+        <ImageView
+            android:layout_width="wrap_content"
+            app:srcCompat="@drawable/route_selected"
+            android:id="@+id/imageView"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_height="120dp" />
+
+        <TextView
+            android:text="15m 23s"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:weightSum="1">
+            android:id="@+id/timeView"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:textSize="30dp" />
 
-            <TextView
-                android:text="Route"
-                android:layout_width="match_parent"
-                android:layout_height="50dp"
-                android:id="@+id/textView82"
-                android:textAllCaps="true"
-                android:textColor="#4259f4"
-                android:layout_below="@+id/imageView"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentStart="true"
-                android:textSize="30dp"
-                android:textAlignment="center"
-                android:gravity="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:id="@+id/textView86"
+            android:background="@color/common_action_bar_splitter"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="10dp" />
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="1dp"
-                android:id="@+id/textView83"
-                android:background="#4259f4"
-                android:layout_marginBottom="10dp" />
+        <TextView
+            android:text="review"
+            android:layout_width="match_parent"
+            android:id="@+id/textView70"
+            android:textColor="#4259f4"
+            android:layout_below="@+id/reviewRatingBar"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textAllCaps="true"
+            android:textAlignment="viewStart"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:layout_height="30dp" />
 
-            <ImageView
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:id="@+id/textView85"
+            android:background="#4259f4"
+            android:layout_marginBottom="0dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:inputType="textMultiLine"
+            android:ems="10"
+            android:layout_marginTop="12dp"
+            android:id="@+id/reviewText"
+            android:hint="WRITE YOUR REVIEW"
+            android:textAllCaps="false"
+            android:layout_below="@+id/textView71"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:textSize="20sp"
+            android:layout_height="80dp" />
+
+        <TextView
+            android:text="rating"
+            android:layout_width="match_parent"
+            android:id="@+id/textView67"
+            android:textAllCaps="true"
+            android:textColor="#4259f4"
+            android:layout_below="@+id/imageView"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:gravity="center"
+            android:textAlignment="viewStart"
+            android:layout_weight="0.11"
+            android:layout_height="30dp"
+            android:textSize="25dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:id="@+id/textView84"
+            android:background="#4259f4"
+            android:layout_marginBottom="10dp" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <RatingBar
                 android:layout_width="wrap_content"
-                app:srcCompat="@drawable/route_selected"
-                android:id="@+id/imageView"
-                android:layout_height="150dp"
-                android:layout_alignParentTop="true"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentStart="true" />
-
-            <TextView
-                android:text="15m 23s"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/timeView"
-                android:textSize="35sp"
+                android:id="@+id/reviewRatingBar"
+                android:gravity="center_vertical"
+                android:numStars="5"
+                android:stepSize="0.5"
                 android:layout_alignParentTop="true"
                 android:layout_centerHorizontal="true"
-                android:gravity="center"
-                android:layout_marginTop="5dp" />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="1dp"
-                android:id="@+id/textView86"
-                android:background="@color/common_action_bar_splitter"
-                android:layout_marginBottom="20dp"
-                android:layout_marginTop="10dp" />
-
-            <TextView
-                android:text="review"
-                android:layout_width="match_parent"
-                android:layout_height="50dp"
-                android:id="@+id/textView70"
-                android:textColor="#4259f4"
-                android:layout_below="@+id/reviewRatingBar"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentStart="true"
-                android:textAllCaps="true"
-                android:textSize="30dp"
-                android:textAlignment="center"
-                android:gravity="center"/>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="1dp"
-                android:id="@+id/textView85"
-                android:background="#4259f4"
-                android:layout_marginBottom="10dp" />
-
-            <EditText
-                android:layout_width="match_parent"
-                android:inputType="textMultiLine"
-                android:ems="10"
-                android:layout_marginTop="12dp"
-                android:id="@+id/reviewText"
-                android:hint="WRITE IN HERE"
-                android:textAllCaps="false"
-                android:layout_below="@+id/textView71"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentStart="true"
-                android:layout_alignParentRight="true"
-                android:layout_alignParentEnd="true"
-                android:layout_height="wrap_content" />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="1dp"
-                android:id="@+id/textView88"
-                android:background="@color/common_action_bar_splitter"
-                android:layout_marginBottom="20dp"
-                android:layout_marginTop="10dp" />
-
-            <TextView
-                android:text="rating"
-                android:layout_width="match_parent"
-                android:layout_height="50dp"
-                android:id="@+id/textView67"
-                android:textAllCaps="true"
-                android:textColor="#4259f4"
-                android:layout_below="@+id/imageView"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentStart="true"
-                android:textSize="30dp"
-                android:gravity="center"
-                android:textAlignment="center"
-                android:layout_weight="0.11" />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="1dp"
-                android:id="@+id/textView84"
-                android:background="#4259f4"
-                android:layout_marginBottom="10dp" />
-
-            <LinearLayout
-                android:orientation="horizontal"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="center">
-
-                <RatingBar
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/reviewRatingBar"
-                    android:gravity="center_vertical"
-                    android:numStars="5"
-                    android:stepSize="0.5"
-                    android:layout_alignParentTop="true"
-                    android:layout_centerHorizontal="true" />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:orientation="horizontal"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_below="@+id/reviewText"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentStart="true"
-                android:layout_marginTop="14dp">
-
-                <Button
-                    android:text="Cancel"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/button8"
-                    android:layout_weight="1"
-                    android:textColor="@color/common_google_signin_btn_text_dark_default"
-                    android:background="#4259f4"
-                    android:layout_marginRight="5sp"
-                    android:layout_marginTop="7sp"
-                    android:onClick="onClickCancel" />
-
-                <Button
-                    android:text="save"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/button5"
-                    android:layout_weight="1"
-                    android:background="#4259f4"
-                    android:textColor="@color/common_google_signin_btn_text_dark_default"
-                    android:layout_marginLeft="5sp"
-                    android:layout_marginTop="7sp"
-                    android:textSize="14sp"
-                    android:onClick="saveButton" />
-            </LinearLayout>
+                android:layout_height="40dp" />
 
         </LinearLayout>
-    </ScrollView>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/reviewText"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="14dp">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="55dp"
+                android:id="@+id/button5"
+                android:layout_weight="1"
+                android:background="#4259f4"
+                android:textColor="@color/common_google_signin_btn_text_dark_default"
+                android:layout_marginLeft="5sp"
+                android:layout_marginTop="7sp"
+                android:textSize="14sp"
+                android:onClick="saveButton"
+                android:text="Done" />
+        </LinearLayout>
+
+    </LinearLayout>
 
 
 </RelativeLayout>

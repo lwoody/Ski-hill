@@ -1,29 +1,34 @@
 package com.example.lee.lakelouiseapp;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.content.ContextCompat;
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
-import android.widget.ListView;
 
-public class ReviewActivity extends AppCompatActivity {
+import com.github.ksoichiro.android.observablescrollview.ObservableListView;
+import com.github.ksoichiro.android.observablescrollview.ObservableScrollViewCallbacks;
+import com.github.ksoichiro.android.observablescrollview.ScrollState;
+
+public class ReviewActivity extends AppCompatActivity implements ObservableScrollViewCallbacks {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_review);
+        this.setTitle("REVIEW");
 
-        final ListView listview ;
+        final ObservableListView listView;
         final review_adapter adapter;
 
         // Adapter
         adapter = new review_adapter() ;
 
         // list view reference and Adapter putting
-        listview = (ListView) findViewById(R.id.review_list);
-        listview.setAdapter(adapter);
+        listView = (ObservableListView) findViewById(R.id.review_list);
+        listView.setScrollViewCallbacks(this);
+        listView.setAdapter(adapter);
 
         // adding first item
         adapter.addItem(ContextCompat.getDrawable(this, R.drawable.selectedroute),
@@ -43,5 +48,29 @@ public class ReviewActivity extends AppCompatActivity {
     }
 
     public void onClickTry(View v){startActivity(new Intent(this, RouteShowActivity.class));}
+
+    @Override
+    public void onScrollChanged(int scrollY, boolean firstScroll, boolean dragging) {
+    }
+
+    @Override
+    public void onDownMotionEvent() {
+    }
+
+    public void onUpOrCancelMotionEvent(ScrollState scrollState) {
+        ActionBar ab = getSupportActionBar();
+        if (ab == null) {
+            return;
+        }
+        if (scrollState == ScrollState.UP) {
+            if (ab.isShowing()) {
+                ab.hide();
+            }
+        } else if (scrollState == ScrollState.DOWN) {
+            if (!ab.isShowing()) {
+                ab.show();
+            }
+        }
+    }
 
 }

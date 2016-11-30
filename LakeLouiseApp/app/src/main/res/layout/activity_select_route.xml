@@ -14,28 +14,22 @@
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:weightSum="1">
 
-        <TextView
-            android:text="Select Routes"
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:id="@+id/textView5"
-            android:fontFamily="sans-serif-condensed"
-            android:textSize="30sp"
-            android:textAllCaps="true"
-            android:layout_centerHorizontal="true"
-            android:layout_alignParentTop="true"
-            android:layout_above="@+id/textView11"
-            android:textColor="#4259f4"
-            android:gravity="center"/>
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:id="@+id/textView61"
-            android:background="#4259f4"
-            android:layout_marginBottom="5dp" />
+        <!--<TextView-->
+            <!--android:text="Select Routes"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:id="@+id/textView5"-->
+            <!--android:fontFamily="sans-serif-condensed"-->
+            <!--android:textSize="25dp"-->
+            <!--android:textAllCaps="true"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:layout_alignParentTop="true"-->
+            <!--android:layout_above="@+id/textView11"-->
+            <!--android:textColor="#4259f4"-->
+            <!--android:gravity="center"-->
+            <!--android:layout_height="30dp" />-->
 
         <LinearLayout
             android:orientation="horizontal"
@@ -49,51 +43,73 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/textView"
-                android:textColor="@color/colorAccent"
+                android:textColor="@color/common_google_signin_btn_text_dark_default"
                 android:layout_alignParentTop="true"
                 android:layout_alignParentRight="true"
                 android:layout_alignParentEnd="true"
                 android:layout_weight="1"
-                android:gravity="center"/>
+                android:gravity="center"
+                android:background="@color/colorAccent"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:textSize="10sp"
+                android:textAllCaps="true" />
 
             <TextView
                 android:text="Rock"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/textView4"
-                android:textColor="#633e19"
+                android:textColor="@color/common_google_signin_btn_text_dark_default"
                 android:layout_below="@+id/textView3"
                 android:layout_alignLeft="@+id/textView"
                 android:layout_alignStart="@+id/textView"
                 android:layout_weight="1"
-                android:gravity="center"/>
+                android:gravity="center"
+                android:background="#633e19"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:textSize="10sp"
+                android:textAllCaps="true" />
 
             <TextView
                 android:text="Tree"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/textView3"
-                android:textColor="#175C3A"
+                android:textColor="@color/common_google_signin_btn_text_dark_default"
                 android:layout_below="@+id/textView"
                 android:layout_alignParentRight="true"
                 android:layout_alignParentEnd="true"
                 android:layout_weight="1"
-                android:gravity="center"/>
+                android:gravity="center"
+                android:background="#175C3A"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:textSize="10sp"
+                android:textAllCaps="true" />
 
         </LinearLayout>
 
-        <ScrollView
+        <TextView
             android:layout_width="match_parent"
-            android:id="@+id/route"
+            android:layout_height="1dp"
+            android:id="@+id/textView61"
+            android:background="#4259f4"
+            android:layout_marginBottom="5dp" />
+
+        <com.github.ksoichiro.android.observablescrollview.ObservableScrollView
+            android:layout_width="match_parent"
+            android:id="@+id/scroll_route"
             android:layout_below="@+id/textView4"
             android:scrollbarStyle="outsideOverlay"
             android:layout_marginBottom="10dp"
-            android:layout_height="450dp">
+            android:layout_height="434dp">
 
             <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@drawable/glacier_route">
+                android:background="@drawable/glacier_route"
+                android:layout_height="wrap_content">
 
                 <CheckBox
                     android:layout_width="wrap_content"
@@ -207,7 +223,14 @@
                     android:layout_toRightOf="@+id/checkBox10"
                     android:layout_toEndOf="@+id/checkBox10" />
             </RelativeLayout>
-        </ScrollView>
+        </com.github.ksoichiro.android.observablescrollview.ObservableScrollView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:id="@+id/textView5"
+            android:background="#4259f4"
+            android:layout_marginBottom="5dp" />
 
         <Button
             android:text="Submit"
@@ -222,7 +245,7 @@
             android:layout_alignParentEnd="true"
             android:textSize="14sp"
             android:onClick="onClickSubmit"
-            android:layout_height="60dp" />
+            android:layout_height="55dp" />
 
     </LinearLayout>
 
