@@ -16,6 +16,18 @@
         "source": "/Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/src/main/res/drawable/grizzlyroute.png"
     },
     {
+        "merged": "/Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable/time_icon.png",
+        "source": "/Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/src/main/res/drawable/time_icon.png"
+    },
+    {
+        "merged": "/Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable/upload_icon.png",
+        "source": "/Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/src/main/res/drawable/upload_icon.png"
+    },
+    {
+        "merged": "/Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable/calling_icon.png",
+        "source": "/Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/src/main/res/drawable/calling_icon.png"
+    },
+    {
         "merged": "/Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_light.xml",
         "source": "/Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/drawable/abc_list_selector_background_transition_holo_light.xml"
     },
@@ -30,6 +42,10 @@
     {
         "merged": "/Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable/abc_ic_ab_back_material.xml",
         "source": "/Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/drawable/abc_ic_ab_back_material.xml"
+    },
+    {
+        "merged": "/Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable/search_icon.png",
+        "source": "/Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/src/main/res/drawable/search_icon.png"
     },
     {
         "merged": "/Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable/selectedroute.png",
@@ -84,8 +100,20 @@
         "source": "/Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/drawable/abc_text_cursor_material.xml"
     },
     {
+        "merged": "/Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable/camera_icon.png",
+        "source": "/Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/src/main/res/drawable/camera_icon.png"
+    },
+    {
+        "merged": "/Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable/save_icon.png",
+        "source": "/Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/src/main/res/drawable/save_icon.png"
+    },
+    {
         "merged": "/Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable/abc_edit_text_material.xml",
         "source": "/Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/drawable/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable/gps_icon.png",
+        "source": "/Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/src/main/res/drawable/gps_icon.png"
     },
     {
         "merged": "/Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable/abc_ic_clear_material.xml",
@@ -104,8 +132,16 @@
         "source": "/Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/src/main/res/drawable/lakelouise_overview.jpg"
     },
     {
+        "merged": "/Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable/ssetting_icon.png",
+        "source": "/Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/src/main/res/drawable/ssetting_icon.png"
+    },
+    {
         "merged": "/Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable/abc_switch_thumb_material.xml",
         "source": "/Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/drawable/abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "/Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable/share_icon.png",
+        "source": "/Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/src/main/res/drawable/share_icon.png"
     },
     {
         "merged": "/Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background.xml",
@@ -126,6 +162,10 @@
     {
         "merged": "/Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable/common_plus_signin_btn_icon_dark.xml",
         "source": "/Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable/common_plus_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "/Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable/message_icon.png",
+        "source": "/Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/src/main/res/drawable/message_icon.png"
     },
     {
         "merged": "/Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable/common_plus_signin_btn_text_dark.xml",
@@ -152,6 +192,10 @@
         "source": "/Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/src/main/res/drawable/route_selected.png"
     },
     {
+        "merged": "/Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable/share_icon2.png",
+        "source": "/Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/src/main/res/drawable/share_icon2.png"
+    },
+    {
         "merged": "/Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_material.xml",
         "source": "/Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/drawable/abc_ratingbar_material.xml"
     },
@@ -176,6 +220,10 @@
         "source": "/Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/drawable/abc_ratingbar_indicator_material.xml"
     },
     {
+        "merged": "/Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable/check_icon.png",
+        "source": "/Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/src/main/res/drawable/check_icon.png"
+    },
+    {
         "merged": "/Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable/abc_spinner_textfield_background_material.xml",
         "source": "/Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/drawable/abc_spinner_textfield_background_material.xml"
     },
@@ -192,8 +240,20 @@
         "source": "/Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/drawable/abc_item_background_holo_light.xml"
     },
     {
+        "merged": "/Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable/home_icon.png",
+        "source": "/Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/src/main/res/drawable/home_icon.png"
+    },
+    {
         "merged": "/Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable/design_fab_background.xml",
         "source": "/Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/exploded-aar/com.android.support/design/23.2.0/res/drawable/design_fab_background.xml"
+    },
+    {
+        "merged": "/Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable/picture_icon.png",
+        "source": "/Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/src/main/res/drawable/picture_icon.png"
+    },
+    {
+        "merged": "/Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable/plus_icon.png",
+        "source": "/Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/src/main/res/drawable/plus_icon.png"
     },
     {
         "merged": "/Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable/abc_ic_search_api_material.xml",
@@ -210,6 +270,10 @@
     {
         "merged": "/Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_thumb_material.xml",
         "source": "/Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/drawable/abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "/Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable/minus_icon.png",
+        "source": "/Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/src/main/res/drawable/minus_icon.png"
     },
     {
         "merged": "/Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable/glacier_route.png",

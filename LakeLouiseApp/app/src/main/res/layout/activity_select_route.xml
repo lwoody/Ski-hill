@@ -299,7 +299,7 @@
             android:layout_marginBottom="5dp" />
 
         <Button
-            android:text="Submit"
+            android:text="Try"
             android:layout_width="match_parent"
             android:id="@+id/button3"
             android:layout_below="@+id/route"

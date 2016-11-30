@@ -5,11 +5,14 @@ import android.os.Bundle;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
+import android.view.MenuItem;
 import android.view.View;
 
 import com.github.ksoichiro.android.observablescrollview.ObservableListView;
 import com.github.ksoichiro.android.observablescrollview.ObservableScrollViewCallbacks;
 import com.github.ksoichiro.android.observablescrollview.ScrollState;
+
+import static com.example.lee.lakelouiseapp.R.drawable.logo_small_icon;
 
 public class ReviewActivity extends AppCompatActivity implements ObservableScrollViewCallbacks {
 
@@ -18,6 +21,12 @@ public class ReviewActivity extends AppCompatActivity implements ObservableScrol
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_review);
         this.setTitle("REVIEW");
+
+        ActionBar actionBar = getSupportActionBar();
+        actionBar.setHomeAsUpIndicator(logo_small_icon);
+        actionBar.setHomeButtonEnabled(true);
+        actionBar.setDisplayHomeAsUpEnabled(true);
+
 
         final ObservableListView listView;
         final review_adapter adapter;
@@ -71,6 +80,16 @@ public class ReviewActivity extends AppCompatActivity implements ObservableScrol
                 ab.show();
             }
         }
+    }
+
+    public boolean onOptionsItemSelected(MenuItem menuItem) {
+        switch (menuItem.getItemId()) {
+            case android.R.id.home:
+                Intent homeIntent = new Intent(this, MainActivity.class);
+                homeIntent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                startActivity(homeIntent);
+        }
+        return (super.onOptionsItemSelected(menuItem));
     }
 
 }

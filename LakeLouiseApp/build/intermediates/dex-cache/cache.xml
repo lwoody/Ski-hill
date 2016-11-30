@@ -115,7 +115,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="aefc7af6f95c2e0580e44ad3319b78b4a1713075">
+        sha1="b1050ce955594ba666ca9f7d25c25d256e09a5ed">
         <dex dex="/Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_d13275318bf295604aff615ce5145136ae8b6faf/classes.dex" />
     </item>
     <item
@@ -124,7 +124,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="70aa22cd68568ce3e5c8de258338b1c1b63f1ee6">
+        sha1="cd8e042b3ae23340b022de77472dbdc17d71d799">
         <dex dex="/Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_ac4f3e473af84c496f614336678982c983802498/classes.dex" />
     </item>
     <item

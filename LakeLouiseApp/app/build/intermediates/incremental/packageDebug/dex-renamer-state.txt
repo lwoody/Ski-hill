@@ -1,4 +1,4 @@
-#Wed Nov 30 01:54:57 MST 2016
+#Wed Nov 30 13:06:36 MST 2016
 base.0=/Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_d13275318bf295604aff615ce5145136ae8b6faf
 renamed.1=classes.dex
 renamed.0=classes2.dex

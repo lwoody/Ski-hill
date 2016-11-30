@@ -47,7 +47,7 @@ ADDED from /Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/src/main/AndroidManifes
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
 ADDED from /Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/src/main/AndroidManifest.xml:12:13-16:29
 action#android.intent.action.MAIN
-ADDED from /Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/src/main/AndroidManifest.xml:13:17-69
+ADDED from /Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/src/main/AndroidManifest.xml:13:17-68
 	android:name
 		ADDED from /Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/src/main/AndroidManifest.xml:13:25-66
 category#android.intent.category.LAUNCHER

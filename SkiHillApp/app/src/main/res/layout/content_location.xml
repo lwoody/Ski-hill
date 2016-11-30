@@ -67,5 +67,12 @@
             android:id="@+id/returnLake"
             android:layout_weight="0.05" />
 
+        <TextView
+            android:text="https://www.iconfinder.com/icons/1342935/citycons_mountain_successfull_top_icon#size=48"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView"
+            android:layout_weight="0.31" />
+
     </LinearLayout>
 </RelativeLayout>
