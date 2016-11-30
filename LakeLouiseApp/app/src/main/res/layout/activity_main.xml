@@ -15,6 +15,13 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:id="@+id/MainContent2">
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:background="?android:attr/colorBackground"
         android:id="@+id/MainContent1">
 
@@ -61,7 +68,7 @@
                 android:layout_height="80dp" />
 
             <Button
-                android:text="Condition information"
+                android:text="MY ROUTE"
                 android:id="@+id/info_button"
                 android:layout_width="match_parent"
                 android:background="#4259f4"
