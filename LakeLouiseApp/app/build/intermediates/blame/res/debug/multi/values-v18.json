@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v18/values-v18.xml",
+        "outputFile": "I:\\Cody\\Documents\\2016-Fall\\CPSC 481-HCI\\Projects\\LakeLouiseApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v18\\values-v18.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 99
                 },
                 "from": {
-                    "file": "/Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/values-v18/values-v18.xml",
+                    "file": "I:\\Cody\\Documents\\2016-Fall\\CPSC 481-HCI\\Projects\\LakeLouiseApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\values-v18\\values-v18.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
