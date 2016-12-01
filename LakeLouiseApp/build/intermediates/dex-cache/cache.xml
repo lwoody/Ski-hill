@@ -115,8 +115,13 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
+<<<<<<< Updated upstream
         sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
         <dex dex="I:\Cody\Documents\2016-Fall\CPSC 481-HCI\Projects\LakeLouiseApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-8.4.0_3190d2e47aa72fa90f560186ef6199da6d95d185\classes.dex" />
+=======
+        sha1="12dc94861c0e715f02ab243e30e915e621edd79a">
+        <dex dex="/Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_d13275318bf295604aff615ce5145136ae8b6faf/classes.dex" />
+>>>>>>> Stashed changes
     </item>
     <item
         is-multidex="true"
@@ -124,8 +129,13 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
+<<<<<<< Updated upstream
         sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
         <dex dex="I:\Cody\Documents\2016-Fall\CPSC 481-HCI\Projects\LakeLouiseApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-8.4.0_c56b226f827b2a369ad3d841186acdb7616105d3\classes.dex" />
+=======
+        sha1="a364d5f0120701b1cb02d4979113e55c5d315763">
+        <dex dex="/Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_ac4f3e473af84c496f614336678982c983802498/classes.dex" />
+>>>>>>> Stashed changes
     </item>
     <item
         is-multidex="true"

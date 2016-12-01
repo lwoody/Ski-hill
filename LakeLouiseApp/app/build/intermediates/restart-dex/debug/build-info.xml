@@ -5,18 +5,28 @@
     density="xxhdpi"
     format="8"
     plugin-version="2.2.2"
+<<<<<<< Updated upstream
     timestamp="65411487402756"
     token="463800716312841380"
+=======
+    timestamp="23882573673911"
+    token="-548777284855992731"
+>>>>>>> Stashed changes
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
+<<<<<<< Updated upstream
         duration="631" />
+=======
+        duration="5919" />
+>>>>>>> Stashed changes
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
+<<<<<<< Updated upstream
         duration="816" />
     <task
         name="verifier"
@@ -28,6 +38,19 @@
 
     <build
         timestamp="65411487402756"
+=======
+        duration="1704" />
+    <task
+        name="verifier"
+        duration="164" />
+
+    <artifact
+        location="/Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/outputs/apk/app-debug.apk"
+        type="MAIN" />
+
+    <build
+        timestamp="23882573673911"
+>>>>>>> Stashed changes
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="I:\Cody\Documents\2016-Fall\CPSC 481-HCI\Projects\LakeLouiseApp\app\build\outputs\apk\app-debug.apk"
