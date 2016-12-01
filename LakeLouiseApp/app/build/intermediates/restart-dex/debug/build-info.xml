@@ -5,9 +5,8 @@
     density="xxhdpi"
     format="8"
     plugin-version="2.2.2"
-    timestamp="3844824545559"
-    token="-548777284855992731"
-    verifier="COMPATIBLE" >
+    timestamp="4737034673237"
+    token="-548777284855992731" >
 
     <task
         name="javac"
@@ -21,10 +20,6 @@
     <task
         name="verifier"
         duration="0" />
-
-    <artifact
-        location="/Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
-        type="RESOURCES" />
 
     <build
         timestamp="2249647361243"
@@ -56,5 +51,6 @@
             location="/Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
             type="RESOURCES" />
     </build>
+    <build timestamp="4737034673237" />
 
 </instant-run>
