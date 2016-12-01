@@ -1,121 +1,117 @@
 -- Merging decision tree log ---
 manifest
-ADDED from I:\Cody\Documents\2016-Fall\CPSC 481-HCI\Projects\LakeLouiseApp\app\src\main\AndroidManifest.xml:2:1-36:12
+ADDED from /Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/src/main/AndroidManifest.xml:2:1-37:12
 	package
-		ADDED from I:\Cody\Documents\2016-Fall\CPSC 481-HCI\Projects\LakeLouiseApp\app\src\main\AndroidManifest.xml:3:5-44
-		INJECTED from I:\Cody\Documents\2016-Fall\CPSC 481-HCI\Projects\LakeLouiseApp\app\src\main\AndroidManifest.xml
-		INJECTED from I:\Cody\Documents\2016-Fall\CPSC 481-HCI\Projects\LakeLouiseApp\app\src\main\AndroidManifest.xml
+		ADDED from /Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/src/main/AndroidManifest.xml:3:5-44
+		INJECTED from /Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from I:\Cody\Documents\2016-Fall\CPSC 481-HCI\Projects\LakeLouiseApp\app\src\main\AndroidManifest.xml
-		INJECTED from I:\Cody\Documents\2016-Fall\CPSC 481-HCI\Projects\LakeLouiseApp\app\src\main\AndroidManifest.xml
+		INJECTED from /Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from I:\Cody\Documents\2016-Fall\CPSC 481-HCI\Projects\LakeLouiseApp\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from /Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/src/main/AndroidManifest.xml:2:11-69
 	android:versionCode
-		INJECTED from I:\Cody\Documents\2016-Fall\CPSC 481-HCI\Projects\LakeLouiseApp\app\src\main\AndroidManifest.xml
-		INJECTED from I:\Cody\Documents\2016-Fall\CPSC 481-HCI\Projects\LakeLouiseApp\app\src\main\AndroidManifest.xml
+		INJECTED from /Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/src/main/AndroidManifest.xml
 application
-ADDED from I:\Cody\Documents\2016-Fall\CPSC 481-HCI\Projects\LakeLouiseApp\app\src\main\AndroidManifest.xml:5:5-34:19
-MERGED from [com.roughike:bottom-bar:1.2.1] I:\Cody\Documents\2016-Fall\CPSC 481-HCI\Projects\LakeLouiseApp\app\build\intermediates\exploded-aar\com.roughike\bottom-bar\1.2.1\AndroidManifest.xml:11:5-12:19
-MERGED from [com.android.support:design:23.2.0] I:\Cody\Documents\2016-Fall\CPSC 481-HCI\Projects\LakeLouiseApp\app\build\intermediates\exploded-aar\com.android.support\design\23.2.0\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:24.2.1] I:\Cody\Documents\2016-Fall\CPSC 481-HCI\Projects\LakeLouiseApp\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-compat:24.2.1] I:\Cody\Documents\2016-Fall\CPSC 481-HCI\Projects\LakeLouiseApp\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-media-compat:24.2.1] I:\Cody\Documents\2016-Fall\CPSC 481-HCI\Projects\LakeLouiseApp\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-utils:24.2.1] I:\Cody\Documents\2016-Fall\CPSC 481-HCI\Projects\LakeLouiseApp\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-ui:24.2.1] I:\Cody\Documents\2016-Fall\CPSC 481-HCI\Projects\LakeLouiseApp\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-fragment:24.2.1] I:\Cody\Documents\2016-Fall\CPSC 481-HCI\Projects\LakeLouiseApp\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:appcompat-v7:24.2.1] I:\Cody\Documents\2016-Fall\CPSC 481-HCI\Projects\LakeLouiseApp\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-vector-drawable:24.2.1] I:\Cody\Documents\2016-Fall\CPSC 481-HCI\Projects\LakeLouiseApp\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\AndroidManifest.xml:23:5-20
-MERGED from [com.android.support:animated-vector-drawable:24.2.1] I:\Cody\Documents\2016-Fall\CPSC 481-HCI\Projects\LakeLouiseApp\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-appindexing:8.4.0] I:\Cody\Documents\2016-Fall\CPSC 481-HCI\Projects\LakeLouiseApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.4.0\AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] I:\Cody\Documents\2016-Fall\CPSC 481-HCI\Projects\LakeLouiseApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:20:5-24:19
+ADDED from /Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/src/main/AndroidManifest.xml:5:5-35:19
+MERGED from [com.roughike:bottom-bar:1.2.1] /Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/exploded-aar/com.roughike/bottom-bar/1.2.1/AndroidManifest.xml:11:5-12:19
+MERGED from [com.android.support:design:23.2.0] /Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/exploded-aar/com.android.support/design/23.2.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:24.2.1] /Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.1] /Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:24.2.1] /Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:24.2.1] /Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:24.2.1] /Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:24.2.1] /Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:appcompat-v7:24.2.1] /Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-vector-drawable:24.2.1] /Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.1/AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:animated-vector-drawable:24.2.1] /Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-appindexing:8.4.0] /Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/8.4.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:20:5-24:19
 	android:supportsRtl
-		ADDED from I:\Cody\Documents\2016-Fall\CPSC 481-HCI\Projects\LakeLouiseApp\app\src\main\AndroidManifest.xml:8:9-35
+		ADDED from /Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/src/main/AndroidManifest.xml:8:9-35
 	android:label
-		ADDED from [com.roughike:bottom-bar:1.2.1] I:\Cody\Documents\2016-Fall\CPSC 481-HCI\Projects\LakeLouiseApp\app\build\intermediates\exploded-aar\com.roughike\bottom-bar\1.2.1\AndroidManifest.xml:11:18-50
+		ADDED from [com.roughike:bottom-bar:1.2.1] /Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/exploded-aar/com.roughike/bottom-bar/1.2.1/AndroidManifest.xml:11:18-50
 	android:allowBackup
-		ADDED from I:\Cody\Documents\2016-Fall\CPSC 481-HCI\Projects\LakeLouiseApp\app\src\main\AndroidManifest.xml:6:9-35
+		ADDED from /Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/src/main/AndroidManifest.xml:6:9-35
 	android:icon
-		ADDED from I:\Cody\Documents\2016-Fall\CPSC 481-HCI\Projects\LakeLouiseApp\app\src\main\AndroidManifest.xml:7:9-43
+		ADDED from /Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/src/main/AndroidManifest.xml:7:9-43
 	android:theme
-		ADDED from I:\Cody\Documents\2016-Fall\CPSC 481-HCI\Projects\LakeLouiseApp\app\src\main\AndroidManifest.xml:9:9-41
+		ADDED from /Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/src/main/AndroidManifest.xml:9:9-41
 activity#com.example.lee.lakelouiseapp.MainActivity
-ADDED from I:\Cody\Documents\2016-Fall\CPSC 481-HCI\Projects\LakeLouiseApp\app\src\main\AndroidManifest.xml:10:9-17:20
+ADDED from /Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/src/main/AndroidManifest.xml:10:9-18:20
 	android:theme
-		ADDED from I:\Cody\Documents\2016-Fall\CPSC 481-HCI\Projects\LakeLouiseApp\app\src\main\AndroidManifest.xml:11:13-45
+		ADDED from /Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/src/main/AndroidManifest.xml:12:13-45
 	android:name
-		ADDED from I:\Cody\Documents\2016-Fall\CPSC 481-HCI\Projects\LakeLouiseApp\app\src\main\AndroidManifest.xml:10:19-47
+		ADDED from /Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/src/main/AndroidManifest.xml:11:13-41
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from I:\Cody\Documents\2016-Fall\CPSC 481-HCI\Projects\LakeLouiseApp\app\src\main\AndroidManifest.xml:12:13-16:29
+ADDED from /Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/src/main/AndroidManifest.xml:13:13-17:29
 action#android.intent.action.MAIN
-ADDED from I:\Cody\Documents\2016-Fall\CPSC 481-HCI\Projects\LakeLouiseApp\app\src\main\AndroidManifest.xml:13:17-68
+ADDED from /Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/src/main/AndroidManifest.xml:14:17-69
 	android:name
-		ADDED from I:\Cody\Documents\2016-Fall\CPSC 481-HCI\Projects\LakeLouiseApp\app\src\main\AndroidManifest.xml:13:25-66
+		ADDED from /Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/src/main/AndroidManifest.xml:14:25-66
 category#android.intent.category.LAUNCHER
-ADDED from I:\Cody\Documents\2016-Fall\CPSC 481-HCI\Projects\LakeLouiseApp\app\src\main\AndroidManifest.xml:15:17-77
+ADDED from /Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/src/main/AndroidManifest.xml:16:17-77
 	android:name
-		ADDED from I:\Cody\Documents\2016-Fall\CPSC 481-HCI\Projects\LakeLouiseApp\app\src\main\AndroidManifest.xml:15:27-74
+		ADDED from /Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/src/main/AndroidManifest.xml:16:27-74
 activity#com.example.lee.lakelouiseapp.SelectLiftActivity
-ADDED from I:\Cody\Documents\2016-Fall\CPSC 481-HCI\Projects\LakeLouiseApp\app\src\main\AndroidManifest.xml:18:9-56
+ADDED from /Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/src/main/AndroidManifest.xml:19:9-56
 	android:name
-		ADDED from I:\Cody\Documents\2016-Fall\CPSC 481-HCI\Projects\LakeLouiseApp\app\src\main\AndroidManifest.xml:18:19-53
+		ADDED from /Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/src/main/AndroidManifest.xml:19:19-53
 activity#com.example.lee.lakelouiseapp.SelectRouteActivity
-ADDED from I:\Cody\Documents\2016-Fall\CPSC 481-HCI\Projects\LakeLouiseApp\app\src\main\AndroidManifest.xml:19:9-57
+ADDED from /Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/src/main/AndroidManifest.xml:20:9-57
 	android:name
-		ADDED from I:\Cody\Documents\2016-Fall\CPSC 481-HCI\Projects\LakeLouiseApp\app\src\main\AndroidManifest.xml:19:19-54
+		ADDED from /Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/src/main/AndroidManifest.xml:20:19-54
 activity#com.example.lee.lakelouiseapp.RouteShowActivity
-ADDED from I:\Cody\Documents\2016-Fall\CPSC 481-HCI\Projects\LakeLouiseApp\app\src\main\AndroidManifest.xml:20:9-55
+ADDED from /Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/src/main/AndroidManifest.xml:21:9-55
 	android:name
-		ADDED from I:\Cody\Documents\2016-Fall\CPSC 481-HCI\Projects\LakeLouiseApp\app\src\main\AndroidManifest.xml:20:19-52
+		ADDED from /Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/src/main/AndroidManifest.xml:21:19-52
 activity#com.example.lee.lakelouiseapp.MakeReviewActivity
-ADDED from I:\Cody\Documents\2016-Fall\CPSC 481-HCI\Projects\LakeLouiseApp\app\src\main\AndroidManifest.xml:21:9-56
+ADDED from /Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/src/main/AndroidManifest.xml:22:9-56
 	android:name
-		ADDED from I:\Cody\Documents\2016-Fall\CPSC 481-HCI\Projects\LakeLouiseApp\app\src\main\AndroidManifest.xml:21:19-53
+		ADDED from /Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/src/main/AndroidManifest.xml:22:19-53
 activity#com.example.lee.lakelouiseapp.ReviewActivity
-ADDED from I:\Cody\Documents\2016-Fall\CPSC 481-HCI\Projects\LakeLouiseApp\app\src\main\AndroidManifest.xml:22:9-52
+ADDED from /Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/src/main/AndroidManifest.xml:23:9-52
 	android:name
-		ADDED from I:\Cody\Documents\2016-Fall\CPSC 481-HCI\Projects\LakeLouiseApp\app\src\main\AndroidManifest.xml:22:19-49
+		ADDED from /Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/src/main/AndroidManifest.xml:23:19-49
+activity#com.example.lee.lakelouiseapp.SelectLift2Activity
+ADDED from /Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/src/main/AndroidManifest.xml:24:9-56
+	android:name
+		ADDED from /Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/src/main/AndroidManifest.xml:24:19-54
 meta-data#com.google.android.gms.version
-ADDED from I:\Cody\Documents\2016-Fall\CPSC 481-HCI\Projects\LakeLouiseApp\app\src\main\AndroidManifest.xml:27:9-29:69
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] I:\Cody\Documents\2016-Fall\CPSC 481-HCI\Projects\LakeLouiseApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
+ADDED from /Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/src/main/AndroidManifest.xml:29:9-31:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:21:9-23:69
 	android:value
-		ADDED from I:\Cody\Documents\2016-Fall\CPSC 481-HCI\Projects\LakeLouiseApp\app\src\main\AndroidManifest.xml:29:13-66
+		ADDED from /Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/src/main/AndroidManifest.xml:31:13-66
 	android:name
-		ADDED from I:\Cody\Documents\2016-Fall\CPSC 481-HCI\Projects\LakeLouiseApp\app\src\main\AndroidManifest.xml:28:13-58
+		ADDED from /Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/src/main/AndroidManifest.xml:30:13-58
 activity#com.example.lee.lakelouiseapp.info
-ADDED from I:\Cody\Documents\2016-Fall\CPSC 481-HCI\Projects\LakeLouiseApp\app\src\main\AndroidManifest.xml:31:9-42
+ADDED from /Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/src/main/AndroidManifest.xml:33:9-42
 	android:name
-		ADDED from I:\Cody\Documents\2016-Fall\CPSC 481-HCI\Projects\LakeLouiseApp\app\src\main\AndroidManifest.xml:31:19-39
-activity#com.example.lee.lakelouiseapp.route_maker
-ADDED from I:\Cody\Documents\2016-Fall\CPSC 481-HCI\Projects\LakeLouiseApp\app\src\main\AndroidManifest.xml:32:9-49
-	android:name
-		ADDED from I:\Cody\Documents\2016-Fall\CPSC 481-HCI\Projects\LakeLouiseApp\app\src\main\AndroidManifest.xml:32:19-46
-activity#com.example.lee.lakelouiseapp.glacier_runs
-ADDED from I:\Cody\Documents\2016-Fall\CPSC 481-HCI\Projects\LakeLouiseApp\app\src\main\AndroidManifest.xml:33:9-50
-	android:name
-		ADDED from I:\Cody\Documents\2016-Fall\CPSC 481-HCI\Projects\LakeLouiseApp\app\src\main\AndroidManifest.xml:33:19-47
+		ADDED from /Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/src/main/AndroidManifest.xml:33:19-39
 uses-sdk
-INJECTED from I:\Cody\Documents\2016-Fall\CPSC 481-HCI\Projects\LakeLouiseApp\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [com.roughike:bottom-bar:1.2.1] I:\Cody\Documents\2016-Fall\CPSC 481-HCI\Projects\LakeLouiseApp\app\build\intermediates\exploded-aar\com.roughike\bottom-bar\1.2.1\AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:design:23.2.0] I:\Cody\Documents\2016-Fall\CPSC 481-HCI\Projects\LakeLouiseApp\app\build\intermediates\exploded-aar\com.android.support\design\23.2.0\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:recyclerview-v7:23.2.0] I:\Cody\Documents\2016-Fall\CPSC 481-HCI\Projects\LakeLouiseApp\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.2.0\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:24.2.1] I:\Cody\Documents\2016-Fall\CPSC 481-HCI\Projects\LakeLouiseApp\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-compat:24.2.1] I:\Cody\Documents\2016-Fall\CPSC 481-HCI\Projects\LakeLouiseApp\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-media-compat:24.2.1] I:\Cody\Documents\2016-Fall\CPSC 481-HCI\Projects\LakeLouiseApp\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-core-utils:24.2.1] I:\Cody\Documents\2016-Fall\CPSC 481-HCI\Projects\LakeLouiseApp\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-core-ui:24.2.1] I:\Cody\Documents\2016-Fall\CPSC 481-HCI\Projects\LakeLouiseApp\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-fragment:24.2.1] I:\Cody\Documents\2016-Fall\CPSC 481-HCI\Projects\LakeLouiseApp\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:appcompat-v7:24.2.1] I:\Cody\Documents\2016-Fall\CPSC 481-HCI\Projects\LakeLouiseApp\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:support-vector-drawable:24.2.1] I:\Cody\Documents\2016-Fall\CPSC 481-HCI\Projects\LakeLouiseApp\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\AndroidManifest.xml:21:5-43
-MERGED from [com.android.support:animated-vector-drawable:24.2.1] I:\Cody\Documents\2016-Fall\CPSC 481-HCI\Projects\LakeLouiseApp\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-appindexing:8.4.0] I:\Cody\Documents\2016-Fall\CPSC 481-HCI\Projects\LakeLouiseApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.4.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-base:8.4.0] I:\Cody\Documents\2016-Fall\CPSC 481-HCI\Projects\LakeLouiseApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] I:\Cody\Documents\2016-Fall\CPSC 481-HCI\Projects\LakeLouiseApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:18:5-42
-MERGED from [com.github.ksoichiro:android-observablescrollview:1.6.0] I:\Cody\Documents\2016-Fall\CPSC 481-HCI\Projects\LakeLouiseApp\app\build\intermediates\exploded-aar\com.github.ksoichiro\android-observablescrollview\1.6.0\AndroidManifest.xml:21:5-43
+INJECTED from /Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.roughike:bottom-bar:1.2.1] /Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/exploded-aar/com.roughike/bottom-bar/1.2.1/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:design:23.2.0] /Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/exploded-aar/com.android.support/design/23.2.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:23.2.0] /Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.2.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:24.2.1] /Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-compat:24.2.1] /Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-media-compat:24.2.1] /Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:24.2.1] /Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:24.2.1] /Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-fragment:24.2.1] /Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:appcompat-v7:24.2.1] /Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-vector-drawable:24.2.1] /Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.1/AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:animated-vector-drawable:24.2.1] /Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-appindexing:8.4.0] /Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/8.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.4.0] /Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.github.ksoichiro:android-observablescrollview:1.6.0] /Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/exploded-aar/com.github.ksoichiro/android-observablescrollview/1.6.0/AndroidManifest.xml:21:5-43
 	tools:overrideLibrary
-		ADDED from [com.android.support:support-v4:24.2.1] I:\Cody\Documents\2016-Fall\CPSC 481-HCI\Projects\LakeLouiseApp\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\AndroidManifest.xml:23:9-51
+		ADDED from [com.android.support:support-v4:24.2.1] /Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/AndroidManifest.xml:23:9-51
 	android:targetSdkVersion
-		INJECTED from I:\Cody\Documents\2016-Fall\CPSC 481-HCI\Projects\LakeLouiseApp\app\src\main\AndroidManifest.xml
-		INJECTED from I:\Cody\Documents\2016-Fall\CPSC 481-HCI\Projects\LakeLouiseApp\app\src\main\AndroidManifest.xml
+		INJECTED from /Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from I:\Cody\Documents\2016-Fall\CPSC 481-HCI\Projects\LakeLouiseApp\app\src\main\AndroidManifest.xml
-		INJECTED from I:\Cody\Documents\2016-Fall\CPSC 481-HCI\Projects\LakeLouiseApp\app\src\main\AndroidManifest.xml
+		INJECTED from /Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/src/main/AndroidManifest.xml

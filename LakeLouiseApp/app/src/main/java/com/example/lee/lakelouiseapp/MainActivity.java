@@ -69,7 +69,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void infoButton(View v)          {startActivity(new Intent(this, info.class));}
     // changed to routeactivity beacuse it's so slow --> change this code later to selectliftactivity
-    public void routeMakerButton(View v)    {startActivity(new Intent(this, SelectRouteActivity.class));}
+    public void routeMakerButton(View v)    {startActivity(new Intent(this, SelectLift2Activity.class));}
     public void reviewButton(View v)        {startActivity(new Intent(this, ReviewActivity.class));}
 
 

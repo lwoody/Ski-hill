@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="I:\Cody\Documents\2016-Fall\CPSC 481-HCI\Projects\LakeLouiseApp\app\src\main\jniLibs"/></dataSet><dataSet config="debug"><source path="I:\Cody\Documents\2016-Fall\CPSC 481-HCI\Projects\LakeLouiseApp\app\src\debug\jniLibs"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="/Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/src/main/jniLibs"/></dataSet><dataSet config="debug"><source path="/Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/src/debug/jniLibs"/></dataSet></merger>

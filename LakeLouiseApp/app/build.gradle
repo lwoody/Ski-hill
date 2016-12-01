@@ -30,4 +30,5 @@ dependencies {
     compile 'com.roughike:bottom-bar:1.2.1'
     compile 'com.google.android.gms:play-services-appindexing:8.4.0'
     compile 'com.github.ksoichiro:android-observablescrollview:1.6.0'
+
 }

@@ -1,14 +1,14 @@
 [
     {
-        "merged": "I:\\Cody\\Documents\\2016-Fall\\CPSC 481-HCI\\Projects\\LakeLouiseApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_action_bar_item_background_material.xml",
-        "source": "I:\\Cody\\Documents\\2016-Fall\\CPSC 481-HCI\\Projects\\LakeLouiseApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
+        "merged": "/Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable-v21/abc_btn_colored_material.xml",
+        "source": "/Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/drawable-v21/abc_btn_colored_material.xml"
     },
     {
-        "merged": "I:\\Cody\\Documents\\2016-Fall\\CPSC 481-HCI\\Projects\\LakeLouiseApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_btn_colored_material.xml",
-        "source": "I:\\Cody\\Documents\\2016-Fall\\CPSC 481-HCI\\Projects\\LakeLouiseApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-v21\\abc_btn_colored_material.xml"
+        "merged": "/Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable-v21/abc_edit_text_material.xml",
+        "source": "/Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/drawable-v21/abc_edit_text_material.xml"
     },
     {
-        "merged": "I:\\Cody\\Documents\\2016-Fall\\CPSC 481-HCI\\Projects\\LakeLouiseApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_edit_text_material.xml",
-        "source": "I:\\Cody\\Documents\\2016-Fall\\CPSC 481-HCI\\Projects\\LakeLouiseApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-v21\\abc_edit_text_material.xml"
+        "merged": "/Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable-v21/abc_action_bar_item_background_material.xml",
+        "source": "/Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/drawable-v21/abc_action_bar_item_background_material.xml"
     }
 ]

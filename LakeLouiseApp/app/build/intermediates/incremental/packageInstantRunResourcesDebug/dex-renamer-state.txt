@@ -1,5 +1,1 @@
-<<<<<<< Updated upstream
-#Wed Nov 30 17:34:35 MST 2016
-=======
-#Wed Nov 30 17:30:57 MST 2016
->>>>>>> Stashed changes
+#Thu Dec 01 03:51:04 MST 2016

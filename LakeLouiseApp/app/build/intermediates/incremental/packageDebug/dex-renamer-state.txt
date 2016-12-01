@@ -1,12 +1,7 @@
-<<<<<<< Updated upstream
-#Wed Nov 30 17:34:40 MST 2016
-base.0=I\:\\Cody\\Documents\\2016-Fall\\CPSC 481-HCI\\Projects\\LakeLouiseApp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_6bdc095e3e2d07a41574782f5d16757ee031be73
-=======
-#Wed Nov 30 17:31:34 MST 2016
+#Thu Dec 01 01:17:15 MST 2016
 base.0=/Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_d13275318bf295604aff615ce5145136ae8b6faf
->>>>>>> Stashed changes
 renamed.1=classes.dex
 renamed.0=classes2.dex
-file.1=I\:\\Cody\\Documents\\2016-Fall\\CPSC 481-HCI\\Projects\\LakeLouiseApp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_b03b392361b063997f7f95c200e66b3cbd63fde0\\classes.dex
-base.1=I\:\\Cody\\Documents\\2016-Fall\\CPSC 481-HCI\\Projects\\LakeLouiseApp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_b03b392361b063997f7f95c200e66b3cbd63fde0
-file.0=I\:\\Cody\\Documents\\2016-Fall\\CPSC 481-HCI\\Projects\\LakeLouiseApp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_6bdc095e3e2d07a41574782f5d16757ee031be73\\classes.dex
+file.1=/Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_ac4f3e473af84c496f614336678982c983802498/classes.dex
+base.1=/Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_ac4f3e473af84c496f614336678982c983802498
+file.0=/Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_d13275318bf295604aff615ce5145136ae8b6faf/classes.dex
