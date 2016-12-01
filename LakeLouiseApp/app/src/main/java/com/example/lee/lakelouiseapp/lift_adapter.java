@@ -54,6 +54,7 @@ public class lift_adapter extends BaseAdapter {
         // 아이템 내 각 위젯에 데이터 반영
         buttonTextView.setText(listViewItem.getButtonTitle());
         levelTextView.setText(listViewItem.getTitle());
+        levelTextView.setBackgroundColor(listViewItem.getColor());
 
 
         return convertView;
@@ -72,12 +73,13 @@ public class lift_adapter extends BaseAdapter {
     }
 
     // 아이템 데이터 추가를 위한 함수. 개발자가 원하는대로 작성 가능.
-    public void addItem( String lift_title, String level) {
+    public void addItem( String lift_title, String level, Integer levelColor) {
         lift_item item = new lift_item();
 
 
         item.setTitle(level);
         item.setButton(lift_title);
+        item.setColor(levelColor);
 
         listViewItemList.add(item);
     }

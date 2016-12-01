@@ -13,6 +13,7 @@ public class lift_item {
     private String descStr ;
     private String timeStr ;
     private String buttontitle;
+    private Integer color;
 
     public void setIcon(Drawable icon) {
         iconDrawable = icon ;
@@ -25,6 +26,7 @@ public class lift_item {
     }
     public void setTime(String time) { timeStr = time ; }
     public void setButton(String lift_button){ buttontitle = lift_button;}
+    public void setColor(Integer background_color){ color = background_color; }
 
     public Drawable getIcon() {
         return this.iconDrawable ;
@@ -35,4 +37,5 @@ public class lift_item {
     public String getDesc() { return this.descStr ; }
     public String getTime() { return this.timeStr ; }
     public String getButtonTitle() {return this.buttontitle;}
+    public Integer getColor(){ return this.color;}
 }

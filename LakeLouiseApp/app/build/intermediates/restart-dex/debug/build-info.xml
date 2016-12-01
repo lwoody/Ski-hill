@@ -5,57 +5,56 @@
     density="xxhdpi"
     format="8"
     plugin-version="2.2.2"
-    timestamp="60105651742024"
+    timestamp="3844824545559"
     token="-548777284855992731"
-    verifier="METHOD_ADDED" >
+    verifier="COMPATIBLE" >
 
     <task
         name="javac"
-        duration="900" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="158" />
+        duration="0" />
     <task
         name="verifier"
-        duration="7" />
+        duration="0" />
 
     <artifact
-        location="/Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4/classes.dex"
-        type="DEX" />
+        location="/Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
+        type="RESOURCES" />
 
     <build
-        timestamp="50599084823542"
-        verifier="MANIFEST_FILE_CHANGE" >
+        timestamp="2249647361243"
+        verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
     </build>
     <build
-        timestamp="59475295514267"
-        verifier="COLD_SWAP_REQUESTED" >
+        timestamp="3701466855458"
+        verifier="R_CLASS_CHANGE" >
         <artifact
-            location="/Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7/classes.dex"
+            location="/Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_8/classes.dex"
             type="DEX" />
         <artifact
             location="/Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_6/classes.dex"
             type="DEX" />
-    </build>
-    <build
-        timestamp="59842364295609"
-        verifier="METHOD_ADDED" >
         <artifact
-            location="/Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
-            type="RESOURCES" />
-    </build>
-    <build
-        timestamp="60105651742024"
-        verifier="METHOD_ADDED" >
+            location="/Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7/classes.dex"
+            type="DEX" />
         <artifact
             location="/Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4/classes.dex"
             type="DEX" />
+    </build>
+    <build
+        timestamp="3844824545559"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="/Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
+            type="RESOURCES" />
     </build>
 
 </instant-run>

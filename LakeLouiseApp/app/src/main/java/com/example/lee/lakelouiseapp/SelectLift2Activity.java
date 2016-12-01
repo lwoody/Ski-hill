@@ -54,17 +54,17 @@ public class SelectLift2Activity extends AppCompatActivity implements Observable
 
         // adding first item
         adapter.addItem(
-                "Grizzly Express","intermediate") ;
+                "Grizzly Express","intermediate", 0xff00ff00) ;
         adapter.addItem(
-                "Glacier Express","beginner") ;
+                "Glacier Express","beginner",0xffff0000) ;
         adapter.addItem(
-                "Top of the world","expert") ;
+                "Top of the world","expert",0xff00ff00) ;
         adapter.addItem(
-                "Paradise","beginner") ;
+                "Paradise","beginner",0xff00ff00) ;
         adapter.addItem(
-                "Summit Platter","expert") ;
+                "Summit Platter","expert",0xff00ff00) ;
         adapter.addItem(
-                "Larch Express","intermediate") ;
+                "Larch Express","intermediate",0xff00ff00) ;
 
         tabLayout.setOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
             @Override

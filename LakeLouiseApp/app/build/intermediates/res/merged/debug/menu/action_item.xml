@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+
+    <item android:id="@+id/item1"
+        android:icon="@drawable/home_icon"
+        android:title="share"
+        app:showAsAction="ifRoom|withText"
+        />
+    <!--<item android:id="@+id/item2"-->
+        <!--android:icon="@drawable/ic_swap_calls_black_24dp"-->
+        <!--android:title="write"-->
+        <!--app:showAsAction="always"-->
+        <!--/>-->
+</menu>
