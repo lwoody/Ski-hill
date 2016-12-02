@@ -1,27 +1,134 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+    android:layout_height="wrap_content"
+    android:onClick="onClickLift"
+    android:id="@+id/lift_item_layout"
+    android:backgroundTint="#03e3ab">
 
-    <Button
-        android:text="Button"
-        android:id="@+id/lift_button"
-        android:layout_weight="1"
-        android:layout_height="90dp"
-        android:background="#4259f4"
+    <RelativeLayout
+        android:orientation="horizontal"
         android:layout_width="match_parent"
-        android:textSize="25dp"
-        android:textColor="@color/common_google_signin_btn_text_dark_default"
-        android:onClick="onClickSelectLift" />
-
-    <TextView
-        android:text="TextView"
-        android:layout_width="match_parent"
+        android:layout_weight="20.50"
         android:layout_height="wrap_content"
-        android:textSize="30dp"
-        android:textAllCaps="false"
-        android:id="@+id/lift_level"
-        android:layout_weight="1"
-        android:layout_marginBottom="10dp" />
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="5dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight="20.50"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:id="@+id/levelCube">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="40dp"
+                    android:id="@+id/level1"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textAlignment="center"
+                    android:layout_margin="3dp"
+                    android:background="@color/colorAccent"
+                    android:layout_height="match_parent"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="40dp"
+                    android:id="@+id/level2"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textAlignment="center"
+                    android:layout_margin="3dp"
+                    android:background="@color/colorAccent"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="40dp"
+                    android:id="@+id/level3"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textAlignment="center"
+                    android:layout_margin="3dp"
+                    android:background="@color/colorAccent"
+                    android:layout_height="match_parent" />
+
+                <TextView
+                    android:layout_width="40dp"
+                    android:id="@+id/level4"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textAlignment="center"
+                    android:layout_margin="3dp"
+                    android:background="@color/colorAccent"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_height="wrap_content"
+            android:layout_width="300dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_toRightOf="@id/levelCube"
+            android:layout_marginLeft="5dp">
+
+            <TextView
+                android:text="Top of the world"
+                android:layout_width="match_parent"
+                android:textAllCaps="false"
+                android:id="@+id/liftTitle"
+                android:layout_weight="23.64"
+                android:gravity="center"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentBottom="true"
+                android:textAlignment="center"
+                android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                android:textSize="20dp"
+                android:layout_height="60dp"
+                android:fontFamily="casual"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:layout_height="1sp"
+                android:id="@+id/border"
+                android:textSize="14sp"
+                android:background="@color/common_google_signin_btn_text_dark_disabled"
+                android:layout_width="match_parent" />
+
+            <TextView
+                android:text="closed"
+                android:layout_width="match_parent"
+                android:id="@+id/liftStatus"
+                android:layout_weight="4.55"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:layout_height="20dp"
+                android:textColor="@color/common_google_signin_btn_text_light_focused" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
 
 </LinearLayout>

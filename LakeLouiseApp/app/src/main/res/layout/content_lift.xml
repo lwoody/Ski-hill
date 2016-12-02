@@ -9,9 +9,10 @@
         android:layout_width="match_parent"
         android:id="@+id/lift_list"
         android:layout_height="match_parent"
-        android:layout_marginTop="60dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginRight="16dp"
-        android:background="@android:color/background_light" />
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@android:color/transparent"
+        android:listSelector="#03e3ab"/>
 
 </LinearLayout>

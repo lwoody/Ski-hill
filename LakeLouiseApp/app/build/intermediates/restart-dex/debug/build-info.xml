@@ -5,7 +5,7 @@
     density="xxhdpi"
     format="8"
     plugin-version="2.2.2"
-    timestamp="17208269028543"
+    timestamp="28777589712765"
     token="-548777284855992731"
     verifier="COMPATIBLE" >
 
@@ -34,8 +34,8 @@
             type="MAIN" />
     </build>
     <build
-        timestamp="16715221796374"
-        verifier="R_CLASS_CHANGE" >
+        timestamp="27800924028392"
+        verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7/classes.dex"
             type="DEX" />
@@ -47,7 +47,14 @@
             type="DEX" />
     </build>
     <build
-        timestamp="17208269028543"
+        timestamp="27964168397689"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="/Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/builds/debug/27964168397689/classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="28777589712765"
         verifier="COMPATIBLE" >
         <artifact
             location="/Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_"

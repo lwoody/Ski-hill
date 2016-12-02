@@ -5,7 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
-import android.widget.Button;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import java.util.ArrayList;
@@ -44,17 +44,27 @@ public class lift_adapter extends BaseAdapter {
 
         // 화면에 표시될 View(Layout이 inflate된)으로부터 위젯에 대한 참조 획득
 
-        TextView levelTextView = (TextView) convertView.findViewById(R.id.lift_level) ;
-        Button buttonTextView = (Button) convertView.findViewById(R.id.lift_button);
+        LinearLayout liftItemView = (LinearLayout) convertView.findViewById(R.id.lift_item_layout);
+        TextView titleTextView = (TextView) convertView.findViewById(R.id.liftTitle) ;
+        TextView statusTextView = (TextView) convertView.findViewById(R.id.liftStatus);
+        TextView level1TextView = (TextView) convertView.findViewById(R.id.level1);
+        TextView level2TextView = (TextView) convertView.findViewById(R.id.level2);
+        TextView level3TextView = (TextView) convertView.findViewById(R.id.level3);
+        TextView level4TextView = (TextView) convertView.findViewById(R.id.level4);
 
         // Data Set(listViewItemList)에서 position에 위치한 데이터 참조 획득
 
         list_item listViewItem = listViewItemList.get(position);
 
         // 아이템 내 각 위젯에 데이터 반영
-        buttonTextView.setText(listViewItem.getButtonTitle());
-        levelTextView.setText(listViewItem.getTitle());
-        levelTextView.setBackgroundColor(listViewItem.getColor());
+        liftItemView.setEnabled(listViewItem.getStatus());
+        statusTextView.setText(listViewItem.getDesc());
+        statusTextView.setTextColor(listViewItem.getStatusColor());
+        titleTextView.setText(listViewItem.getTitle());
+        level1TextView.setBackgroundColor(listViewItem.getColor1());
+        level2TextView.setBackgroundColor(listViewItem.getColor2());
+        level3TextView.setBackgroundColor(listViewItem.getColor3());
+        level4TextView.setBackgroundColor(listViewItem.getColor4());
 
 
         return convertView;
@@ -73,14 +83,21 @@ public class lift_adapter extends BaseAdapter {
     }
 
     // 아이템 데이터 추가를 위한 함수. 개발자가 원하는대로 작성 가능.
-    public void addItem( String lift_title, String level, Integer levelColor) {
+    public void addItem( String title, String statusText, Integer levelColor1, Integer levelColor2, Integer levelColor3, Integer levelColor4, Integer statusColor, Boolean status) {
         list_item item = new list_item();
 
 
-        item.setTitle(level);
-        item.setButton(lift_title);
-        item.setColor(levelColor);
+        item.setTitle(title);
+        item.setDesc(statusText);
+        item.setColor1(levelColor1);
+        item.setColor2(levelColor2);
+        item.setColor3(levelColor3);
+        item.setColor4(levelColor4);
+        item.setStatusColor(statusColor);
+        item.setStatus(status);
 
         listViewItemList.add(item);
     }
+
+
 }

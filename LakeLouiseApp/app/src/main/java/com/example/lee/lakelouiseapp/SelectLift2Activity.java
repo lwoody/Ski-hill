@@ -1,6 +1,7 @@
 package com.example.lee.lakelouiseapp;
 
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.support.design.widget.TabLayout;
 import android.support.v4.content.ContextCompat;
@@ -61,20 +62,27 @@ public class SelectLift2Activity extends AppCompatActivity implements Observable
         listView.setAdapter(adapter);
         mapListView.setAdapter(mapAdapter);
 
-
         // adding lift list item
         adapter.addItem(
-                "Grizzly Express","intermediate", 0xff00ff00) ;
+                "Grizzly Express","open", 0xff00ff00,0xff0000ff,0xffff0000,0xff000000,Color.parseColor("#4259f4"),true) ;
         adapter.addItem(
-                "Glacier Express","beginner",0xffff0000) ;
+                "Glacier Express","open",0xff00ff00,0xff0000ff,0xffff0000,0xffffffff,Color.parseColor("#4259f4"),true) ;
         adapter.addItem(
-                "Top of the world","expert",0xff00ff00) ;
+                "Ptarmigan","closed",0xff00ff00,0xff0000ff,0xffff0000,0xff000000,0xff444444,false) ;
         adapter.addItem(
-                "Paradise","beginner",0xff00ff00) ;
+                "Top of the world","closed",0xffffffff,0xff000000,0xff0000ff,0xffff0000,0xff444444,false) ;
         adapter.addItem(
-                "Summit Platter","expert",0xff00ff00) ;
+                "Paradise","open",0xff00ff00,0xff0000ff,0xffffffff,0xffffffff,Color.parseColor("#4259f4"),true) ;
         adapter.addItem(
-                "Larch Express","intermediate",0xff00ff00) ;
+                "Summit Platter","open",0xffffffff,0xffffffff,0xff0000ff,0xffff0000,Color.parseColor("#4259f4"),true) ;
+        adapter.addItem(
+                "Larch Express","open",0xff00ff00,0xff0000ff,0xffff0000,0xff000000,Color.parseColor("#4259f4"),true) ;
+        adapter.addItem(
+                "Sunny Upper Carpet","open",0xff00ff00,0xff0000ff,0xffff0000,0xff000000,Color.parseColor("#4259f4"),true) ;
+        adapter.addItem(
+                "Sunny Lower Carpet","closed",0xff00ff00,0xff0000ff,0xffff0000,0xff000000,0xff444444,false) ;
+        adapter.addItem(
+                "Magic Carpet","closed",0xff00ff00,0xff0000ff,0xffff0000,0xff000000,0xff444444,false) ;
 
         // adding map list item
         mapAdapter.addItem(ContextCompat.getDrawable(this, R.drawable.lakelouise_overview3), "Overview");
@@ -104,6 +112,7 @@ public class SelectLift2Activity extends AppCompatActivity implements Observable
             public void onTabReselected(TabLayout.Tab tab) {
             }
         });
+
     }
 
     @Override
@@ -146,5 +155,8 @@ public class SelectLift2Activity extends AppCompatActivity implements Observable
         startActivity(new Intent(this,MapViewActivity.class));
 
     }
+
+
+    public void onClickLift(View v){startActivity(new Intent(this,SelectRouteActivity.class));}
 
 }
