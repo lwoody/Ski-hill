@@ -30,6 +30,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/exploded-aar/com.github.chrisbanes.photoview/library/1.2.3/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="81aa0e8e77d948204aa6754019c6f3c04dd922e3">
+        <dex dex="/Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.github.chrisbanes.photoview-library-1.2.3_a7426a718ecf28070e7f9990d49a203b40b723c3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/exploded-aar/com.github.ksoichiro/android-observablescrollview/1.6.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
@@ -115,7 +124,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="669867969c28bd5b92d1781935e456401ca3a41b">
+        sha1="cceafd634775eb2723a9152edbd62af38cbbfe1f">
         <dex dex="/Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_d13275318bf295604aff615ce5145136ae8b6faf/classes.dex" />
     </item>
     <item
@@ -124,7 +133,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="436bb4743b343da612217f6b5f063accaa720c72">
+        sha1="bf2b15860046ebc9464789f5d03185949cb20266">
         <dex dex="/Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_ac4f3e473af84c496f614336678982c983802498/classes.dex" />
     </item>
     <item

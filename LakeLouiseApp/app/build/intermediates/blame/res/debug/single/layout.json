@@ -1,11 +1,11 @@
 [
     {
-        "merged": "/Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_icon.xml",
-        "source": "/Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/layout/abc_list_menu_item_icon.xml"
-    },
-    {
         "merged": "/Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/res/merged/debug/layout/select_dialog_singlechoice_material.xml",
         "source": "/Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/layout/select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "/Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_icon.xml",
+        "source": "/Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/layout/abc_list_menu_item_icon.xml"
     },
     {
         "merged": "/Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_layout.xml",
@@ -46,6 +46,10 @@
     {
         "merged": "/Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/res/merged/debug/layout/abc_screen_simple_overlay_action_mode.xml",
         "source": "/Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/layout/abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "/Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/res/merged/debug/layout/map_items.xml",
+        "source": "/Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/src/main/res/layout/map_items.xml"
     },
     {
         "merged": "/Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/res/merged/debug/layout/activity_make_review.xml",
@@ -246,6 +250,10 @@
     {
         "merged": "/Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/res/merged/debug/layout/content_map.xml",
         "source": "/Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/src/main/res/layout/content_map.xml"
+    },
+    {
+        "merged": "/Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/res/merged/debug/layout/activity_map_view.xml",
+        "source": "/Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/src/main/res/layout/activity_map_view.xml"
     },
     {
         "merged": "/Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/res/merged/debug/layout/activity_review.xml",

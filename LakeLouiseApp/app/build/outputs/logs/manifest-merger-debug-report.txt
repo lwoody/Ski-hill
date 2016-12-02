@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/src/main/AndroidManifest.xml:2:1-37:12
+ADDED from /Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/src/main/AndroidManifest.xml:2:1-39:12
 	package
 		ADDED from /Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/src/main/AndroidManifest.xml:3:5-44
 		INJECTED from /Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/src/main/AndroidManifest.xml
@@ -14,7 +14,7 @@ ADDED from /Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/src/main/AndroidManifes
 		INJECTED from /Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/src/main/AndroidManifest.xml
 application
-ADDED from /Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/src/main/AndroidManifest.xml:5:5-35:19
+ADDED from /Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/src/main/AndroidManifest.xml:5:5-37:19
 MERGED from [com.roughike:bottom-bar:1.2.1] /Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/exploded-aar/com.roughike/bottom-bar/1.2.1/AndroidManifest.xml:11:5-12:19
 MERGED from [com.android.support:design:23.2.0] /Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/exploded-aar/com.android.support/design/23.2.0/AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:support-v4:24.2.1] /Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/AndroidManifest.xml:25:5-20
@@ -28,10 +28,13 @@ MERGED from [com.android.support:support-vector-drawable:24.2.1] /Users/LEE/Desk
 MERGED from [com.android.support:animated-vector-drawable:24.2.1] /Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.1/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-appindexing:8.4.0] /Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/8.4.0/AndroidManifest.xml:19:5-20
 MERGED from [com.google.android.gms:play-services-basement:8.4.0] /Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.github.chrisbanes.photoview:library:1.2.3] /Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/exploded-aar/com.github.chrisbanes.photoview/library/1.2.3/AndroidManifest.xml:4:5-81
 	android:supportsRtl
 		ADDED from /Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/src/main/AndroidManifest.xml:8:9-35
 	android:label
 		ADDED from [com.roughike:bottom-bar:1.2.1] /Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/exploded-aar/com.roughike/bottom-bar/1.2.1/AndroidManifest.xml:11:18-50
+	android:hardwareAccelerated
+		ADDED from [com.github.chrisbanes.photoview:library:1.2.3] /Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/exploded-aar/com.github.chrisbanes.photoview/library/1.2.3/AndroidManifest.xml:4:45-79
 	android:allowBackup
 		ADDED from /Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/src/main/AndroidManifest.xml:6:9-35
 	android:icon
@@ -75,20 +78,26 @@ ADDED from /Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/src/main/AndroidManifes
 	android:name
 		ADDED from /Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/src/main/AndroidManifest.xml:23:19-49
 activity#com.example.lee.lakelouiseapp.SelectLift2Activity
-ADDED from /Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/src/main/AndroidManifest.xml:24:9-56
+ADDED from /Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/src/main/AndroidManifest.xml:24:9-57
 	android:name
 		ADDED from /Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/src/main/AndroidManifest.xml:24:19-54
+activity#com.example.lee.lakelouiseapp.info
+ADDED from /Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/src/main/AndroidManifest.xml:25:9-42
+	android:name
+		ADDED from /Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/src/main/AndroidManifest.xml:25:19-39
+activity#com.example.lee.lakelouiseapp.MapViewActivity
+ADDED from /Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/src/main/AndroidManifest.xml:26:9-27:57
+	android:theme
+		ADDED from /Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/src/main/AndroidManifest.xml:27:13-45
+	android:name
+		ADDED from /Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/src/main/AndroidManifest.xml:26:19-50
 meta-data#com.google.android.gms.version
-ADDED from /Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/src/main/AndroidManifest.xml:29:9-31:69
+ADDED from /Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/src/main/AndroidManifest.xml:32:9-34:69
 MERGED from [com.google.android.gms:play-services-basement:8.4.0] /Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:21:9-23:69
 	android:value
-		ADDED from /Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/src/main/AndroidManifest.xml:31:13-66
+		ADDED from /Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/src/main/AndroidManifest.xml:34:13-66
 	android:name
-		ADDED from /Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/src/main/AndroidManifest.xml:30:13-58
-activity#com.example.lee.lakelouiseapp.info
-ADDED from /Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/src/main/AndroidManifest.xml:33:9-42
-	android:name
-		ADDED from /Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/src/main/AndroidManifest.xml:33:19-39
+		ADDED from /Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/src/main/AndroidManifest.xml:33:13-58
 uses-sdk
 INJECTED from /Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.roughike:bottom-bar:1.2.1] /Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/exploded-aar/com.roughike/bottom-bar/1.2.1/AndroidManifest.xml:7:5-9:41
@@ -107,6 +116,7 @@ MERGED from [com.google.android.gms:play-services-appindexing:8.4.0] /Users/LEE/
 MERGED from [com.google.android.gms:play-services-base:8.4.0] /Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/AndroidManifest.xml:18:5-42
 MERGED from [com.google.android.gms:play-services-basement:8.4.0] /Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:18:5-42
 MERGED from [com.github.ksoichiro:android-observablescrollview:1.6.0] /Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/exploded-aar/com.github.ksoichiro/android-observablescrollview/1.6.0/AndroidManifest.xml:21:5-43
+MERGED from [com.github.chrisbanes.photoview:library:1.2.3] /Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/exploded-aar/com.github.chrisbanes.photoview/library/1.2.3/AndroidManifest.xml:2:5-72
 	tools:overrideLibrary
 		ADDED from [com.android.support:support-v4:24.2.1] /Users/LEE/Desktop/Ski-hill/LakeLouiseApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/AndroidManifest.xml:23:9-51
 	android:targetSdkVersion

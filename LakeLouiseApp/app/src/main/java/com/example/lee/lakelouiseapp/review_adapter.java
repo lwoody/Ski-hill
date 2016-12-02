@@ -17,7 +17,7 @@ import java.util.ArrayList;
 
 public class review_adapter extends BaseAdapter {
     // Adapter에 추가된 데이터를 저장하기 위한 ArrayList
-    private ArrayList<review_item> listViewItemList = new ArrayList<review_item>() ;
+    private ArrayList<list_item> listViewItemList = new ArrayList<list_item>() ;
 
     // ListViewAdapter의 생성자
     public review_adapter() {
@@ -49,7 +49,7 @@ public class review_adapter extends BaseAdapter {
         TextView timeTextView = (TextView) convertView.findViewById(R.id.textView1) ;
 
         // Data Set(listViewItemList)에서 position에 위치한 데이터 참조 획득
-        review_item listViewItem = listViewItemList.get(position);
+        list_item listViewItem = listViewItemList.get(position);
 
         // 아이템 내 각 위젯에 데이터 반영
         iconImageView.setImageDrawable(listViewItem.getIcon());
@@ -74,7 +74,7 @@ public class review_adapter extends BaseAdapter {
 
     // 아이템 데이터 추가를 위한 함수. 개발자가 원하는대로 작성 가능.
     public void addItem(Drawable icon, String title, String desc, String time) {
-        review_item item = new review_item();
+        list_item item = new list_item();
 
         item.setIcon(icon);
         item.setTitle(title);

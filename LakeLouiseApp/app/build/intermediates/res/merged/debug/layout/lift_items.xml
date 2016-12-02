@@ -12,7 +12,6 @@
         android:layout_width="match_parent"
         android:textSize="25dp"
         android:textColor="@color/common_google_signin_btn_text_dark_default"
-        android:layout_margin="20dp"
         android:onClick="onClickSelectLift" />
 
     <TextView

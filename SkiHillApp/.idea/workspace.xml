@@ -19,6 +19,347 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="73079628-4172-4efb-8288-43e317dfeb31" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/src/main/res/drawable/lakelouise_overview2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/src/main/res/drawable/lakelouise_overview3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/src/main/java/com/example/lee/lakelouiseapp/MapViewActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/src/main/java/com/example/lee/lakelouiseapp/map_adapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/src/main/res/layout/activity_map_view.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/src/main/res/layout/map_items.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/classes/debug/com/example/lee/lakelouiseapp/lift_item.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/classes/debug/com/example/lee/lakelouiseapp/review_item.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/incremental-verifier/debug/com/example/lee/lakelouiseapp/lift_item.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/incremental-verifier/debug/com/example/lee/lakelouiseapp/review_item.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/lee/lakelouiseapp/lift_item.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/lee/lakelouiseapp/review_item.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/example/lee/lakelouiseapp/lift_item.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/example/lee/lakelouiseapp/review_item.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/buildId.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/src/main/java/com/example/lee/lakelouiseapp/lift_item.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/animated_vector_drawable_24_2_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_24_2_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/cardview_v7_25_0_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/design_24_2_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/espresso_core_2_2_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/espresso_idling_resource_2_2_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/exposed_instrumentation_api_publish_0_5.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/gridlayout_v7_25_0_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/hamcrest_core_1_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/hamcrest_integration_1_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/hamcrest_library_1_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/javawriter_2_1_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/javax_annotation_api_1_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/javax_inject_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/jsr305_2_0_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/junit_4_12.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/library_1_2_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/recyclerview_v7_24_2_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/rules_0_5.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/runner_0_5.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_annotations_25_0_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_compat_25_0_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_core_ui_25_0_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_core_utils_24_2_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_fragment_24_2_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_media_compat_24_2_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_v4_24_2_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_vector_drawable_24_2_1.xml" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/src/main/java/com/example/lee/lakelouiseapp/review_item.java" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/src/main/java/com/example/lee/lakelouiseapp/list_item.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/.gradle/2.14.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/../LakeLouiseApp/.gradle/2.14.1/taskArtifacts/cache.properties.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/.gradle/2.14.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/../LakeLouiseApp/.gradle/2.14.1/taskArtifacts/fileHashes.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/../LakeLouiseApp/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" afterPath="$PROJECT_DIR$/../LakeLouiseApp/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/../LakeLouiseApp/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="$PROJECT_DIR$/../LakeLouiseApp/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/../LakeLouiseApp/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" afterPath="$PROJECT_DIR$/../LakeLouiseApp/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/../LakeLouiseApp/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/classes/debug/android/support/design/R$drawable.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/classes/debug/android/support/design/R$drawable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/classes/debug/android/support/design/R$id.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/classes/debug/android/support/design/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/classes/debug/android/support/design/R$layout.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/classes/debug/android/support/design/R$layout.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/classes/debug/android/support/design/R$style.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/classes/debug/android/support/design/R$style.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$drawable.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$drawable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$id.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$layout.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$layout.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$style.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$style.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/classes/debug/com/example/lee/lakelouiseapp/MainActivity$1.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/classes/debug/com/example/lee/lakelouiseapp/MainActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/classes/debug/com/example/lee/lakelouiseapp/MakeReviewActivity.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/classes/debug/com/example/lee/lakelouiseapp/MakeReviewActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/classes/debug/com/example/lee/lakelouiseapp/R$drawable.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/classes/debug/com/example/lee/lakelouiseapp/R$drawable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/classes/debug/com/example/lee/lakelouiseapp/R$id.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/classes/debug/com/example/lee/lakelouiseapp/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/classes/debug/com/example/lee/lakelouiseapp/R$integer.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/classes/debug/com/example/lee/lakelouiseapp/R$integer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/classes/debug/com/example/lee/lakelouiseapp/R$layout.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/classes/debug/com/example/lee/lakelouiseapp/R$layout.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/classes/debug/com/example/lee/lakelouiseapp/R$menu.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/classes/debug/com/example/lee/lakelouiseapp/R$menu.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/classes/debug/com/example/lee/lakelouiseapp/R$mipmap.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/classes/debug/com/example/lee/lakelouiseapp/R$mipmap.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/classes/debug/com/example/lee/lakelouiseapp/R$string.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/classes/debug/com/example/lee/lakelouiseapp/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/classes/debug/com/example/lee/lakelouiseapp/R$style.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/classes/debug/com/example/lee/lakelouiseapp/R$style.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/classes/debug/com/example/lee/lakelouiseapp/R$styleable.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/classes/debug/com/example/lee/lakelouiseapp/R$styleable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/classes/debug/com/example/lee/lakelouiseapp/ReviewActivity.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/classes/debug/com/example/lee/lakelouiseapp/ReviewActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/classes/debug/com/example/lee/lakelouiseapp/RouteShowActivity.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/classes/debug/com/example/lee/lakelouiseapp/RouteShowActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/classes/debug/com/example/lee/lakelouiseapp/SelectLift2Activity$1.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/classes/debug/com/example/lee/lakelouiseapp/SelectLift2Activity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/classes/debug/com/example/lee/lakelouiseapp/SelectLift2Activity.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/classes/debug/com/example/lee/lakelouiseapp/SelectLift2Activity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/classes/debug/com/example/lee/lakelouiseapp/SelectLiftActivity.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/classes/debug/com/example/lee/lakelouiseapp/SelectLiftActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/classes/debug/com/example/lee/lakelouiseapp/SelectRouteActivity$1.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/classes/debug/com/example/lee/lakelouiseapp/SelectRouteActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/classes/debug/com/example/lee/lakelouiseapp/SelectRouteActivity$10.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/classes/debug/com/example/lee/lakelouiseapp/SelectRouteActivity$10.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/classes/debug/com/example/lee/lakelouiseapp/SelectRouteActivity$11.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/classes/debug/com/example/lee/lakelouiseapp/SelectRouteActivity$11.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/classes/debug/com/example/lee/lakelouiseapp/SelectRouteActivity$2.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/classes/debug/com/example/lee/lakelouiseapp/SelectRouteActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/classes/debug/com/example/lee/lakelouiseapp/SelectRouteActivity$3.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/classes/debug/com/example/lee/lakelouiseapp/SelectRouteActivity$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/classes/debug/com/example/lee/lakelouiseapp/SelectRouteActivity$4.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/classes/debug/com/example/lee/lakelouiseapp/SelectRouteActivity$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/classes/debug/com/example/lee/lakelouiseapp/SelectRouteActivity$5.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/classes/debug/com/example/lee/lakelouiseapp/SelectRouteActivity$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/classes/debug/com/example/lee/lakelouiseapp/SelectRouteActivity$6.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/classes/debug/com/example/lee/lakelouiseapp/SelectRouteActivity$6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/classes/debug/com/example/lee/lakelouiseapp/SelectRouteActivity$7.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/classes/debug/com/example/lee/lakelouiseapp/SelectRouteActivity$7.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/classes/debug/com/example/lee/lakelouiseapp/SelectRouteActivity$8.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/classes/debug/com/example/lee/lakelouiseapp/SelectRouteActivity$8.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/classes/debug/com/example/lee/lakelouiseapp/SelectRouteActivity$9.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/classes/debug/com/example/lee/lakelouiseapp/SelectRouteActivity$9.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/classes/debug/com/example/lee/lakelouiseapp/SelectRouteActivity.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/classes/debug/com/example/lee/lakelouiseapp/SelectRouteActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/classes/debug/com/example/lee/lakelouiseapp/lift_adapter.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/classes/debug/com/example/lee/lakelouiseapp/lift_adapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/classes/debug/com/example/lee/lakelouiseapp/review_adapter.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/classes/debug/com/example/lee/lakelouiseapp/review_adapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/classes/debug/com/roughike/bottombar/R$drawable.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/classes/debug/com/roughike/bottombar/R$drawable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/classes/debug/com/roughike/bottombar/R$id.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/classes/debug/com/roughike/bottombar/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/classes/debug/com/roughike/bottombar/R$layout.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/classes/debug/com/roughike/bottombar/R$layout.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/classes/debug/com/roughike/bottombar/R$style.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/classes/debug/com/roughike/bottombar/R$style.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/incremental-verifier/debug/android/support/design/R$drawable.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/incremental-verifier/debug/android/support/design/R$drawable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/incremental-verifier/debug/android/support/design/R$id.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/incremental-verifier/debug/android/support/design/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/incremental-verifier/debug/android/support/design/R$layout.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/incremental-verifier/debug/android/support/design/R$layout.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/incremental-verifier/debug/android/support/design/R$style.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/incremental-verifier/debug/android/support/design/R$style.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/incremental-verifier/debug/android/support/v7/appcompat/R$drawable.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/incremental-verifier/debug/android/support/v7/appcompat/R$drawable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/incremental-verifier/debug/android/support/v7/appcompat/R$id.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/incremental-verifier/debug/android/support/v7/appcompat/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/incremental-verifier/debug/android/support/v7/appcompat/R$layout.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/incremental-verifier/debug/android/support/v7/appcompat/R$layout.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/incremental-verifier/debug/android/support/v7/appcompat/R$style.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/incremental-verifier/debug/android/support/v7/appcompat/R$style.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/incremental-verifier/debug/com/example/lee/lakelouiseapp/MainActivity$1.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/incremental-verifier/debug/com/example/lee/lakelouiseapp/MainActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/incremental-verifier/debug/com/example/lee/lakelouiseapp/MakeReviewActivity.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/incremental-verifier/debug/com/example/lee/lakelouiseapp/MakeReviewActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/incremental-verifier/debug/com/example/lee/lakelouiseapp/R$drawable.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/incremental-verifier/debug/com/example/lee/lakelouiseapp/R$drawable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/incremental-verifier/debug/com/example/lee/lakelouiseapp/R$id.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/incremental-verifier/debug/com/example/lee/lakelouiseapp/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/incremental-verifier/debug/com/example/lee/lakelouiseapp/R$integer.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/incremental-verifier/debug/com/example/lee/lakelouiseapp/R$integer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/incremental-verifier/debug/com/example/lee/lakelouiseapp/R$layout.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/incremental-verifier/debug/com/example/lee/lakelouiseapp/R$layout.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/incremental-verifier/debug/com/example/lee/lakelouiseapp/R$menu.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/incremental-verifier/debug/com/example/lee/lakelouiseapp/R$menu.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/incremental-verifier/debug/com/example/lee/lakelouiseapp/R$mipmap.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/incremental-verifier/debug/com/example/lee/lakelouiseapp/R$mipmap.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/incremental-verifier/debug/com/example/lee/lakelouiseapp/R$string.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/incremental-verifier/debug/com/example/lee/lakelouiseapp/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/incremental-verifier/debug/com/example/lee/lakelouiseapp/R$style.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/incremental-verifier/debug/com/example/lee/lakelouiseapp/R$style.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/incremental-verifier/debug/com/example/lee/lakelouiseapp/R$styleable.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/incremental-verifier/debug/com/example/lee/lakelouiseapp/R$styleable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/incremental-verifier/debug/com/example/lee/lakelouiseapp/ReviewActivity.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/incremental-verifier/debug/com/example/lee/lakelouiseapp/ReviewActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/incremental-verifier/debug/com/example/lee/lakelouiseapp/RouteShowActivity.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/incremental-verifier/debug/com/example/lee/lakelouiseapp/RouteShowActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/incremental-verifier/debug/com/example/lee/lakelouiseapp/SelectLift2Activity$1.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/incremental-verifier/debug/com/example/lee/lakelouiseapp/SelectLift2Activity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/incremental-verifier/debug/com/example/lee/lakelouiseapp/SelectLift2Activity.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/incremental-verifier/debug/com/example/lee/lakelouiseapp/SelectLift2Activity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/incremental-verifier/debug/com/example/lee/lakelouiseapp/SelectLiftActivity.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/incremental-verifier/debug/com/example/lee/lakelouiseapp/SelectLiftActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/incremental-verifier/debug/com/example/lee/lakelouiseapp/SelectRouteActivity$1.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/incremental-verifier/debug/com/example/lee/lakelouiseapp/SelectRouteActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/incremental-verifier/debug/com/example/lee/lakelouiseapp/SelectRouteActivity$10.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/incremental-verifier/debug/com/example/lee/lakelouiseapp/SelectRouteActivity$10.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/incremental-verifier/debug/com/example/lee/lakelouiseapp/SelectRouteActivity$11.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/incremental-verifier/debug/com/example/lee/lakelouiseapp/SelectRouteActivity$11.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/incremental-verifier/debug/com/example/lee/lakelouiseapp/SelectRouteActivity$2.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/incremental-verifier/debug/com/example/lee/lakelouiseapp/SelectRouteActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/incremental-verifier/debug/com/example/lee/lakelouiseapp/SelectRouteActivity$3.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/incremental-verifier/debug/com/example/lee/lakelouiseapp/SelectRouteActivity$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/incremental-verifier/debug/com/example/lee/lakelouiseapp/SelectRouteActivity$4.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/incremental-verifier/debug/com/example/lee/lakelouiseapp/SelectRouteActivity$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/incremental-verifier/debug/com/example/lee/lakelouiseapp/SelectRouteActivity$5.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/incremental-verifier/debug/com/example/lee/lakelouiseapp/SelectRouteActivity$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/incremental-verifier/debug/com/example/lee/lakelouiseapp/SelectRouteActivity$6.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/incremental-verifier/debug/com/example/lee/lakelouiseapp/SelectRouteActivity$6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/incremental-verifier/debug/com/example/lee/lakelouiseapp/SelectRouteActivity$7.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/incremental-verifier/debug/com/example/lee/lakelouiseapp/SelectRouteActivity$7.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/incremental-verifier/debug/com/example/lee/lakelouiseapp/SelectRouteActivity$8.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/incremental-verifier/debug/com/example/lee/lakelouiseapp/SelectRouteActivity$8.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/incremental-verifier/debug/com/example/lee/lakelouiseapp/SelectRouteActivity$9.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/incremental-verifier/debug/com/example/lee/lakelouiseapp/SelectRouteActivity$9.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/incremental-verifier/debug/com/example/lee/lakelouiseapp/SelectRouteActivity.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/incremental-verifier/debug/com/example/lee/lakelouiseapp/SelectRouteActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/incremental-verifier/debug/com/example/lee/lakelouiseapp/lift_adapter.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/incremental-verifier/debug/com/example/lee/lakelouiseapp/lift_adapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/incremental-verifier/debug/com/example/lee/lakelouiseapp/review_adapter.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/incremental-verifier/debug/com/example/lee/lakelouiseapp/review_adapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/incremental-verifier/debug/com/roughike/bottombar/R$drawable.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/incremental-verifier/debug/com/roughike/bottombar/R$drawable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/incremental-verifier/debug/com/roughike/bottombar/R$id.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/incremental-verifier/debug/com/roughike/bottombar/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/incremental-verifier/debug/com/roughike/bottombar/R$layout.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/incremental-verifier/debug/com/roughike/bottombar/R$layout.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/incremental-verifier/debug/com/roughike/bottombar/R$style.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/incremental-verifier/debug/com/roughike/bottombar/R$style.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/incremental/packageDebug/zip-cache/7L2f4VsQ1C5L5JDQkTxVh2GEbns=" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/incremental/packageDebug/zip-cache/7L2f4VsQ1C5L5JDQkTxVh2GEbns=" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/incremental/packageInstantRunResourcesDebug/zip-cache/7L2f4VsQ1C5L5JDQkTxVh2GEbns=" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/incremental/packageInstantRunResourcesDebug/zip-cache/7L2f4VsQ1C5L5JDQkTxVh2GEbns=" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/instant-run-support/debug/instant-run.zip" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/instant-run-support/debug/instant-run.zip" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_btn_check_to_on_mtrl_000.png" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_btn_check_to_on_mtrl_000.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_btn_radio_to_on_mtrl_000.png" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_btn_radio_to_on_mtrl_000.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_ic_star_black_16dp.png" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_ic_star_black_16dp.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_ic_star_black_48dp.png" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_ic_star_black_48dp.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_ic_star_half_black_36dp.png" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_ic_star_half_black_36dp.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_text_select_handle_middle_mtrl_dark.png" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_text_select_handle_middle_mtrl_dark.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable-hdpi/common_full_open_on_phone.png" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable-hdpi/common_full_open_on_phone.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_assignment_black_24dp.png" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_assignment_black_24dp.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_filter_hdr_black_24dp.png" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_filter_hdr_black_24dp.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable-ldpi/ic_swap_calls_black_24dp.png" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable-ldpi/ic_swap_calls_black_24dp.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable-ldrtl-hdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable-ldrtl-hdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable-ldrtl-mdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable-ldrtl-mdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable-ldrtl-xhdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable-ldrtl-xhdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable-ldrtl-xxxhdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable-ldrtl-xxxhdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable-ldrtl-xxxhdpi-v17/abc_ic_menu_cut_mtrl_alpha.png" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable-ldrtl-xxxhdpi-v17/abc_ic_menu_cut_mtrl_alpha.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_ic_star_black_36dp.png" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_ic_star_black_36dp.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_ic_star_black_48dp.png" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_ic_star_black_48dp.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_ic_star_half_black_36dp.png" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_ic_star_half_black_36dp.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_assignment_black_24dp.png" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_assignment_black_24dp.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable-tvdpi/common_full_open_on_phone.png" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable-tvdpi/common_full_open_on_phone.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_btn_check_to_on_mtrl_015.png" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_btn_check_to_on_mtrl_015.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_btn_radio_to_on_mtrl_015.png" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_btn_radio_to_on_mtrl_015.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_ic_star_black_16dp.png" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_ic_star_black_16dp.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_text_select_handle_right_mtrl_dark.png" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_text_select_handle_right_mtrl_dark.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable-xhdpi/common_full_open_on_phone.png" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable-xhdpi/common_full_open_on_phone.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_border_color_black_24dp.png" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_border_color_black_24dp.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_filter_hdr_black_24dp.png" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_filter_hdr_black_24dp.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_ic_star_black_16dp.png" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_ic_star_black_16dp.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_ic_star_black_48dp.png" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_ic_star_black_48dp.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_scrubber_control_off_mtrl_alpha.png" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_scrubber_control_off_mtrl_alpha.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_text_select_handle_left_mtrl_light.png" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_text_select_handle_left_mtrl_light.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_text_select_handle_right_mtrl_light.png" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_text_select_handle_right_mtrl_light.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_assignment_black_24dp.png" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_assignment_black_24dp.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/abc_btn_check_to_on_mtrl_015.png" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/abc_btn_check_to_on_mtrl_015.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/abc_btn_radio_to_on_mtrl_015.png" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/abc_btn_radio_to_on_mtrl_015.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/abc_ic_star_black_16dp.png" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/abc_ic_star_black_16dp.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/abc_ic_star_half_black_36dp.png" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/abc_ic_star_half_black_36dp.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/abc_text_select_handle_left_mtrl_dark.png" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/abc_text_select_handle_left_mtrl_dark.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/abc_text_select_handle_left_mtrl_light.png" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/abc_text_select_handle_left_mtrl_light.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_chevron_right_black_24dp.png" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_chevron_right_black_24dp.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable/calling_icon.png" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/res/merged/debug/drawable/calling_icon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_launcher.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/res/resources-debug.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4/classes.dex" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4/classes.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_6/classes.dex" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_6/classes.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7/classes.dex" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7/classes.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/design/R$drawable.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/design/R$drawable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/design/R$id.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/design/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/design/R$layout.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/design/R$layout.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/design/R$style.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/design/R$style.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/v7/appcompat/R$drawable.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/v7/appcompat/R$drawable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/v7/appcompat/R$id.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/v7/appcompat/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/v7/appcompat/R$layout.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/v7/appcompat/R$layout.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/v7/appcompat/R$style.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/v7/appcompat/R$style.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/lee/lakelouiseapp/MainActivity$1.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/lee/lakelouiseapp/MainActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/lee/lakelouiseapp/MakeReviewActivity.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/lee/lakelouiseapp/MakeReviewActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/lee/lakelouiseapp/R$drawable.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/lee/lakelouiseapp/R$drawable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/lee/lakelouiseapp/R$id.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/lee/lakelouiseapp/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/lee/lakelouiseapp/R$integer.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/lee/lakelouiseapp/R$integer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/lee/lakelouiseapp/R$layout.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/lee/lakelouiseapp/R$layout.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/lee/lakelouiseapp/R$menu.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/lee/lakelouiseapp/R$menu.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/lee/lakelouiseapp/R$mipmap.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/lee/lakelouiseapp/R$mipmap.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/lee/lakelouiseapp/R$string.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/lee/lakelouiseapp/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/lee/lakelouiseapp/R$style.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/lee/lakelouiseapp/R$style.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/lee/lakelouiseapp/R$styleable.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/lee/lakelouiseapp/R$styleable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/lee/lakelouiseapp/ReviewActivity.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/lee/lakelouiseapp/ReviewActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/lee/lakelouiseapp/RouteShowActivity.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/lee/lakelouiseapp/RouteShowActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/lee/lakelouiseapp/SelectLift2Activity$1.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/lee/lakelouiseapp/SelectLift2Activity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/lee/lakelouiseapp/SelectLift2Activity.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/lee/lakelouiseapp/SelectLift2Activity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/lee/lakelouiseapp/SelectLiftActivity.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/lee/lakelouiseapp/SelectLiftActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/lee/lakelouiseapp/SelectRouteActivity$1.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/lee/lakelouiseapp/SelectRouteActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/lee/lakelouiseapp/SelectRouteActivity$10.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/lee/lakelouiseapp/SelectRouteActivity$10.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/lee/lakelouiseapp/SelectRouteActivity$11.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/lee/lakelouiseapp/SelectRouteActivity$11.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/lee/lakelouiseapp/SelectRouteActivity$2.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/lee/lakelouiseapp/SelectRouteActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/lee/lakelouiseapp/SelectRouteActivity$3.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/lee/lakelouiseapp/SelectRouteActivity$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/lee/lakelouiseapp/SelectRouteActivity$4.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/lee/lakelouiseapp/SelectRouteActivity$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/lee/lakelouiseapp/SelectRouteActivity$5.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/lee/lakelouiseapp/SelectRouteActivity$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/lee/lakelouiseapp/SelectRouteActivity$6.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/lee/lakelouiseapp/SelectRouteActivity$6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/lee/lakelouiseapp/SelectRouteActivity$7.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/lee/lakelouiseapp/SelectRouteActivity$7.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/lee/lakelouiseapp/SelectRouteActivity$8.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/lee/lakelouiseapp/SelectRouteActivity$8.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/lee/lakelouiseapp/SelectRouteActivity$9.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/lee/lakelouiseapp/SelectRouteActivity$9.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/lee/lakelouiseapp/SelectRouteActivity.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/lee/lakelouiseapp/SelectRouteActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/lee/lakelouiseapp/lift_adapter.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/lee/lakelouiseapp/lift_adapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/lee/lakelouiseapp/review_adapter.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/lee/lakelouiseapp/review_adapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/roughike/bottombar/R$drawable.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/roughike/bottombar/R$drawable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/roughike/bottombar/R$id.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/roughike/bottombar/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/roughike/bottombar/R$layout.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/roughike/bottombar/R$layout.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/roughike/bottombar/R$style.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/roughike/bottombar/R$style.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/android/support/v7/appcompat/R$drawable.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/android/support/v7/appcompat/R$drawable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/android/support/v7/appcompat/R$id.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/android/support/v7/appcompat/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/android/support/v7/appcompat/R$layout.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/android/support/v7/appcompat/R$layout.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/android/support/v7/appcompat/R$style.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/android/support/v7/appcompat/R$style.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/example/lee/lakelouiseapp/MainActivity$1.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/example/lee/lakelouiseapp/MainActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/example/lee/lakelouiseapp/MakeReviewActivity.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/example/lee/lakelouiseapp/MakeReviewActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/example/lee/lakelouiseapp/R$drawable.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/example/lee/lakelouiseapp/R$drawable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/example/lee/lakelouiseapp/R$id.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/example/lee/lakelouiseapp/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/example/lee/lakelouiseapp/R$integer.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/example/lee/lakelouiseapp/R$integer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/example/lee/lakelouiseapp/R$layout.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/example/lee/lakelouiseapp/R$layout.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/example/lee/lakelouiseapp/R$menu.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/example/lee/lakelouiseapp/R$menu.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/example/lee/lakelouiseapp/R$mipmap.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/example/lee/lakelouiseapp/R$mipmap.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/example/lee/lakelouiseapp/R$string.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/example/lee/lakelouiseapp/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/example/lee/lakelouiseapp/R$style.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/example/lee/lakelouiseapp/R$style.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/example/lee/lakelouiseapp/R$styleable.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/example/lee/lakelouiseapp/R$styleable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/example/lee/lakelouiseapp/ReviewActivity.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/example/lee/lakelouiseapp/ReviewActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/example/lee/lakelouiseapp/RouteShowActivity.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/example/lee/lakelouiseapp/RouteShowActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/example/lee/lakelouiseapp/SelectLift2Activity$1.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/example/lee/lakelouiseapp/SelectLift2Activity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/example/lee/lakelouiseapp/SelectLift2Activity.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/example/lee/lakelouiseapp/SelectLift2Activity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/example/lee/lakelouiseapp/SelectLiftActivity.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/example/lee/lakelouiseapp/SelectLiftActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/example/lee/lakelouiseapp/SelectRouteActivity$1.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/example/lee/lakelouiseapp/SelectRouteActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/example/lee/lakelouiseapp/SelectRouteActivity$10.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/example/lee/lakelouiseapp/SelectRouteActivity$10.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/example/lee/lakelouiseapp/SelectRouteActivity$11.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/example/lee/lakelouiseapp/SelectRouteActivity$11.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/example/lee/lakelouiseapp/SelectRouteActivity$2.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/example/lee/lakelouiseapp/SelectRouteActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/example/lee/lakelouiseapp/SelectRouteActivity$3.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/example/lee/lakelouiseapp/SelectRouteActivity$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/example/lee/lakelouiseapp/SelectRouteActivity$4.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/example/lee/lakelouiseapp/SelectRouteActivity$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/example/lee/lakelouiseapp/SelectRouteActivity$5.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/example/lee/lakelouiseapp/SelectRouteActivity$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/example/lee/lakelouiseapp/SelectRouteActivity$6.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/example/lee/lakelouiseapp/SelectRouteActivity$6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/example/lee/lakelouiseapp/SelectRouteActivity$7.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/example/lee/lakelouiseapp/SelectRouteActivity$7.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/example/lee/lakelouiseapp/SelectRouteActivity$8.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/example/lee/lakelouiseapp/SelectRouteActivity$8.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/example/lee/lakelouiseapp/SelectRouteActivity$9.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/example/lee/lakelouiseapp/SelectRouteActivity$9.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/example/lee/lakelouiseapp/SelectRouteActivity.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/example/lee/lakelouiseapp/SelectRouteActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/example/lee/lakelouiseapp/lift_adapter.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/example/lee/lakelouiseapp/lift_adapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/example/lee/lakelouiseapp/review_adapter.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/example/lee/lakelouiseapp/review_adapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/roughike/bottombar/R$drawable.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/roughike/bottombar/R$drawable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/roughike/bottombar/R$id.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/roughike/bottombar/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/roughike/bottombar/R$layout.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/roughike/bottombar/R$layout.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/roughike/bottombar/R$style.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/roughike/bottombar/R$style.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/android/support/design/R$drawable.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/android/support/design/R$drawable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/android/support/design/R$id.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/android/support/design/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/android/support/design/R$layout.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/android/support/design/R$layout.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/android/support/design/R$style.class" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/android/support/design/R$style.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/outputs/apk/app-debug.apk" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/outputs/apk/app-debug.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/app.iml" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/app.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build.gradle" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/generated/source/r/debug/android/support/design/R.java" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/generated/source/r/debug/android/support/design/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/generated/source/r/debug/android/support/v7/appcompat/R.java" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/generated/source/r/debug/android/support/v7/appcompat/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/generated/source/r/debug/com/example/lee/lakelouiseapp/R.java" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/generated/source/r/debug/com/example/lee/lakelouiseapp/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/generated/source/r/debug/com/roughike/bottombar/R.java" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/generated/source/r/debug/com/roughike/bottombar/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/blame/res/debug/multi/values.json" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/blame/res/debug/multi/values.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/blame/res/debug/single/drawable-hdpi-v4.json" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/blame/res/debug/single/drawable-hdpi-v4.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/blame/res/debug/single/drawable-hdpi.json" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/blame/res/debug/single/drawable-hdpi.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/blame/res/debug/single/drawable-mdpi.json" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/blame/res/debug/single/drawable-mdpi.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/blame/res/debug/single/drawable-tvdpi.json" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/blame/res/debug/single/drawable-tvdpi.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/blame/res/debug/single/drawable-xxhdpi.json" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/blame/res/debug/single/drawable-xxhdpi.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/blame/res/debug/single/drawable.json" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/blame/res/debug/single/drawable.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/blame/res/debug/single/layout.json" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/blame/res/debug/single/layout.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/incremental/mergeDebugResources/merger.xml" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/incremental/mergeDebugResources/merger.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/incremental/packageDebug/file-input-save-data.txt" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/incremental/packageDebug/file-input-save-data.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/incremental/packageInstantRunResourcesDebug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/incremental/packageInstantRunResourcesDebug/dex-renamer-state.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/incremental/packageInstantRunResourcesDebug/file-input-save-data.txt" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/incremental/packageInstantRunResourcesDebug/file-input-save-data.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/instant-run-support/debug/manifest.crc" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/instant-run-support/debug/manifest.crc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/instant-run-support/debug/manifest.xml" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/instant-run-support/debug/manifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/manifests/instant-run/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/manifests/instant-run/debug/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/res/merged/debug/layout/activity_info.xml" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/res/merged/debug/layout/activity_info.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/res/merged/debug/layout/activity_route_show.xml" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/res/merged/debug/layout/activity_route_show.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/res/merged/debug/layout/activity_select_lift2.xml" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/res/merged/debug/layout/activity_select_lift2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/res/merged/debug/layout/activity_select_route.xml" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/res/merged/debug/layout/activity_select_route.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/res/merged/debug/layout/content_lift.xml" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/res/merged/debug/layout/content_lift.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/res/merged/debug/layout/content_map.xml" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/res/merged/debug/layout/content_map.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/res/merged/debug/layout/lift_items.xml" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/res/merged/debug/layout/lift_items.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/res/merged/debug/values/values.xml" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/res/merged/debug/values/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/restart-dex/debug/build-info.xml" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/restart-dex/debug/build-info.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/symbols/debug/R.txt" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/symbols/debug/R.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/buildId.txt" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/buildId.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/buildId.txt" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/buildId.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/buildId.txt" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/buildId.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/build/outputs/logs/manifest-merger-debug-report.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/src/main/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/src/main/java/com/example/lee/lakelouiseapp/SelectLift2Activity.java" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/src/main/java/com/example/lee/lakelouiseapp/SelectLift2Activity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/src/main/java/com/example/lee/lakelouiseapp/lift_adapter.java" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/src/main/java/com/example/lee/lakelouiseapp/lift_adapter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/src/main/java/com/example/lee/lakelouiseapp/review_adapter.java" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/src/main/java/com/example/lee/lakelouiseapp/review_adapter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/src/main/res/layout/activity_info.xml" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/src/main/res/layout/activity_info.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/src/main/res/layout/activity_route_show.xml" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/src/main/res/layout/activity_route_show.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/src/main/res/layout/activity_select_lift2.xml" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/src/main/res/layout/activity_select_lift2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/src/main/res/layout/activity_select_route.xml" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/src/main/res/layout/activity_select_route.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/src/main/res/layout/content_lift.xml" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/src/main/res/layout/content_lift.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/src/main/res/layout/content_map.xml" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/src/main/res/layout/content_map.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/src/main/res/layout/lift_items.xml" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/src/main/res/layout/lift_items.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/app/src/main/res/values/styles.xml" afterPath="$PROJECT_DIR$/../LakeLouiseApp/app/src/main/res/values/styles.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LakeLouiseApp/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/../LakeLouiseApp/build/intermediates/dex-cache/cache.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="SkiHillApp.iws" />
@@ -55,61 +396,12 @@
       <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lee/skihillapp/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+            <state relative-caret-position="414">
+              <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activity_skihill.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_skihill.xml">
-          <provider editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-          <provider selected="true" editor-type-id="android-designer2">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="styles.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="15" column="54" selection-start-line="15" selection-start-column="54" selection-end-line="15" selection-end-column="54" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="android-manifest">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activity_main.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-          <provider editor-type-id="text-editor">
-            <state relative-caret-position="529">
-              <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-          <provider selected="true" editor-type-id="android-designer2">
-            <state />
           </provider>
         </entry>
       </file>
@@ -123,6 +415,54 @@
           </provider>
           <provider selected="true" editor-type-id="android-designer2">
             <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activity_overview.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_overview.xml">
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+          <provider selected="true" editor-type-id="android-designer2">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="content_overview.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_overview.xml">
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+          <provider selected="true" editor-type-id="android-designer2">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OverviewActivity.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lee/skihillapp/OverviewActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="115">
+              <caret line="12" column="32" selection-start-line="11" selection-start-column="4" selection-end-line="12" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="407">
+              <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
@@ -154,7 +494,9 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="207">
               <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -1906,13 +2248,18 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="SkiHillApp" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Gradle Scripts" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidBuildScriptsGroupNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -2053,9 +2400,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
-      <pane id="ProjectPane" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -2387,39 +2733,39 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32893" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32893" sideWeight="0.5028612" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32893" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32893" sideWeight="0.5028612" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23819743" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32893" sideWeight="0.49713877" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32893" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18454936" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18454936" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23819743" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32893" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -2590,13 +2936,6 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_sunshine_overview.png" />
     <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_overview.png" />
     <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/calgary.jpg" />
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="499">
-          <caret line="29" column="37" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_phone_black_24dp.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -2611,25 +2950,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lee/skihillapp/OverviewActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/lakelouise_overview_basic.png">
       <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_overview.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
         <state />
       </provider>
     </entry>
@@ -2693,17 +3015,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_overview.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_location.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -2735,16 +3046,6 @@
       </provider>
       <provider editor-type-id="android-designer2">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lee/skihillapp/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_skihill.xml">
@@ -2788,25 +3089,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_main.xml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="828">
-          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lee/skihillapp/SkihillActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="20" column="46" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_location.xml">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="437">
@@ -2822,7 +3104,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
           <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2835,6 +3119,75 @@
       </provider>
       <provider editor-type-id="android-designer2">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lee/skihillapp/SkihillActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="20" column="46" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lee/skihillapp/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_overview.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_main.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="828">
+          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_overview.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/lee/skihillapp/OverviewActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="12" column="32" selection-start-line="11" selection-start-column="4" selection-end-line="12" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
   </component>

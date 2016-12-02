@@ -1,13 +1,12 @@
 package com.example.lee.lakelouiseapp;
 
-import android.graphics.drawable.Drawable;
-
 /**
- * Created by LEE on 2016. 12. 1..
+ * Created by LEE on 2016. 11. 27..
  */
 
-public class lift_item {
+import android.graphics.drawable.Drawable;
 
+public class list_item {
     private Drawable iconDrawable ;
     private String titleStr ;
     private String descStr ;
@@ -38,4 +37,5 @@ public class lift_item {
     public String getTime() { return this.timeStr ; }
     public String getButtonTitle() {return this.buttontitle;}
     public Integer getColor(){ return this.color;}
+
 }

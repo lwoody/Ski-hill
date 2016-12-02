@@ -3,6 +3,7 @@ package com.example.lee.lakelouiseapp;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.TabLayout;
+import android.support.v4.content.ContextCompat;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
@@ -15,6 +16,7 @@ import com.github.ksoichiro.android.observablescrollview.ObservableScrollViewCal
 import com.github.ksoichiro.android.observablescrollview.ScrollState;
 
 import static com.example.lee.lakelouiseapp.R.drawable.logo_small_icon;
+import static com.example.lee.lakelouiseapp.R.id.map_list;
 
 public class SelectLift2Activity extends AppCompatActivity implements ObservableScrollViewCallbacks {
 
@@ -46,13 +48,21 @@ public class SelectLift2Activity extends AppCompatActivity implements Observable
         ObservableListView listView = (ObservableListView) liftContent.findViewById(R.id.lift_list);
         listView.setScrollViewCallbacks(this);
 
+        ObservableListView mapListView = (ObservableListView) mapContent.findViewById(map_list);
+        mapListView.setScrollViewCallbacks(this);
+
         final lift_adapter adapter;
+        final map_adapter mapAdapter;
 
         // Adapter
         adapter = new lift_adapter() ;
-        listView.setAdapter(adapter);
+        mapAdapter = new map_adapter();
 
-        // adding first item
+        listView.setAdapter(adapter);
+        mapListView.setAdapter(mapAdapter);
+
+
+        // adding lift list item
         adapter.addItem(
                 "Grizzly Express","intermediate", 0xff00ff00) ;
         adapter.addItem(
@@ -65,6 +75,11 @@ public class SelectLift2Activity extends AppCompatActivity implements Observable
                 "Summit Platter","expert",0xff00ff00) ;
         adapter.addItem(
                 "Larch Express","intermediate",0xff00ff00) ;
+
+        // adding map list item
+        mapAdapter.addItem(ContextCompat.getDrawable(this, R.drawable.lakelouise_overview3), "Overview");
+        mapAdapter.addItem(ContextCompat.getDrawable(this, R.drawable.picture_icon),"Front Side & Larch");
+        mapAdapter.addItem(ContextCompat.getDrawable(this, R.drawable.picture_icon), "Back Bowls");
 
         tabLayout.setOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
             @Override
@@ -89,9 +104,6 @@ public class SelectLift2Activity extends AppCompatActivity implements Observable
             public void onTabReselected(TabLayout.Tab tab) {
             }
         });
-
-
-
     }
 
     @Override
@@ -128,6 +140,11 @@ public class SelectLift2Activity extends AppCompatActivity implements Observable
                 startActivity(homeIntent);
         }
         return (super.onOptionsItemSelected(menuItem));
+    }
+
+    public void onClickMap(View v){
+        startActivity(new Intent(this,MapViewActivity.class));
+
     }
 
 }
