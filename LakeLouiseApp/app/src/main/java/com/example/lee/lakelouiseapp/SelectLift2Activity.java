@@ -86,8 +86,8 @@ public class SelectLift2Activity extends AppCompatActivity implements Observable
 
         // adding map list item
         mapAdapter.addItem(ContextCompat.getDrawable(this, R.drawable.lakelouise_overview3), "Overview");
-        mapAdapter.addItem(ContextCompat.getDrawable(this, R.drawable.picture_icon),"Front Side & Larch");
-        mapAdapter.addItem(ContextCompat.getDrawable(this, R.drawable.picture_icon), "Back Bowls");
+        mapAdapter.addItem(ContextCompat.getDrawable(this, R.drawable.lakelouise_overview3),"Front Side & Larch");
+        mapAdapter.addItem(ContextCompat.getDrawable(this, R.drawable.lakelouise_overview3), "Back Bowls");
 
         tabLayout.setOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
             @Override

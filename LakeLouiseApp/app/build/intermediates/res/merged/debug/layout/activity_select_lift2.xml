@@ -21,8 +21,9 @@
             app:tabIndicatorColor="#03e3ab"
             app:tabIndicatorHeight="6dp"/>
 
-
     </android.support.design.widget.AppBarLayout>
+
+
 
     <include
         android:layout_width="match_parent"
@@ -34,7 +35,6 @@
         android:layout_width="match_parent"
         layout="@layout/content_map"
         android:id="@+id/content_map"
-        android:layout_height="wrap_content"
-         />
+        android:layout_height="wrap_content"/>
 
 </android.support.design.widget.CoordinatorLayout>

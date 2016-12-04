@@ -56,7 +56,7 @@ public class RouteShowActivity extends AppCompatActivity{
 
         startButton = (Button)findViewById(R.id.startButton);
         stopButton = (Button)findViewById(R.id.stopButton);
-        resetButton = (Button)findViewById(R.id.resetButton);
+//        resetButton = (Button)findViewById(R.id.resetButton);
         timerView = (TextView)findViewById(R.id.timer);
 
         startButton.setOnClickListener (new View.OnClickListener() {
@@ -78,15 +78,15 @@ public class RouteShowActivity extends AppCompatActivity{
                 reset = false;
             }
         });
-        resetButton.setOnClickListener (new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                timeSwapBuff = 0;
-                handler.removeCallbacks(updateTimerThread);
-                timerView.setText("0:00:000");
-                startButton.setText("START");
-            }
-        });
+//        resetButton.setOnClickListener (new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                timeSwapBuff = 0;
+//                handler.removeCallbacks(updateTimerThread);
+//                timerView.setText("0:00:000");
+//                startButton.setText("START");
+//            }
+//        });
     }
     public void onClickSave(View v)
     {

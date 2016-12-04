@@ -5,10 +5,6 @@
     android:id="@+id/activity_route_show"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.lee.lakelouiseapp.RouteShowActivity"
     android:background="@android:color/background_light">
 
@@ -42,27 +38,37 @@
                 android:textSize="50dp"
                 android:layout_below="@+id/textView10"
                 android:layout_centerHorizontal="true"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:fontFamily="monospace"
+                android:textAlignment="center"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/bb_darkBackgroundColor" />
 
-            <Button
-                android:text="RESET"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:id="@+id/resetButton"
-                android:layout_weight="0"
-                android:elevation="0dp" />
+            <!--<Button-->
+                <!--android:text="RESET"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:id="@+id/resetButton"-->
+                <!--android:layout_weight="0"-->
+                <!--android:elevation="0dp"-->
+                <!--android:fontFamily="casual"-->
+                <!--android:textStyle="normal|bold"-->
+                <!--android:background="@drawable/round_shape"-->
+                <!--android:textColor="@color/white"-->
+                <!--android:textSize="10sp"-->
+                <!--android:layout_height="match_parent" />-->
         </LinearLayout>
 
         <LinearLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp">
 
             <Button
                 android:text="START"
                 android:layout_width="wrap_content"
                 android:id="@+id/startButton"
-                android:background="#4259f4"
+                android:background="@drawable/round_shape"
                 android:textColor="@color/common_google_signin_btn_text_dark_default"
                 android:layout_below="@+id/timer"
                 android:layout_alignParentLeft="true"
@@ -71,13 +77,15 @@
                 android:layout_alignParentEnd="true"
                 android:layout_weight="1"
                 android:layout_marginRight="5sp"
-                android:layout_height="55dp" />
+                android:layout_height="55dp"
+                android:fontFamily="casual"
+                android:textStyle="normal|bold" />
 
             <Button
                 android:text="STOP"
                 android:layout_width="wrap_content"
                 android:id="@+id/stopButton"
-                android:background="@android:color/holo_red_dark"
+                android:background="@drawable/round_shape"
                 android:textColor="@color/common_google_signin_btn_text_dark_default"
                 android:layout_height="55dp"
                 android:layout_below="@+id/timer"
@@ -86,7 +94,9 @@
                 android:layout_alignParentRight="false"
                 android:layout_alignParentEnd="false"
                 android:layout_weight="1"
-                android:layout_marginLeft="5sp" />
+                android:layout_marginLeft="5sp"
+                android:fontFamily="casual"
+                android:textStyle="normal|bold" />
         </LinearLayout>
 
         <TextView
@@ -94,8 +104,7 @@
             android:layout_height="1dp"
             android:id="@+id/textView81"
             android:background="@color/common_action_bar_splitter"
-            android:layout_marginTop="10dp"
-            android:layout_marginBottom="10dp" />
+            android:layout_marginBottom="8dp" />
 
         <ImageView
             android:layout_width="match_parent"
@@ -111,8 +120,10 @@
             android:layout_width="match_parent"
             android:id="@+id/routeName"
             android:layout_below="@+id/imageView2"
-            android:layout_marginBottom="10dp"
-            android:layout_height="110dp">
+            android:layout_marginBottom="8dp"
+            android:layout_height="105dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp">
 
             <LinearLayout
                 android:orientation="vertical"
@@ -125,10 +136,13 @@
                     android:id="@+id/run_2"
                     android:background="@android:color/holo_blue_dark"
                     android:textAlignment="center"
-                    android:textSize="20sp"
-                    android:layout_marginTop="5dp"
+                    android:textSize="15sp"
                     android:onClick="run_2Button"
-                    android:layout_height="40sp" />
+                    android:layout_height="40sp"
+                    android:textStyle="normal|bold"
+                    android:fontFamily="casual"
+                    android:clickable="false"
+                    android:textColor="@color/bb_darkBackgroundColor" />
 
                 <Button
                     android:text="3: Juniper"
@@ -136,10 +150,14 @@
                     android:id="@+id/run_3"
                     android:background="@android:color/holo_blue_dark"
                     android:textAlignment="center"
-                    android:textSize="20sp"
+                    android:textSize="15sp"
                     android:layout_marginTop="5dp"
                     android:onClick="run_3Button"
-                    android:layout_height="40sp" />
+                    android:layout_height="40sp"
+                    android:textStyle="normal|bold"
+                    android:fontFamily="casual"
+                    android:clickable="false"
+                    android:textColor="@color/bb_darkBackgroundColor" />
 
                 <Button
                     android:text="4: Juniper Jungle"
@@ -147,10 +165,14 @@
                     android:id="@+id/run_4"
                     android:background="@android:color/holo_blue_dark"
                     android:textAlignment="center"
-                    android:textSize="20sp"
+                    android:textSize="15sp"
                     android:layout_marginTop="5dp"
                     android:onClick="run_4Button"
-                    android:layout_height="40sp" />
+                    android:layout_height="40sp"
+                    android:textStyle="normal|bold"
+                    android:fontFamily="casual"
+                    android:clickable="false"
+                    android:textColor="@color/bb_darkBackgroundColor" />
 
                 <Button
                     android:text="6: Bald Eagle"
@@ -158,10 +180,14 @@
                     android:id="@+id/run_6"
                     android:background="@android:color/holo_green_dark"
                     android:textAlignment="center"
-                    android:textSize="20sp"
+                    android:textSize="15sp"
                     android:layout_marginTop="5dp"
                     android:onClick="run_6Button"
-                    android:layout_height="40sp" />
+                    android:layout_height="40sp"
+                    android:textStyle="normal|bold"
+                    android:fontFamily="casual"
+                    android:clickable="false"
+                    android:textColor="@color/bb_darkBackgroundColor" />
 
                 <Button
                     android:text="13: Easy Street"
@@ -169,10 +195,14 @@
                     android:id="@+id/run_13"
                     android:background="@android:color/holo_green_dark"
                     android:textAlignment="center"
-                    android:textSize="20sp"
+                    android:textSize="15sp"
                     android:layout_marginTop="5dp"
                     android:onClick="run_13Button"
-                    android:layout_height="40sp" />
+                    android:layout_height="40sp"
+                    android:textStyle="normal|bold"
+                    android:fontFamily="casual"
+                    android:clickable="false"
+                    android:textColor="@color/bb_darkBackgroundColor" />
 
             </LinearLayout>
         </ScrollView>
@@ -182,29 +212,22 @@
             android:layout_height="1dp"
             android:id="@+id/textView9"
             android:background="#4259f4"
-            android:layout_marginBottom="5dp" />
+            android:layout_marginBottom="8dp" />
 
-        <LinearLayout
-            android:orientation="horizontal"
+        <Button
+            android:text="Done"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            android:layout_below="@+id/routeName">
-
-            <Button
-                android:text="Make review"
-                android:layout_width="wrap_content"
-                android:id="@+id/button6"
-                android:layout_weight="1"
-                android:layout_height="55dp"
-                android:textColor="@color/common_google_signin_btn_text_dark_default"
-                android:onClick="onClickSave"
-                android:background="#4259f4"
-                android:layout_marginTop="5dp" />
-
-        </LinearLayout>
+            android:id="@+id/button6"
+            android:layout_weight="1"
+            android:layout_height="55dp"
+            android:textColor="@color/common_google_signin_btn_text_dark_default"
+            android:onClick="onClickSave"
+            android:background="@drawable/round_shape"
+            android:fontFamily="casual"
+            android:textStyle="normal|bold"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp" />
 
     </LinearLayout>
 

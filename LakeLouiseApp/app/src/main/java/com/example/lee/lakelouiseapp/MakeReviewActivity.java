@@ -42,9 +42,8 @@ public class MakeReviewActivity extends AppCompatActivity {
     {
         System.out.println("click");
         saveReview();
-        startActivity(new Intent(this, ReviewActivity.class));
+        startActivity(new Intent(this, MyRouteActivity.class));
     }
-    public void onClickCancel(View v){ startActivity(new Intent(this, MainActivity.class)); }
 
     static void getTime(long timeIn)
     {

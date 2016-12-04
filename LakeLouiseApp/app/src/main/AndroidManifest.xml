@@ -23,8 +23,9 @@
         <activity android:name=".ReviewActivity" />
         <activity android:name=".SelectLift2Activity" />
         <activity android:name=".info" />
-        <activity android:name=".MapViewActivity"
-            android:theme="@style/AppTheme3"></activity>
+        <activity
+            android:name=".MapViewActivity"
+            android:theme="@style/AppTheme3" />
         <!--
  ATTENTION: This was auto-generated to add Google Play services to your project for
      App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
@@ -33,7 +34,7 @@
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
 
-
+        <activity android:name=".MyRouteActivity"></activity>
     </application>
 
 </manifest>

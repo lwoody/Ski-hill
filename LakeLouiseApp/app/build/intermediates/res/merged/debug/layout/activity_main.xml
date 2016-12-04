@@ -125,14 +125,15 @@
                     android:text="LAKE LOUISE"
                     android:id="@+id/textView1"
                     android:textColor="#4259f4"
-                    android:fontFamily="monospace"
+                    android:fontFamily="casual"
                     android:layout_alignParentTop="true"
                     android:layout_centerHorizontal="true"
                     android:textAlignment="center"
                     android:gravity="center"
                     android:textAllCaps="true"
                     android:layout_height="match_parent"
-                    android:textSize="30dp" />
+                    android:textSize="30dp"
+                    android:textStyle="normal|bold" />
             </LinearLayout>
 
             <TextView
@@ -142,9 +143,8 @@
                 android:layout_height="1dp" />
 
             <Button
-                android:text="Route Maker"
+                android:text="Make Route"
                 android:id="@+id/make_button"
-                android:background="#4259f4"
                 style="@style/Widget.AppCompat.Button.Colored"
                 android:onClick="routeMakerButton"
                 android:layout_centerHorizontal="true"
@@ -153,13 +153,15 @@
                 android:layout_marginTop="10dp"
                 android:layout_weight="2.08"
                 android:textSize="25dp"
-                android:layout_height="80dp" />
+                android:layout_height="80dp"
+                android:fontFamily="casual"
+                android:textStyle="normal|bold"
+                android:background="@drawable/round_shape"/>
 
             <Button
                 android:text="MY ROUTE"
                 android:id="@+id/info_button"
                 android:layout_width="match_parent"
-                android:background="#4259f4"
                 style="@style/Widget.AppCompat.Button.Colored"
                 android:elevation="0dp"
                 android:onClick="infoButton"
@@ -168,23 +170,28 @@
                 android:layout_centerHorizontal="true"
                 android:layout_weight="2.08"
                 android:textSize="25dp"
-                android:layout_height="80dp" />
+                android:layout_height="80dp"
+                android:fontFamily="casual"
+                android:textStyle="normal|bold"
+                android:background="@drawable/round_shape"/>
 
             <Button
-                android:text="Reviews"
+                android:text="Try Route"
                 android:layout_width="match_parent"
                 android:id="@+id/review_button"
                 android:textSize="25dp"
                 android:textAlignment="center"
                 style="@style/Widget.AppCompat.Button.Colored"
-                android:background="#4259f4"
                 android:layout_alignParentBottom="true"
                 android:layout_alignLeft="@+id/info_button"
                 android:layout_alignStart="@+id/info_button"
                 android:layout_marginBottom="20dp"
                 android:onClick="reviewButton"
                 android:layout_weight="2.08"
-                android:layout_height="80dp" />
+                android:layout_height="80dp"
+                android:fontFamily="casual"
+                android:textStyle="normal|bold"
+                android:background="@drawable/round_shape"/>
 
         </LinearLayout>
 

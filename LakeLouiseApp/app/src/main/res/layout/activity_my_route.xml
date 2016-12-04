@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="?android:attr/windowBackground">
+
+    <!--<TextView-->
+    <!--android:text="ROUTE REVIEW"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:id="@+id/textView12"-->
+    <!--android:textColor="#4259f4"-->
+    <!--android:textSize="25dp"-->
+    <!--android:textAlignment="center"-->
+    <!--android:gravity="center"-->
+    <!--android:layout_height="30dp" />-->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:id="@+id/textView61"
+        android:background="#4259f4" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="45dp">
+
+        <TextView
+            android:text="LIFT"
+            android:layout_width="48dp"
+            android:layout_height="match_parent"
+            android:id="@+id/textView62"
+            android:gravity="center_vertical"
+            android:textSize="15dp"
+            android:textColor="#4259f4"
+            android:fontFamily="casual"
+            android:textStyle="normal|bold"
+            android:textAlignment="center" />
+
+        <TextView
+            android:layout_height="match_parent"
+            android:id="@+id/textView66"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textColor="#4259f4"
+            android:background="#4259f4"
+            android:layout_width="1dp" />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:id="@+id/spinner2"
+            android:layout_height="32dp"
+            android:entries="@array/lifts"
+            android:textAlignment="viewStart" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:id="@+id/textView63"
+        android:background="#4259f4" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="45dp">
+
+        <Switch
+            android:text="RATING"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/switch2"
+            android:textColor="#4259f4"
+            android:textSize="15dp"
+            android:layout_weight="0.75"
+            style="@android:style/Widget.Material.Light.CompoundButton.Switch"
+            android:textOff="Low"
+            android:textOn="High"
+            android:fontFamily="casual"
+            android:textStyle="normal|bold"
+            android:textAlignment="center" />
+
+        <Switch
+            android:text="SPEED"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/switch1"
+            android:layout_weight="0.80"
+            android:textColor="#4259f4"
+            android:textSize="15dp"
+            style="@android:style/Widget.Material.Light.CompoundButton.Switch"
+            android:textOff="Slow"
+            android:textOn="Fast"
+            android:fontFamily="casual"
+            android:textStyle="normal|bold"
+            android:textAlignment="center" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:id="@+id/textView64"
+        android:background="#4259f4" />
+
+    <com.github.ksoichiro.android.observablescrollview.ObservableListView
+        android:id="@+id/my_review_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:listSelector="@android:color/transparent"
+        android:cacheColorHint="@android:color/transparent"
+        android:divider="@null"
+        android:dividerHeight="10dp"
+        android:scrollbars="none"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp" />
+
+</LinearLayout>

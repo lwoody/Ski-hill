@@ -24,7 +24,9 @@
         android:id="@+id/mapTitle"
         android:textSize="20dp"
         android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:layout_marginBottom="43dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="36dp" />
+        android:fontFamily="casual"
+        android:textStyle="normal|bold" />
 </RelativeLayout>

@@ -4,7 +4,6 @@ import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.design.widget.CoordinatorLayout;
-import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.RelativeLayout;
@@ -46,12 +45,10 @@ public class MainActivity extends AppCompatActivity {
                     case R.id.route_item:
                         mainContent1.setVisibility(View.VISIBLE);
                         mainContent2.setVisibility(View.INVISIBLE);
-                        Snackbar.make(coordinatorLayout, "Recent Item Selected", Snackbar.LENGTH_LONG).show();
                         break;
                     case R.id.info_item:
                         mainContent2.setVisibility(View.VISIBLE);
                         mainContent1.setVisibility(View.INVISIBLE);
-                        Snackbar.make(coordinatorLayout, "Favorite Item Selected", Snackbar.LENGTH_LONG).show();
                         break;
                 }
             }
@@ -67,7 +64,7 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-    public void infoButton(View v)          {startActivity(new Intent(this, info.class));}
+    public void infoButton(View v)          {startActivity(new Intent(this, MyRouteActivity.class));}
     // changed to routeactivity beacuse it's so slow --> change this code later to selectliftactivity
     public void routeMakerButton(View v)    {startActivity(new Intent(this, SelectLift2Activity.class));}
     public void reviewButton(View v)        {startActivity(new Intent(this, ReviewActivity.class));}
